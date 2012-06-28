@@ -1,12 +1,12 @@
 #! /usr/bin/python
 
 import sys
-importDir = ['/Users/brantinghamr/Documents/Code/eclipseWorkspace/bam/src/tests/',
+"""importDir = ['/Users/brantinghamr/Documents/Code/eclipseWorkspace/bam/src/tests/',
              '/Users/brantinghamr/Documents/Code/eclipseWorkspace/bam/src/scripts/',
              '/Users/brantinghamr/Documents/Code/eclipseWorkspace/bam/src/libs/']
 for dirx in importDir:
     if dirx not in sys.path: sys.path.append(dirx)
-
+"""
 from bs4 import BeautifulSoup
 import urllib2
 import os
@@ -44,8 +44,9 @@ def main():
     ''' '''
     # Config file parameters
     pathIn = '/Users/brantinghamr/Documents/Code/eclipseWorkspace/bam/src/tflCode/'
+    #fakeFeedFile = 'tflTrafficCamLocations.xml'
+    #pathIn = '/home/dotcloud/config/'
     fileIn = 'tfl.cfg'
-    fakeFeedFile = 'tflTrafficCamLocations.xml'
     
     # Get parameters from config
     p = params(pathIn, fileIn)
@@ -56,11 +57,10 @@ def main():
     
     # Authentication
     auth = dbh.authenticate(p.user, p.password)
-    print auth
     
     # Get the feed content
-    #feedContent = hitFeed(p.feedUrl)
-    errors, feedContent = hitFakeFeed(pathIn, fakeFeedFile)
+    errors, feedContent = hitFeed(p.feedUrl)
+    #errors, feedContent = hitFakeFeed(pathIn, fakeFeedFile)
 
     # Break out the content into head and items
     extractErrors, channel, items = extractContent(feedContent)
@@ -89,7 +89,6 @@ def main():
         
         # Insert the document into mongo
         response = mongoInsert(collectionHandle, item)
-        print response
         
 #------------------------------------------------------------------------------------------
 
