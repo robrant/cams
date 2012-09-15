@@ -1,12 +1,23 @@
-#! /usr/bin/python
-
 import sys
-"""importDir = ['/Users/brantinghamr/Documents/Code/eclipseWorkspace/bam/src/tests/',
-             '/Users/brantinghamr/Documents/Code/eclipseWorkspace/bam/src/scripts/',
-             '/Users/brantinghamr/Documents/Code/eclipseWorkspace/bam/src/libs/']
-for dirx in importDir:
-    if dirx not in sys.path: sys.path.append(dirx)
-"""
+import os
+#============================================================================================
+# TO ENSURE ALL OF THE FILES CAN SEE ONE ANOTHER.
+
+# Get the directory in which this was executed (current working dir)
+cwd = os.getcwd()
+wsDir = os.path.dirname(cwd)
+
+# Find out whats in this directory recursively
+for root, subFolders, files in os.walk(wsDir):
+    # Loop the folders listed in this directory
+    for folder in subFolders:
+        directory = os.path.join(root, folder)
+        if directory.find('.git') == -1:
+            if directory not in sys.path:
+                sys.path.append(directory)
+
+#============================================================================================
+
 from bs4 import BeautifulSoup
 import urllib2
 import os
@@ -16,7 +27,7 @@ import datetime
 import mdb                  # Custom library for mongo interaction
 import geojson              # Non-standard FOSS library
 from baseObjects import *
-from baseUtils import * 
+from baseUtils import getConfigParameters, hitFeed, extractContent, handleErrors, feedItem, feedChannel, mongoInsert
 
 """
 Description:
@@ -32,24 +43,17 @@ To Do:
 
 
 
-
-
-
 """
+os.chdir('/home/dotcloud/current/')
+cwd = os.getcwd()
+cfgs = os.path.join(cwd, 'config/crowded.cfg')
+p = getConfigParameters(cfgs)
 
 
 #------------------------------------------------------------------------------------------ 
 
 def main():
     ''' '''
-    # Config file parameters
-    pathIn = '/Users/brantinghamr/Documents/Code/eclipseWorkspace/bam/src/tflCode/'
-    #fakeFeedFile = 'tflTrafficCamLocations.xml'
-    #pathIn = '/home/dotcloud/config/'
-    fileIn = 'tfl.cfg'
-    
-    # Get parameters from config
-    p = params(pathIn, fileIn)
     
     # Connect and get db and collection handle
     c, dbh = mdb.getHandle(p.host, p.port, p.db)
@@ -81,7 +85,7 @@ def main():
     for itemXml in items:
 
         # Build an 'item' object based on the RSS item        
-        item = feedItem(fc, itemXml)
+        item = feedItem(fc, itemXml, 'tfl')
         if p.verbose and len(item.errors) != 0:
             handleErrors(errors)
         

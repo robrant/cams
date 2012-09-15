@@ -1,56 +1,30 @@
-#! /usr/bin/python
-
 import sys
-importDir = ['/Users/brantinghamr/Documents/Code/eclipseWorkspace/bam/src/tests/',
-             '/Users/brantinghamr/Documents/Code/eclipseWorkspace/bam/src/scripts/',
-             '/Users/brantinghamr/Documents/Code/eclipseWorkspace/bam/src/libs/']
-for dirx in importDir:
-    if dirx not in sys.path: sys.path.append(dirx)
+import os
+#============================================================================================
+# TO ENSURE ALL OF THE FILES CAN SEE ONE ANOTHER.
+
+# Get the directory in which this was executed (current working dir)
+cwd = os.getcwd()
+wsDir = os.path.dirname(cwd)
+
+# Find out whats in this directory recursively
+for root, subFolders, files in os.walk(wsDir):
+    # Loop the folders listed in this directory
+    for folder in subFolders:
+        directory = os.path.join(root, folder)
+        if directory.find('.git') == -1:
+            if directory not in sys.path:
+                sys.path.append(directory)
+
+#============================================================================================
 
 from bs4 import BeautifulSoup
 import urllib2
 import os
-import ConfigParser
 import datetime
 
 import mdb                  # Custom library for mongo interaction
 import geojson              # Non-standard FOSS library
-
-#================================================================================================
-
-class params():
-    ''' Reads in parameters from a config file and makes them
-        available through object attributes.. '''
-    
-    def __init__(self, path, file):
-    
-        self.errors = []
-         
-        config = ConfigParser.ConfigParser()
-        try:
-            config.read(os.path.join(path, file))
-        except Exception, e:
-            self.errors.append(e)
-            
-        # Misc parameters
-        try:
-            self.host     = config.get("mongo", "host")
-            self.port     = int(config.get("mongo", "port"))
-            self.db       = config.get("mongo", "db")
-            self.coll     = config.get("mongo", "collection")
-            self.user     = config.get("mongo", "user")
-            self.password = config.get("mongo", "password")
-        
-        except Exception, e:
-            self.errors.append(e)
-    
-        # Other parameters
-        try:
-            self.feedUrl = config.get("default", "url")
-            self.verbose = config.get("default", "verbose")
-        except Exception, e:
-            self.errors.append(e)
-
 
 #================================================================================================
 
@@ -163,12 +137,13 @@ class feedItem():
     ''' Makes an RSS item into an object for some modifications, access to params 
         and to export to json'''
     
-    def __init__(self, feedChannel, item):
+    def __init__(self, feedChannel, item, source):
         
         #self.__init__ = feedChannel.__init__(fc)
         self.errors = []
         # Channel - top level feed attributes
         
+        self.source          = source
         self.title           = feedChannel.title
         self.description     = feedChannel.description
         self.link            = feedChannel.link

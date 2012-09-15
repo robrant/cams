@@ -1,22 +1,75 @@
-#! /usr/bin/python
-
 import sys
-importDir = ['/Users/brantinghamr/Documents/Code/eclipseWorkspace/bam/src/tests/',
-             '/Users/brantinghamr/Documents/Code/eclipseWorkspace/bam/src/scripts/',
-             '/Users/brantinghamr/Documents/Code/eclipseWorkspace/bam/src/libs/']
-for dirx in importDir:
-    if dirx not in sys.path: sys.path.append(dirx)
+import os
+#============================================================================================
+# TO ENSURE ALL OF THE FILES CAN SEE ONE ANOTHER.
+
+# Get the directory in which this was executed (current working dir)
+cwd = os.getcwd()
+wsDir = os.path.dirname(cwd)
+
+# Find out whats in this directory recursively
+for root, subFolders, files in os.walk(wsDir):
+    # Loop the folders listed in this directory
+    for folder in subFolders:
+        directory = os.path.join(root, folder)
+        if directory.find('.git') == -1:
+            if directory not in sys.path:
+                sys.path.append(directory)
+
+#============================================================================================
 
 from bs4 import BeautifulSoup
 import urllib2
 import os
 import ConfigParser
 import datetime
+import json
 
 import mdb                  # Custom library for mongo interaction
 import geojson              # Non-standard FOSS library
 from baseObjects import *
 
+
+# Get the directory in which this was executed (current working dir)
+cwd = os.getcwd()
+wsDir = os.path.dirname(cwd)
+
+
+class getConfigParameters():
+    ''' Gets the configuration parameters into an object '''
+    
+    def __init__(self, filePath):
+        
+        config = ConfigParser.ConfigParser()
+        try:
+            config.read(filePath)
+        except Exception, e:
+            print "Failed to read the config file for twitter connection client."
+            print e
+        
+        # Keep the location of the config file in the config file for mods on the fly
+        self.configFile = filePath
+        
+        # Mongo parameters
+        self.dbHost     = config.get("backend", "host")
+        self.dbPort     = config.getint("backend", "port")
+        self.db         = config.get("backend", "db")
+
+        self.dbUser         = config.get("backend", "user")
+        self.dbPassword     = config.get("backend", "password")
+        
+        # Collections and indexes
+        self.collections    = json.loads(config.get("backend", "collections"))
+        self.camsCollection = self.collections[0]['collection']
+
+        self.dropCollection = config.getboolean("backend", "drop_collection")
+
+        # Other parameters
+        self.feedUrl = config.get("default", "url")
+        self.verbose = config.get("default", "verbose")
+        
+        
+        
 #-------------------------------------------------------------------------------------
 
 def handleErrors(errors, verbose=None):
@@ -125,5 +178,5 @@ def mongoInsert(collectionHandle, item):
     response = collectionHandle.update(query, {'$set':command}, True, False)
     #response = collectionHandle.insert(doc)
 
-    
+
     

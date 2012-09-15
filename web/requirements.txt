@@ -1,0 +1,8 @@
+bottle
+httplib2
+lxml==2.3.4
+beautifulsoup4==4.1.0
+pymongo==2.0.1
+simplejson==2.5.0
+geojson==1.0
+Pil
