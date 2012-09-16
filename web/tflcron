@@ -1,1 +1,1 @@
-*/2 * * * * /home/dotcloud/env/bin/python /home/dotcloud/code/src/tflFeedHandler.py >> /home/dotcloud/logs/feedHandler.out 2>&1
+*/2 * * * * /home/dotcloud/env/bin/python /home/dotcloud/code/src/tflFeedHandler.py >> /home/dotcloud/code/logs/feedHandler.out 2>&1

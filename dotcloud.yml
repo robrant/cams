@@ -1,5 +1,5 @@
-worker:
-  approot: web
-  type: python
 data:
-  type:  mongodb
+  type: mongodb
+www:
+  type: python
+  approot: web

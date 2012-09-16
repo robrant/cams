@@ -63,7 +63,11 @@ class getConfigParameters():
         self.camsCollection = self.collections[0]['collection']
 
         self.dropCollection = config.getboolean("backend", "drop_collection")
-
+        
+        self.webStaticRoute = config.get("default", "webStaticRoute")
+        self.baseUrl        = config.get("default", "baseUrl")
+        self.imagesUrl      = config.get("default", "imagesUrl")
+        
         # Other parameters
         self.feedUrl = config.get("default", "url")
         self.verbose = config.get("default", "verbose")

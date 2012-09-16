@@ -18,12 +18,6 @@ for root, subFolders, files in os.walk(wsDir):
 
 #============================================================================================
 
-from bs4 import BeautifulSoup
-import urllib2
-import os
-import ConfigParser
-import datetime
-
 import mdb                  # Custom library for mongo interaction
 import geojson              # Non-standard FOSS library
 from baseObjects import *
@@ -44,9 +38,9 @@ To Do:
 
 
 """
-os.chdir('/home/dotcloud/current/')
+os.chdir('/home/dotcloud/code/')
 cwd = os.getcwd()
-cfgs = os.path.join(cwd, 'config/crowded.cfg')
+cfgs = os.path.join(cwd, 'config/tfl.cfg')
 p = getConfigParameters(cfgs)
 
 
@@ -56,11 +50,11 @@ def main():
     ''' '''
     
     # Connect and get db and collection handle
-    c, dbh = mdb.getHandle(p.host, p.port, p.db)
-    collectionHandle = dbh[p.coll]
+    c, dbh = mdb.getHandle(p.dbHost, p.dbPort, p.db)
+    collectionHandle = dbh[p.camsCollection]
     
     # Authentication
-    auth = dbh.authenticate(p.user, p.password)
+    auth = dbh.authenticate(p.dbUser, p.dbPassword)
     
     # Get the feed content
     errors, feedContent = hitFeed(p.feedUrl)

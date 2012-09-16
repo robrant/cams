@@ -4,7 +4,7 @@ from pymongo import Connection
 from pymongo.errors import ConnectionFailure
 from pymongo import GEO2D, ASCENDING, DESCENDING
 
-def getHandle(host='localhost', port=27017, db='bam'):
+def getHandle(host='localhost', port=27017, db='bam', user=None, password=None):
     ''' Acquires a mongo database handle or handles the exception'''
     
     # Establish the connection
@@ -16,8 +16,13 @@ def getHandle(host='localhost', port=27017, db='bam'):
     
     # Get a database handle
     dbh = c[db]
-    
     assert dbh.connection == c
+
+    if user and password: 
+        try:
+            auth = dbh.authenticate(user, password)
+        except Exception, e:
+            sys.stderr.write("**** Failed to authenticate with mongo db. %s **** \n" % e)
 
     return c, dbh
 
