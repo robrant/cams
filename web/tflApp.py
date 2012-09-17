@@ -86,7 +86,7 @@ def get_tflCams():
             # Write a thumbnail of the tfl image out to a local directory
             localFile, reason = tflWorker.getFullRes(p, imageDir, camMedia['standard_resolution'], dt)
             if not localFile:
-                return json.dumps({'code':500, 'reason': "Failed to get the full res."})
+                return json.dumps({'code':500, 'reason': "Failed to get the full resolution image."})
             largeFile, reason = tflWorker.createLargerImage(localFile, scale=1.2)
             
             # Build a thumbnail
