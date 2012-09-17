@@ -176,7 +176,7 @@ def removeFullRes(localFile):
 
 #--------------------------------------------------------------------------------------------
 
-def createLargerImage(inFilePath, scale=1.6):
+def createLargerImage(inFilePath, scale=1.2):
     ''' Enlarges the incoming image'''
     
     try:
