@@ -21,7 +21,7 @@ import urllib2
 import math
 import filecmp
 
-#import Image
+import Image
 from pymongo.son import SON
 
 import mdb
@@ -244,5 +244,5 @@ def alreadyExists(localDir, candidateImage):
                 print candidateImage, comparisonImage
                 return True
     
-    return False
+    return None
             
