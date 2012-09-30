@@ -83,14 +83,23 @@ def get_tflCams():
             if not camMedia:
                 return json.dumps({'code':500, 'reason': "Failed to format the camera metadata."})
             
-            # Write a thumbnail of the tfl image out to a local directory
+            # Create a local version of the TFL image for thumbnail and scaled up images
             localFile, reason = tflWorker.getFullRes(p, imageDir, camMedia['standard_resolution'], dt)
+
+            # Do a byte-based comparison to see whether this image already exists in the originals/ directory
+            dupe = tflWorker.alreadyExists(imageDir, localFile)
+            
+            # Remove the one we've just pulled down
+            if dupe:
+                out, reason = tflWorker.removeFullRes(localFile)
+                continue
+            
             if not localFile:
                 return json.dumps({'code':500, 'reason': "Failed to get the full resolution image."})
-            largeFile, reason = tflWorker.createLargerImage(localFile, scale=1.2)
+            largeFile, reason = tflWorker.createLargerImage(imageDir, localFile, scale=1.2)
             
             # Build a thumbnail
-            imageThumb, reason = tflWorker.createThumbnail(localFile, size=100)
+            imageThumb, reason = tflWorker.createThumbnail(imageDir, localFile, size=100)
             if not imageThumb:
                 return json.dumps({'code':500, 'reason': "Failed to create the thumbnail."})
             

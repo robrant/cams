@@ -17,11 +17,14 @@ for root, subFolders, files in os.walk(wsDir):
                 sys.path.append(directory)
 
 #============================================================================================
-import mdb
 import urllib2
-import Image
 import math
+import filecmp
+
+#import Image
 from pymongo.son import SON
+
+import mdb
 
 def checkGeos(lat=None, lon=None, radius=None, maxRad=5000.0):
     ''' Checks the validity of lat, lon and radius '''
@@ -148,7 +151,9 @@ def getFullRes(p, tempDir, fileUrl, dt):
     
     try:
         fileName = "%s_%s" %(dt, fileUrl.split('/')[-1])
-        fullPath = os.path.join(tempDir, fileName)
+        tempPath = os.path.join(tempDir, 'originals')
+        fullPath = os.path.join(tempPath, fileName)
+
         print "Output image filename %s" %fileName
         f = open(fullPath, 'w')
         print "Output image fullpath %s" %fullPath
@@ -176,15 +181,16 @@ def removeFullRes(localFile):
 
 #--------------------------------------------------------------------------------------------
 
-def createLargerImage(inFilePath, scale=1.2):
+def createLargerImage(imageDir, inFilePath, scale=1.2):
     ''' Enlarges the incoming image'''
     
     try:
         # Get the file name for the thumbnail
         root, ext = os.path.splitext(inFilePath) 
-        large =  "%s_large%s" %(root, ext)  
-        # Set the size of the thumbnail
         
+        largeName = root.split('/')[-1]
+        large = os.path.join(imageDir, "%s_large%s" %(largeName, ext))
+                
         im = Image.open(inFilePath)
         currentSize = im.size
         im = im.resize((currentSize[0]*scale, currentSize[1]*scale))
@@ -199,13 +205,16 @@ def createLargerImage(inFilePath, scale=1.2):
     
 #--------------------------------------------------------------------------------------------
 
-def createThumbnail(inFilePath, size=50):
+def createThumbnail(imageDir, inFilePath, size=50):
     ''' Creates a thumbnail per image and saves it out'''
     
     try:
         # Get the file name for the thumbnail
         root, ext = os.path.splitext(inFilePath) 
-        thumb =  "%s_thumb%s" %(root, ext)  
+        
+        thumbName = root.split('/')[-1]
+        thumb = os.path.join(imageDir, "%s_thumb%s" %(thumbName, ext))
+        
         # Set the size of the thumbnail
         thumbSize = size, size 
         
@@ -221,3 +230,19 @@ def createThumbnail(inFilePath, size=50):
 
 #--------------------------------------------------------------------------------------------
 
+def alreadyExists(localDir, candidateImage):
+    ''' Do a byte-by-byte image file comparison to see whether this image already exists '''
+    
+    # Get the file extension
+    root, ext = os.path.splitext(candidateImage) 
+    
+    # Loop the files in the originals directory and only check those with the same extension as the new file
+    for image in os.listdir(localDir):
+        if image.endswith(ext):
+            comparisonImage = os.path.join(localDir, image)
+            if filecmp.cmp(comparisonImage, candidateImage) == True:
+                print candidateImage, comparisonImage
+                return True
+    
+    return False
+            

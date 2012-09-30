@@ -23,18 +23,22 @@ for root, subFolders, files in os.walk(wsDir):
                 sys.path.append(directory)
 
 #============================================================================================
-"""import imageProcessing
+import tflWorker
 
 class Test(unittest.TestCase):
 
 
-    def testCheckThumbnailBuild(self):
-        ''' Tries to build a thumbnail from an image'''
+    def testFileComparison(self):
+        ''' Check whether we can successfully match files by byte comparison.'''
         
-        outDir = '.'
-        inFileName = './testTrafficCamImage.jpg'
+        parent = os.getcwd()
+        localDir      = os.path.join(parent, 'comparisons')
+        imageFileName = os.path.join(parent, 'candidate/candidateImage.jpg')
         
-"""
+        same = tflWorker.alreadyExists(localDir, imageFileName)
+        self.assertTrue(same)
+
+        
 
 if __name__ == "__main__":
     #import sys;sys.argv = ['', 'Test.testCheckThumbnailBuild']
