@@ -20,8 +20,8 @@ for root, subFolders, files in os.walk(wsDir):
 
 import mdb                  # Custom library for mongo interaction
 import geojson              # Non-standard FOSS library
-from baseObjects import *
-from baseUtils import getConfigParameters, hitFeed, extractContent, handleErrors, feedItem, feedChannel, mongoInsert
+from baseObjects import feedItem, feedChannel
+from baseUtils import getConfigParameters, hitFeed, extractContent, handleErrors, mongoInsert
 
 """
 Description:
@@ -31,14 +31,12 @@ In doing so, makes the camera location and link to latest image available throug
 
 To Do:
 ======
-1. Write some example queries using $near operator
-2. Check that the indexes are suitable
 3. Bring in other datasets - other cctv locations around london.
 
-
-
 """
+
 os.chdir('/home/dotcloud/code/')
+#os.chdir('/Users/brantinghamr/Documents/Code/eclipseWorkspace/cams/')
 cwd = os.getcwd()
 cfgs = os.path.join(cwd, 'config/tfl.cfg')
 p = getConfigParameters(cfgs)
@@ -61,14 +59,16 @@ def main():
     #errors, feedContent = hitFakeFeed(pathIn, fakeFeedFile)
 
     # Break out the content into head and items
-    extractErrors, channel, items = extractContent(feedContent)
+    extractErrors, header, rootUrl, cameras = extractContent(feedContent)
+    rootUrl = p.tflDomain + rootUrl
+    
     errors += extractErrors
 
     if p.verbose and len(errors) != 0:
         handleErrors(errors)
         sys.exit()
         
-    fc = feedChannel(channel)
+    fc = feedChannel(header)
     
     # Check for errors on the feed channel read
     if p.verbose and len(fc.errors) != 0:
@@ -76,10 +76,10 @@ def main():
         sys.exit()
         
         # Deal with each of the items
-    for itemXml in items:
+    for camera in cameras:
 
         # Build an 'item' object based on the RSS item        
-        item = feedItem(fc, itemXml, 'tfl')
+        item = feedItem(fc, camera, rootUrl)
         if p.verbose and len(item.errors) != 0:
             handleErrors(errors)
         

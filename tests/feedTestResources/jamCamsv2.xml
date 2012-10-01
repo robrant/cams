@@ -1,0 +1,6127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<syndicatedFeed>
+<header>
+<identifier>TfL Traffic Cameras</identifier>
+<version>0.1</version>
+<publishDateTime>2012-10-01T20:15:20Z</publishDateTime>
+<author>digital@tfl.gov.uk</author>
+<owner>Transport for London</owner>
+<refreshRate>1</refreshRate>
+<max_Latency>10</max_Latency>
+
+<timeToError>10</timeToError>
+<overrideMessage />
+<errorMessage />
+<feedInfo></feedInfo>
+<logo>http://www.tfl.gov.uk/tfl-global/images/roundel.gif</logo>
+</header>
+<cameraList updated="1349122520">
+<rooturl>/tfl/livetravelnews/trafficcams/cctv/</rooturl>
+<camera id="00001.02645" available="true">
+<corridor>A205</corridor>
+<location>Ram St/Barchard St</location>
+<currentView>Ram St N/B</currentView>
+
+<file>0000102645.jpg</file>
+<captureTime>2012-10-01T20:13:38Z</captureTime>
+<easting>525706</easting>
+<northing>174806</northing>
+<lat>51.458282</lat>
+<lng>-0.1920207</lng>
+<osgr>TQ257748</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.01445" available="true">
+
+<corridor>A10</corridor>
+<location>A10 Grt Cambridge Rd/A110 S&amp;#039; bury Rd</location>
+<currentView>A10 South</currentView>
+<file>0000101445.jpg</file>
+<captureTime>2012-10-01T20:13:16Z</captureTime>
+<easting>534286</easting>
+<northing>196318</northing>
+<lat>51.649628</lat>
+
+<lng>-0.060391203</lng>
+<osgr>TQ343963</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.05826" available="true">
+<corridor></corridor>
+<location>Fulham Palace Rd</location>
+<currentView></currentView>
+<file>0000105826.jpg</file>
+<captureTime>2012-10-01T20:13:37Z</captureTime>
+<easting>523833</easting>
+
+<northing>177332</northing>
+<lat>51.4814</lat>
+<lng>-0.2181</lng>
+<osgr></osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.01467" available="true">
+<corridor>A10</corridor>
+<location>A10/Carterhatch Lane</location>
+<currentView>North (A10 twds M25)</currentView>
+<file>0000101467.jpg</file>
+
+<captureTime>2012-10-01T20:14:05Z</captureTime>
+<easting>534344</easting>
+<northing>197389</northing>
+<lat>51.659237</lat>
+<lng>-0.059142265</lng>
+<osgr>TQ343974</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.01462" available="true">
+<corridor></corridor>
+<location>Grt Cambridge Rd/Bury St</location>
+
+<currentView>North (twds Enfield)</currentView>
+<file>0000101462.jpg</file>
+<captureTime>2012-10-01T20:13:49Z</captureTime>
+<easting>533689</easting>
+<northing>194574</northing>
+<lat>51.634098</lat>
+<lng>-0.06968075</lng>
+<osgr>TQ337946</osgr>
+<postCode></postCode>
+
+</camera>
+<camera id="00001.01615" available="true">
+<corridor></corridor>
+<location>Ruckholt Rd/Sherrin Rd</location>
+<currentView>A106 South/West</currentView>
+<file>0000101615.jpg</file>
+<captureTime>2012-10-01T20:14:11Z</captureTime>
+<easting>537577</easting>
+<northing>185838</northing>
+<lat>51.55466</lat>
+
+<lng>-0.016960187</lng>
+<osgr>TQ376858</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.01612" available="true">
+<corridor></corridor>
+<location>Eastway/Lee Interchange</location>
+<currentView>East (twds Leyton)</currentView>
+<file>0000101612.jpg</file>
+<captureTime>2012-10-01T20:14:11Z</captureTime>
+<easting>537320</easting>
+
+<northing>185489</northing>
+<lat>51.551586</lat>
+<lng>-0.020800928</lng>
+<osgr>TQ373855</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.01608" available="true">
+<corridor></corridor>
+<location>Homerton High St/Ponsford St</location>
+<currentView>Homerton High St (Eastbound)</currentView>
+<file>0000101608.jpg</file>
+
+<captureTime>2012-10-01T20:14:11Z</captureTime>
+<easting>535491</easting>
+<northing>185052</northing>
+<lat>51.5481</lat>
+<lng>-0.047332324</lng>
+<osgr>TQ355851</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.01607" available="true">
+<corridor>Future Consideration</corridor>
+
+<location>A12 East Cross Route/Benn St</location>
+<currentView>South (A12 twds Old Ford)</currentView>
+<file>0000101607.jpg</file>
+<captureTime>2012-10-01T20:14:09Z</captureTime>
+<easting>536455</easting>
+<northing>184825</northing>
+<lat>51.54583</lat>
+<lng>-0.033526283</lng>
+<osgr>TQ365848</osgr>
+
+<postCode></postCode>
+</camera>
+<camera id="00001.01606" available="true">
+<corridor>Future Consideration</corridor>
+<location>Homerton High St/Digby Road</location>
+<currentView>Homerton High St (E/B)</currentView>
+<file>0000101606.jpg</file>
+<captureTime>2012-10-01T20:13:51Z</captureTime>
+<easting>535688</easting>
+<northing>185073</northing>
+
+<lat>51.54824</lat>
+<lng>-0.044484884</lng>
+<osgr>TQ357851</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.01675" available="true">
+<corridor>No Corridor</corridor>
+<location>Hackney Rd / Columbia Rd</location>
+<currentView>Hackney Road S/B</currentView>
+<file>0000101675.jpg</file>
+
+<captureTime>2012-10-01T20:14:11Z</captureTime>
+<easting>533597</easting>
+<northing>182822</northing>
+<lat>51.52851</lat>
+<lng>-0.07547639</lng>
+<osgr>TQ336828</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.03005" available="true">
+<corridor>Blackwall Tunnel</corridor>
+
+<location>Millennium Wy/Edmund Halley Wy</location>
+<currentView>Edmund Halley Way (twds LU and Cinema car parks)</currentView>
+<file>0000103005.jpg</file>
+<captureTime>2012-10-01T20:14:01Z</captureTime>
+<easting>539126</easting>
+<northing>179558</northing>
+<lat>51.49785</lat>
+<lng>0.002889991</lng>
+<osgr>TQ391796</osgr>
+
+<postCode></postCode>
+</camera>
+<camera id="00001.03007" available="true">
+<corridor>No Corridor</corridor>
+<location>West Parkside/John Harrison Wy</location>
+<currentView>West Parkside (twds O2)</currentView>
+<file>0000103007.jpg</file>
+<captureTime>2012-10-01T20:14:10Z</captureTime>
+<easting>539756</easting>
+<northing>179245</northing>
+
+<lat>51.49488</lat>
+<lng>0.011835997</lng>
+<osgr>TQ398792</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.02315" available="true">
+<corridor></corridor>
+<location>Barking Rd/Green St</location>
+<currentView>Barking Road A124 E/B</currentView>
+<file>0000102315.jpg</file>
+<captureTime>2012-10-01T20:14:11Z</captureTime>
+
+<easting>541443</easting>
+<northing>183230</northing>
+<lat>51.53027</lat>
+<lng>0.03771857</lng>
+<osgr>TQ414832</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.02310" available="true">
+<corridor>No Corridor</corridor>
+<location>Connaught Bridge/Connaught Rd</location>
+
+<currentView>Connaught Bridge</currentView>
+<file>0000102310.jpg</file>
+<captureTime>2012-10-01T20:13:45Z</captureTime>
+<easting>541655</easting>
+<northing>180410</northing>
+<lat>51.504875</lat>
+<lng>0.039640322</lng>
+<osgr>TQ417804</osgr>
+<postCode></postCode>
+
+</camera>
+<camera id="00001.02312" available="true">
+<corridor>No Corridor</corridor>
+<location>Silvertown Way/Tidal Basin Rd</location>
+<currentView>Tidal Basin Road</currentView>
+<file>0000102312.jpg</file>
+<captureTime>2012-10-01T20:14:11Z</captureTime>
+<easting>540063</easting>
+<northing>180744</northing>
+<lat>51.508274</lat>
+
+<lng>0.016850093</lng>
+<osgr>TQ401807</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.02313" available="true">
+<corridor>No Corridor</corridor>
+<location>Lwr Lea Crossing/Blackwall Way</location>
+<currentView>Lower Lea Crossing (twds ExCel)</currentView>
+<file>0000102313.jpg</file>
+<captureTime>2012-10-01T20:14:01Z</captureTime>
+
+<easting>539030</easting>
+<northing>180924</northing>
+<lat>51.510147</lat>
+<lng>0.0020458694</lng>
+<osgr>TQ390809</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.02314" available="true">
+<corridor></corridor>
+<location>Barking Rd/Prince Regent Lane</location>
+<currentView>East (Barking Rd twds Upton Park)</currentView>
+
+<file>0000102314.jpg</file>
+<captureTime>2012-10-01T20:14:11Z</captureTime>
+<easting>540862</easting>
+<northing>182731</northing>
+<lat>51.525932</lat>
+<lng>0.029148925</lng>
+<osgr>TQ409827</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.01685" available="true">
+
+<corridor>No Corridor</corridor>
+<location>Hackney Rd/Camb Heath Rd</location>
+<currentView>Hackney Rd</currentView>
+<file>0000101685.jpg</file>
+<captureTime>2012-10-01T20:13:46Z</captureTime>
+<easting>534865</easting>
+<northing>183315</northing>
+<lat>51.532642</lat>
+<lng>-0.057019833</lng>
+
+<osgr>TQ349833</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.02334" available="true">
+<corridor></corridor>
+<location>Densham Rd/Vicarage Lane</location>
+<currentView>Vicarage Lane B164 N/B</currentView>
+<file>0000102334.jpg</file>
+<captureTime>2012-10-01T20:14:11Z</captureTime>
+<easting>539442</easting>
+<northing>183934</northing>
+
+<lat>51.537094</lat>
+<lng>0.009169137</lng>
+<osgr>TQ394839</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.02333" available="true">
+<corridor></corridor>
+<location>West Ham Lane/Densham Rd</location>
+<currentView>South (A112 New Plaistow Rd twds Plaistow)</currentView>
+<file>0000102333.jpg</file>
+<captureTime>2012-10-01T20:14:11Z</captureTime>
+
+<easting>539241</easting>
+<northing>183908</northing>
+<lat>51.536907</lat>
+<lng>0.006262651</lng>
+<osgr>TQ392839</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.02335" available="false">
+<corridor></corridor>
+<location>Leyton Rd/Alma St</location>
+<currentView>Leyton Road A112 S/B</currentView>
+
+<file>0000102335.jpg</file>
+<unavailabilityCause>In use keeping London moving</unavailabilityCause>
+<captureTime></captureTime>
+<easting>538714</easting>
+<northing>184968</northing>
+<lat>51.546562</lat>
+<lng>-9.134882E-4</lng>
+<osgr>TQ387850</osgr>
+<postCode></postCode>
+</camera>
+
+<camera id="00001.02330" available="true">
+<corridor>No Corridor</corridor>
+<location>Manor Rd/Cranberry Lane</location>
+<currentView>South (twds Canning Town)</currentView>
+<file>0000102330.jpg</file>
+<captureTime>2012-10-01T20:14:16Z</captureTime>
+<easting>539162</easting>
+<northing>182163</northing>
+<lat>51.521248</lat>
+
+<lng>0.004435477</lng>
+<osgr>TQ392822</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.02332" available="false">
+<corridor></corridor>
+<location>Mitre Rd/Abbey Rd</location>
+<currentView>Leywick Street N/B</currentView>
+<file>0000102332.jpg</file>
+<unavailabilityCause>In use keeping London moving</unavailabilityCause>
+<captureTime></captureTime>
+
+<easting>539216</easting>
+<northing>183459</northing>
+<lat>51.53288</lat>
+<lng>0.0057250494</lng>
+<osgr>TQ392835</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.02331" available="true">
+<corridor>No Corridor</corridor>
+<location>Manor Rd/New Plaistow Rd</location>
+
+<currentView>South (Manor Rd twds West Ham)</currentView>
+<file>0000102331.jpg</file>
+<captureTime>2012-10-01T20:13:58Z</captureTime>
+<easting>539423</easting>
+<northing>183724</northing>
+<lat>51.53521</lat>
+<lng>0.008812276</lng>
+<osgr>TQ394837</osgr>
+<postCode></postCode>
+
+</camera>
+<camera id="00001.02339" available="true">
+<corridor></corridor>
+<location>High Rd/Ruckholt Rd</location>
+<currentView>South (A112 twds Stratford)</currentView>
+<file>0000102339.jpg</file>
+<captureTime>2012-10-01T20:14:11Z</captureTime>
+<easting>538251</easting>
+<northing>186278</northing>
+<lat>51.55845</lat>
+
+<lng>-0.0070718466</lng>
+<osgr>TQ383863</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.02342" available="true">
+<corridor></corridor>
+<location>Lea Bridge Rd/Markhouse Rd</location>
+<currentView>West (A104 Lea Bridge Rd twds Clapton)</currentView>
+<file>0000102342.jpg</file>
+<captureTime>2012-10-01T20:14:01Z</captureTime>
+<easting>536954</easting>
+
+<northing>187553</northing>
+<lat>51.57022</lat>
+<lng>-0.025273066</lng>
+<osgr>TQ370876</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.03108" available="true">
+<corridor>No Corridor</corridor>
+<location>Woolwich Rd/Hatcliffe st</location>
+<currentView>West (A206 twds Greenwich)</currentView>
+
+<file>0000103108.jpg</file>
+<captureTime>2012-10-01T20:13:33Z</captureTime>
+<easting>539546</easting>
+<northing>178268</northing>
+<lat>51.486153</lat>
+<lng>0.008427013</lng>
+<osgr>TQ395783</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.03105" available="true">
+
+<corridor>No Corridor</corridor>
+<location>Trafalgar Rd/Greenwich Pk St</location>
+<currentView>West (twds Greenwich)</currentView>
+<file>0000103105.jpg</file>
+<captureTime>2012-10-01T20:14:05Z</captureTime>
+<easting>538959</easting>
+<northing>177975</northing>
+<lat>51.483665</lat>
+<lng>-1.3688022E-4</lng>
+
+<osgr>TQ390780</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.03118" available="true">
+<corridor>No Corridor</corridor>
+<location>Woolich Rd/Warspite Rd</location>
+<currentView>East (twds Woolwich)</currentView>
+<file>0000103118.jpg</file>
+<captureTime>2012-10-01T20:14:05Z</captureTime>
+<easting>542093</easting>
+
+<northing>179044</northing>
+<lat>51.492493</lat>
+<lng>0.045397226</lng>
+<osgr>TQ421790</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.03115" available="true">
+<corridor>No Corridor</corridor>
+<location>Woolwich Rd/Charlton Church Lane</location>
+<currentView>East (twds Woolwich)</currentView>
+
+<file>0000103115.jpg</file>
+<captureTime>2012-10-01T20:14:09Z</captureTime>
+<easting>541115</easting>
+<northing>178497</northing>
+<lat>51.487823</lat>
+<lng>0.031100724</lng>
+<osgr>TQ411785</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.03111" available="true">
+
+<corridor>Blackwall Tunnel</corridor>
+<location>Woolwich Rd/A102 Flyover</location>
+<currentView>East (Roundabout underneath flyover)</currentView>
+<file>0000103111.jpg</file>
+<captureTime>2012-10-01T20:14:11Z</captureTime>
+<easting>540137</easting>
+<northing>178303</northing>
+<lat>51.48632</lat>
+<lng>0.016947081</lng>
+
+<osgr>TQ401783</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.03125" available="false">
+<corridor>No Corridor</corridor>
+<location>Pettman Crescent/Western Way</location>
+<currentView>South (twds Plumstead)</currentView>
+<file>0000103125.jpg</file>
+<unavailabilityCause>In use keeping London moving</unavailabilityCause>
+<captureTime></captureTime>
+<easting>544916</easting>
+
+<northing>179141</northing>
+<lat>51.49265</lat>
+<lng>0.08607215</lng>
+<osgr>TQ449791</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.02500" available="false">
+<corridor>City Route</corridor>
+<location>Victoria Embkmt/Temple Place</location>
+<currentView>West</currentView>
+
+<file>0000102500.jpg</file>
+<unavailabilityCause>In use keeping London moving</unavailabilityCause>
+<captureTime></captureTime>
+<easting>530898</easting>
+<northing>180774</northing>
+<lat>51.51074</lat>
+<lng>-0.11512167</lng>
+<osgr>TQ309808</osgr>
+<postCode></postCode>
+</camera>
+
+<camera id="00001.02431" available="true">
+<corridor>A12</corridor>
+<location>A12 Eastern Ave/Heath Drive</location>
+<currentView>East (A12 twds Gallows Corner)</currentView>
+<file>0000102431.jpg</file>
+<captureTime>2012-10-01T20:13:31Z</captureTime>
+<easting>552229</easting>
+<northing>190802</northing>
+<lat>51.5955</lat>
+
+<lng>0.19637164</lng>
+<osgr>TQ522908</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.02418" available="true">
+<corridor>A12</corridor>
+<location>A12 Eastern Av/Brook Rd</location>
+<currentView>East (A12 twds Romford)</currentView>
+<file>0000102418.jpg</file>
+<captureTime>2012-10-01T20:13:45Z</captureTime>
+
+<easting>545180</easting>
+<northing>188368</northing>
+<lat>51.57549</lat>
+<lng>0.093673415</lng>
+<osgr>TQ452884</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.02414" available="true">
+<corridor>A12</corridor>
+<location>A12 Eastern Av/Beehive Lane</location>
+
+<currentView>A12 W/B</currentView>
+<file>0000102414.jpg</file>
+<captureTime>2012-10-01T20:13:20Z</captureTime>
+<easting>542888</easting>
+<northing>188409</northing>
+<lat>51.576443</lat>
+<lng>0.060638044</lng>
+<osgr>TQ429884</osgr>
+<postCode></postCode>
+
+</camera>
+<camera id="00001.02415" available="true">
+<corridor>A12</corridor>
+<location>A12/Gants Hill Roundabout</location>
+<currentView>Gants Hill R/Bout</currentView>
+<file>0000102415.jpg</file>
+<captureTime>2012-10-01T20:13:45Z</captureTime>
+<easting>543248</easting>
+<northing>188417</northing>
+<lat>51.576424</lat>
+
+<lng>0.06583284</lng>
+<osgr>TQ432884</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.02424" available="true">
+<corridor></corridor>
+<location>A12 Eastern Ave/Mawney Road</location>
+<currentView>A12 East</currentView>
+<file>0000102424.jpg</file>
+<captureTime>2012-10-01T20:13:32Z</captureTime>
+<easting>550065</easting>
+
+<northing>189163</northing>
+<lat>51.581352</lat>
+<lng>0.1644537</lng>
+<osgr>TQ501892</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.02420" available="true">
+<corridor>A12</corridor>
+<location>A12 Eastern Av/Barley Lane</location>
+<currentView>East (A12 twds Romford)</currentView>
+
+<file>0000102420.jpg</file>
+<captureTime>2012-10-01T20:13:18Z</captureTime>
+<easting>546745</easting>
+<northing>189176</northing>
+<lat>51.582344</lat>
+<lng>0.11657835</lng>
+<osgr>TQ467892</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.02425" available="true">
+
+<corridor>A12</corridor>
+<location>A12 Eastern Avenue/A125 North St</location>
+<currentView>A12 S/B</currentView>
+<file>0000102425.jpg</file>
+<captureTime>2012-10-01T20:14:09Z</captureTime>
+<easting>550650</easting>
+<northing>189757</northing>
+<lat>51.586533</lat>
+<lng>0.17314494</lng>
+
+<osgr>TQ507898</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.02453" available="true">
+<corridor>A12</corridor>
+<location>A127/Squirrels Heath Drive</location>
+<currentView>East (A127 twds M25)</currentView>
+<file>0000102453.jpg</file>
+<captureTime>2012-10-01T20:14:10Z</captureTime>
+<easting>554209</easting>
+
+<northing>189900</northing>
+<lat>51.586857</lat>
+<lng>0.22453815</lng>
+<osgr>TQ542899</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.04651" available="false">
+<corridor></corridor>
+<location>Clapham Common Southside</location>
+<currentView>A24 N/B</currentView>
+<file>0000104651.jpg</file>
+
+<unavailabilityCause>In use keeping London moving</unavailabilityCause>
+<captureTime></captureTime>
+<easting>528902</easting>
+<northing>174420</northing>
+<lat>51.4541</lat>
+<lng>-0.1462</lng>
+<osgr>TQ289744</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.02160" available="true">
+<corridor></corridor>
+
+<location>Romford Rd/ Rabbits Rd</location>
+<currentView>Romford Rd W/B @ Rabbits Rd</currentView>
+<file>0000102160.jpg</file>
+<captureTime>2012-10-01T20:14:09Z</captureTime>
+<easting>542485</easting>
+<northing>185765</northing>
+<lat>51.552788</lat>
+<lng>0.05375548</lng>
+<osgr>TQ425858</osgr>
+
+<postCode></postCode>
+</camera>
+<camera id="00001.02150" available="true">
+<corridor>No Corridor</corridor>
+<location>Stratford Broadway/Gt Eastern Rd</location>
+<currentView>A118 Gt Eastern Rd E/B</currentView>
+<file>0000102150.jpg</file>
+<captureTime>2012-10-01T20:13:27Z</captureTime>
+<easting>538761</easting>
+<northing>184166</northing>
+
+<lat>51.539345</lat>
+<lng>-5.5206293E-4</lng>
+<osgr>TQ388842</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.03205" available="true">
+<corridor>No Corridor</corridor>
+<location>Shooters Hill Rd/Charlton Pk Ln</location>
+<currentView>West (twds Blackheath)</currentView>
+<file>0000103205.jpg</file>
+
+<captureTime>2012-10-01T20:13:31Z</captureTime>
+<easting>541618</easting>
+<northing>177007</northing>
+<lat>51.474308</lat>
+<lng>0.03774358</lng>
+<osgr>TQ416770</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.02147" available="true">
+<corridor>No Corridor</corridor>
+
+<location>Major Rd/Crownfield Rd</location>
+<currentView>High Rd Leyton</currentView>
+<file>0000102147.jpg</file>
+<captureTime>2012-10-01T20:14:00Z</captureTime>
+<easting>538485</easting>
+<northing>185458</northing>
+<lat>51.55102</lat>
+<lng>-0.004021145</lng>
+<osgr>TQ385855</osgr>
+
+<postCode></postCode>
+</camera>
+<camera id="00001.02146" available="false">
+<corridor></corridor>
+<location>Great Eastern Rd/Angel Lane Bridge</location>
+<currentView>South (Angel Lane and Gt Eastern Road junction)</currentView>
+<file>0000102146.jpg</file>
+<unavailabilityCause>In use keeping London moving</unavailabilityCause>
+<captureTime></captureTime>
+<easting>538802</easting>
+<northing>184724</northing>
+
+<lat>51.54435</lat>
+<lng>2.5860898E-4</lng>
+<osgr>TQ388847</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.02145" available="true">
+<corridor></corridor>
+<location>High Street/Rick Roberts Way</location>
+<currentView>A118 N/B</currentView>
+<file>0000102145.jpg</file>
+<captureTime>2012-10-01T20:14:10Z</captureTime>
+
+<easting>538424</easting>
+<northing>183678</northing>
+<lat>51.53504</lat>
+<lng>-0.005599886</lng>
+<osgr>TQ384837</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.02115" available="false">
+<corridor>A12</corridor>
+<location>Mile End Rd/Globe Rd</location>
+
+<currentView>A11 W/B</currentView>
+<file>0000102115.jpg</file>
+<unavailabilityCause>In use keeping London moving</unavailabilityCause>
+<captureTime></captureTime>
+<easting>535658</easting>
+<northing>182131</northing>
+<lat>51.521812</lat>
+<lng>-0.046049803</lng>
+<osgr>TQ357821</osgr>
+
+<postCode></postCode>
+</camera>
+<camera id="00001.02100" available="true">
+<corridor>Inner Ring</corridor>
+<location>Whitechapel High St/Mansell St</location>
+<currentView>E/Bd</currentView>
+<file>0000102100.jpg</file>
+<captureTime>2012-10-01T20:13:40Z</captureTime>
+<easting>533733</easting>
+<northing>181258</northing>
+
+<lat>51.514427</lat>
+<lng>-0.07411009</lng>
+<osgr>TQ337813</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.03220" available="true">
+<corridor>No Corridor</corridor>
+<location>Watling St/Gravel Hill</location>
+<currentView>South (Gravel Hill twds A2 Black Prince Interchange)</currentView>
+<file>0000103220.jpg</file>
+
+<captureTime>2012-10-01T20:14:11Z</captureTime>
+<easting>549685</easting>
+<northing>175097</northing>
+<lat>51.45507</lat>
+<lng>0.15300435</lng>
+<osgr>TQ497751</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.02265" available="true">
+<corridor>A13</corridor>
+
+<location>Aspen Way/Cotton Street</location>
+<currentView>West (Aspen Way twds Limehouse Link)</currentView>
+<file>0000102265.jpg</file>
+<captureTime>2012-10-01T20:14:02Z</captureTime>
+<easting>538201</easting>
+<northing>180575</northing>
+<lat>51.507214</lat>
+<lng>-0.010028919</lng>
+<osgr>TQ382806</osgr>
+
+<postCode></postCode>
+</camera>
+<camera id="00001.02258" available="true">
+<corridor>A13</corridor>
+<location>A13 Commercial Road/Salmon Lane</location>
+<currentView>West (A13 twds Rotherhithe Tunnel)</currentView>
+<file>0000102258.jpg</file>
+<captureTime>2012-10-01T20:13:19Z</captureTime>
+<easting>536661</easting>
+<northing>181108</northing>
+
+<lat>51.51238</lat>
+<lng>-0.031998347</lng>
+<osgr>TQ367811</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.01301" available="false">
+<corridor>Inner Ring</corridor>
+<location>Gt Eastern St/Curtain Rd</location>
+<currentView>Great Eastern St (S/B)</currentView>
+<file>0000101301.jpg</file>
+
+<unavailabilityCause>In use keeping London moving</unavailabilityCause>
+<captureTime></captureTime>
+<easting>533276</easting>
+<northing>182355</northing>
+<lat>51.52439</lat>
+<lng>-0.08027758</lng>
+<osgr>TQ333824</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.03490" available="true">
+<corridor>Inner Ring</corridor>
+
+<location>Twr Brdge Rd/Grange Rd</location>
+<currentView>East (A2206 Grange Rd twds Bermondsey)</currentView>
+<file>0000103490.jpg</file>
+<captureTime>2012-10-01T20:14:13Z</captureTime>
+<easting>533246</easting>
+<northing>179282</northing>
+<lat>51.496784</lat>
+<lng>-0.08187003</lng>
+<osgr>TQ332793</osgr>
+
+<postCode></postCode>
+</camera>
+<camera id="00001.01252" available="false">
+<corridor>Inner Ring</corridor>
+<location>Curtain Rd / Old Street</location>
+<currentView>Old St S/B</currentView>
+<file>0000101252.jpg</file>
+<unavailabilityCause>In use keeping London moving</unavailabilityCause>
+<captureTime></captureTime>
+<easting>533252</easting>
+<northing>182647</northing>
+
+<lat>51.52702</lat>
+<lng>-0.08051296</lng>
+<osgr>TQ333826</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.01260" available="true">
+<corridor>Inner Ring</corridor>
+<location>Old Street/Gt Eastern St</location>
+<currentView>Great  Eastern St (S/B)</currentView>
+<file>0000101260.jpg</file>
+
+<captureTime>2012-10-01T20:14:06Z</captureTime>
+<easting>533002</easting>
+<northing>182580</northing>
+<lat>51.526478</lat>
+<lng>-0.08413989</lng>
+<osgr>TQ330826</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.02025" available="true">
+<corridor>Inner Ring</corridor>
+
+<location>Leman St / Prescot St</location>
+<currentView>Leman St</currentView>
+<file>0000102025.jpg</file>
+<captureTime>2012-10-01T20:13:21Z</captureTime>
+<easting>534076</easting>
+<northing>180998</northing>
+<lat>51.51201</lat>
+<lng>-0.06926882</lng>
+<osgr>TQ341810</osgr>
+
+<postCode></postCode>
+</camera>
+<camera id="00001.01438" available="true">
+<corridor>A10</corridor>
+<location>Stoke Newington Rd/Evering Rd</location>
+<currentView>A10 Stoke New'ton Rd N/B</currentView>
+<file>0000101438.jpg</file>
+<captureTime>2012-10-01T20:13:48Z</captureTime>
+<easting>533570</easting>
+<northing>186003</northing>
+
+<lat>51.557106</lat>
+<lng>-0.07465916</lng>
+<osgr>TQ336860</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.01437" available="true">
+<corridor>A10</corridor>
+<location>Grt Cambridge Rd/A406 NCR R&amp;#039;about</location>
+<currentView>South - A10 / A406 Great Cambridge Roundabout</currentView>
+<file>0000101437.jpg</file>
+
+<captureTime>2012-10-01T20:13:26Z</captureTime>
+<easting>532568</easting>
+<northing>192637</northing>
+<lat>51.616955</lat>
+<lng>-0.08660104</lng>
+<osgr>TQ326926</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.01436" available="true">
+<corridor>A406</corridor>
+
+<location>Bowes Rd/Brownlow Rd</location>
+<currentView>N Circ W/B</currentView>
+<file>0000101436.jpg</file>
+<captureTime>2012-10-01T20:14:13Z</captureTime>
+<easting>530188</easting>
+<northing>192106</northing>
+<lat>51.61274</lat>
+<lng>-0.12115418</lng>
+<osgr>TQ302921</osgr>
+
+<postCode></postCode>
+</camera>
+<camera id="00001.01400" available="true">
+<corridor>Inner Ring</corridor>
+<location>Shoreditch High St/Commercial St</location>
+<currentView>defaultPresetName</currentView>
+<file>0000101400.jpg</file>
+<captureTime>2012-10-01T20:13:34Z</captureTime>
+<easting>533465</easting>
+<northing>182187</northing>
+
+<lat>51.52284</lat>
+<lng>-0.07761848</lng>
+<osgr>TQ335822</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.01411" available="true">
+<corridor>A10</corridor>
+<location>Kingsland Rd/Balls Pond Rd</location>
+<currentView>A10 Kingsland Rd S/B</currentView>
+<file>0000101411.jpg</file>
+
+<captureTime>2012-10-01T20:13:47Z</captureTime>
+<easting>533532</easting>
+<northing>184799</northing>
+<lat>51.546295</lat>
+<lng>-0.075663626</lng>
+<osgr>TQ335848</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.03500" available="true">
+<corridor>Inner Ring</corridor>
+
+<location>Tower Bridge App./East Smithfield</location>
+<currentView>Tower Bridge App- South</currentView>
+<file>0000103500.jpg</file>
+<captureTime>2012-10-01T20:12:06Z</captureTime>
+<easting>533779</easting>
+<northing>180656</northing>
+<lat>51.509007</lat>
+<lng>-0.0736758</lng>
+<osgr>TQ338807</osgr>
+
+<postCode></postCode>
+</camera>
+<camera id="00001.02050" available="true">
+<corridor>Inner Ring</corridor>
+<location>Commercial St N of Pomell Way</location>
+<currentView>Commercial St S/B</currentView>
+<file>0000102050.jpg</file>
+<captureTime>2012-10-01T20:14:10Z</captureTime>
+<easting>533826</easting>
+<northing>181455</northing>
+
+<lat>51.516174</lat>
+<lng>-0.072695926</lng>
+<osgr>TQ338815</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.02080" available="true">
+<corridor>No Corridor</corridor>
+<location>Bethnal Gr Rd/Satchwell Rd</location>
+<currentView>Bethnal Grn Rd E/B</currentView>
+<file>0000102080.jpg</file>
+
+<captureTime>2012-10-01T20:13:24Z</captureTime>
+<easting>534050</easting>
+<northing>182546</northing>
+<lat>51.525925</lat>
+<lng>-0.069054976</lng>
+<osgr>TQ341825</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.02075" available="true">
+<corridor>Inner Ring</corridor>
+
+<location>Commercial St/Brushfield</location>
+<currentView>Commercial St S/B @ Brushfield</currentView>
+<file>0000102075.jpg</file>
+<captureTime>2012-10-01T20:13:45Z</captureTime>
+<easting>533682</easting>
+<northing>181788</northing>
+<lat>51.5192</lat>
+<lng>-0.07464378</lng>
+<osgr>TQ337818</osgr>
+
+<postCode></postCode>
+</camera>
+<camera id="00001.02002" available="true">
+<corridor>City Route</corridor>
+<location>Lower Thames St/London Bridge</location>
+<currentView>Lower Thames St W/B</currentView>
+<file>0000102002.jpg</file>
+<captureTime>2012-10-01T20:13:46Z</captureTime>
+<easting>532873</easting>
+<northing>180686</northing>
+
+<lat>51.509487</lat>
+<lng>-0.08671175</lng>
+<osgr>TQ329807</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.02900" available="true">
+<corridor>A12</corridor>
+<location>East Cross Route/Tredeger Rd</location>
+<currentView>North (A12 twds Hackney)</currentView>
+<file>0000102900.jpg</file>
+
+<captureTime>2012-10-01T20:14:10Z</captureTime>
+<easting>537252</easting>
+<northing>183486</northing>
+<lat>51.533604</lat>
+<lng>-0.022561533</lng>
+<osgr>TQ373835</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.01350" available="true">
+<corridor>No Corridor</corridor>
+
+<location>East Road/Vestry Street</location>
+<currentView>East Road (N/B)</currentView>
+<file>0000101350.jpg</file>
+<captureTime>2012-10-01T20:13:58Z</captureTime>
+<easting>532789</easting>
+<northing>182931</northing>
+<lat>51.529682</lat>
+<lng>-0.08707626</lng>
+<osgr>TQ328829</osgr>
+
+<postCode></postCode>
+</camera>
+<camera id="00001.07450" available="true">
+<corridor>No Corridor</corridor>
+<location>Piccadilly Circus</location>
+<currentView>Piccadilly Circus</currentView>
+<file>0000107450.jpg</file>
+<captureTime>2012-10-01T20:08:24Z</captureTime>
+<easting>529533</easting>
+<northing>180609</northing>
+
+<lat>51.50957</lat>
+<lng>-0.13484079</lng>
+<osgr>TQ295806</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.07452" available="true">
+<corridor>No Corridor</corridor>
+<location>Oxford Circus</location>
+<currentView>South (Regent St twds Piccadilly Circus)</currentView>
+<file>0000107452.jpg</file>
+
+<captureTime>2012-10-01T20:09:02Z</captureTime>
+<easting>529017</easting>
+<northing>181242</northing>
+<lat>51.515377</lat>
+<lng>-0.14204057</lng>
+<osgr>TQ290812</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.07451" available="true">
+<corridor>No Corridor</corridor>
+
+<location>Regent St/Conduit St</location>
+<currentView>Regent St N/B</currentView>
+<file>0000107451.jpg</file>
+<captureTime>2012-10-01T20:11:58Z</captureTime>
+<easting>529102</easting>
+<northing>180997</northing>
+<lat>51.513157</lat>
+<lng>-0.14090592</lng>
+<osgr>TQ291810</osgr>
+
+<postCode></postCode>
+</camera>
+<camera id="00001.07460" available="true">
+<corridor>No Corridor</corridor>
+<location>Albany St S of Robert St</location>
+<currentView>Albany St S/B</currentView>
+<file>0000107460.jpg</file>
+<captureTime>2012-10-01T20:13:08Z</captureTime>
+<easting>528817</easting>
+<northing>182626</northing>
+
+<lat>51.527863</lat>
+<lng>-0.14441575</lng>
+<osgr>TQ288826</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.09631" available="true">
+<corridor>No Corridor</corridor>
+<location>Caledonian R/Copnhagen S</location>
+<currentView>CallyRoad N/B</currentView>
+<file>0000109631.jpg</file>
+
+<captureTime>2012-10-01T20:13:33Z</captureTime>
+<easting>530728</easting>
+<northing>183678</northing>
+<lat>51.536877</lat>
+<lng>-0.11649341</lng>
+<osgr>TQ307837</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.09630" available="false">
+<corridor>No Corridor</corridor>
+
+<location>Caledonian R/Caledonia S</location>
+<currentView>defaultPresetName</currentView>
+<file>0000109630.jpg</file>
+<unavailabilityCause>In use keeping London moving</unavailabilityCause>
+<captureTime></captureTime>
+<easting>530435</easting>
+<northing>183108</northing>
+<lat>51.531822</lat>
+<lng>-0.12092651</lng>
+
+<osgr>TQ304831</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.09624" available="true">
+<corridor>No Corridor</corridor>
+<location>Pancras Rd/St Pancras Way</location>
+<currentView></currentView>
+<file>0000109624.jpg</file>
+<captureTime>2012-10-01T20:12:54Z</captureTime>
+<easting>529606</easting>
+<northing>183505</northing>
+
+<lat>51.53558</lat>
+<lng>-0.13272518</lng>
+<osgr></osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.09610" available="true">
+<corridor>Future Consideration</corridor>
+<location>Seven Sisters Rd/Manor House</location>
+<currentView>A503 Seven Sisters Rd W/B</currentView>
+<file>0000109610.jpg</file>
+<captureTime>2012-10-01T20:08:56Z</captureTime>
+
+<easting>532041</easting>
+<northing>187465</northing>
+<lat>51.570602</lat>
+<lng>-0.09615281</lng>
+<osgr>TQ320875</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.09640" available="true">
+<corridor>Inner Ring</corridor>
+<location>Grays Inn Rd / Acton St</location>
+
+<currentView>Grays Inn Rd N/B</currentView>
+<file>0000109640.jpg</file>
+<captureTime>2012-10-01T20:12:50Z</captureTime>
+<easting>530567</easting>
+<northing>182705</northing>
+<lat>51.528168</lat>
+<lng>-0.11917387</lng>
+<osgr>TQ306827</osgr>
+<postCode></postCode>
+
+</camera>
+<camera id="00001.07400" available="true">
+<corridor>No Corridor</corridor>
+<location>Mortimer St/Gt Portland St</location>
+<currentView>Great Portland Street - south towards Oxford Street</currentView>
+<file>0000107400.jpg</file>
+<captureTime>2012-10-01T20:13:34Z</captureTime>
+<easting>529047</easting>
+<northing>181487</northing>
+<lat>51.517574</lat>
+
+<lng>-0.14151885</lng>
+<osgr>TQ290815</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.07560" available="true">
+<corridor>No Corridor</corridor>
+<location>Kentish Twn Rd/Hawley Rd</location>
+<currentView>Kentish Town N/B</currentView>
+<file>0000107560.jpg</file>
+<captureTime>2012-10-01T20:13:10Z</captureTime>
+
+<easting>528959</easting>
+<northing>184296</northing>
+<lat>51.542835</lat>
+<lng>-0.14175878</lng>
+<osgr>TQ290843</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.06948" available="false">
+<corridor>A4</corridor>
+<location>A4 Colnbrook/Stanwell Moor Rd</location>
+
+<currentView>A4 West</currentView>
+<file>0000106948.jpg</file>
+<unavailabilityCause>In use keeping London moving</unavailabilityCause>
+<captureTime></captureTime>
+<easting>504774</easting>
+<northing>177182</northing>
+<lat>51.4839</lat>
+<lng>-0.49247953</lng>
+<osgr>TQ048772</osgr>
+
+<postCode></postCode>
+</camera>
+<camera id="00001.07551" available="true">
+<corridor>No Corridor</corridor>
+<location>Cambridge Circus</location>
+<currentView>Shaftsbury Av S/B</currentView>
+<file>0000107551.jpg</file>
+<captureTime>2012-10-01T20:13:08Z</captureTime>
+<easting>529921</easting>
+<northing>181019</northing>
+
+<lat>51.51317</lat>
+<lng>-0.12910207</lng>
+<osgr>TQ299810</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.07550" available="true">
+<corridor>No Corridor</corridor>
+<location>Charing Cross Rd/Cranbourne St</location>
+<currentView>Charing Cross Rd N/B</currentView>
+<file>0000107550.jpg</file>
+
+<captureTime>2012-10-01T20:12:56Z</captureTime>
+<easting>529982</easting>
+<northing>180814</northing>
+<lat>51.51131</lat>
+<lng>-0.12829901</lng>
+<osgr>TQ300808</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.06914" available="true">
+<corridor>A4</corridor>
+
+<location>A4 Bath Rd/Henleys R&amp;#039;about</location>
+<currentView>A4 Great West Rd (twds Osterley)</currentView>
+<file>0000106914.jpg</file>
+<captureTime>2012-10-01T20:13:37Z</captureTime>
+<easting>511605</easting>
+<northing>176344</northing>
+<lat>51.47506</lat>
+<lng>-0.394408</lng>
+
+<osgr>TQ116763</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.06910" available="true">
+<corridor>A4</corridor>
+<location>A4 Great West Rd/A3063 Sutton Ln</location>
+<currentView>A4 - East</currentView>
+<file>0000106910.jpg</file>
+<captureTime>2012-10-01T20:13:12Z</captureTime>
+<easting>513123</easting>
+
+<northing>176712</northing>
+<lat>51.478065</lat>
+<lng>-0.37244242</lng>
+<osgr>TQ131767</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.07590" available="true">
+<corridor>No Corridor</corridor>
+<location>Sthampton Row/Vernon Plc</location>
+<currentView>Preset 1</currentView>
+
+<file>0000107590.jpg</file>
+<captureTime>2012-10-01T20:13:10Z</captureTime>
+<easting>530455</easting>
+<northing>181689</northing>
+<lat>51.519066</lat>
+<lng>-0.12116334</lng>
+<osgr>TQ305817</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.07591" available="true">
+
+<corridor>No Corridor</corridor>
+<location>Theobald&amp;#039;s Rd/Boswell St</location>
+<currentView>A401 Theobald's Road</currentView>
+<file>0000107591.jpg</file>
+<captureTime>2012-10-01T20:13:08Z</captureTime>
+<easting>530521</easting>
+<northing>181749</northing>
+<lat>51.51959</lat>
+
+<lng>-0.12019045</lng>
+<osgr>TQ305817</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.09731" available="true">
+<corridor>A1</corridor>
+<location>A1 Barnet Wy/Barnet Ln</location>
+<currentView>A1 North</currentView>
+<file>0000109731.jpg</file>
+<captureTime>2012-10-01T20:11:07Z</captureTime>
+
+<easting>520880</easting>
+<northing>195274</northing>
+<lat>51.643284</lat>
+<lng>-0.2544219</lng>
+<osgr>TQ209953</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.09730" available="true">
+<corridor>A41</corridor>
+<location>A1 Barnet Wy/A41 Edgware Wy</location>
+
+<currentView>A1 North</currentView>
+<file>0000109730.jpg</file>
+<captureTime>2012-10-01T20:12:37Z</captureTime>
+<easting>520912</easting>
+<northing>192885</northing>
+<lat>51.621807</lat>
+<lng>-0.25478393</lng>
+<osgr>TQ209929</osgr>
+
+<postCode></postCode>
+</camera>
+<camera id="00001.09732" available="true">
+<corridor>A1</corridor>
+<location>A1 Archway Rd/Bakers Ln</location>
+<currentView>Archway Rd S/B</currentView>
+<file>0000109732.jpg</file>
+<captureTime>2012-10-01T20:13:34Z</captureTime>
+<easting>527831</easting>
+<northing>188598</northing>
+
+<lat>51.581753</lat>
+<lng>-0.1564528</lng>
+<osgr>TQ278886</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.09726" available="true">
+<corridor>A1</corridor>
+<location>Upper St/Theberton St</location>
+<currentView>North (A1 twds Highbury Corner)</currentView>
+<file>0000109726.jpg</file>
+
+<captureTime>2012-10-01T20:13:34Z</captureTime>
+<easting>531702</easting>
+<northing>183844</northing>
+<lat>51.538143</lat>
+<lng>-0.10239612</lng>
+<osgr>TQ317838</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.09740" available="true">
+<corridor>A1</corridor>
+
+<location>A1/A504 Finchley Lane</location>
+<currentView>A1 N/B</currentView>
+<file>0000109740.jpg</file>
+<captureTime>2012-10-01T20:13:33Z</captureTime>
+<easting>523974</easting>
+<northing>189530</northing>
+<lat>51.590992</lat>
+<lng>-0.21176071</lng>
+<osgr>TQ240895</osgr>
+
+<postCode></postCode>
+</camera>
+<camera id="00001.09742" available="true">
+<corridor>A41</corridor>
+<location>Watford Way/Great North Way</location>
+<currentView>A1 S/B</currentView>
+<file>0000109742.jpg</file>
+<captureTime>2012-10-01T20:13:08Z</captureTime>
+<easting>522329</easting>
+<northing>190704</northing>
+
+<lat>51.601902</lat>
+<lng>-0.23508587</lng>
+<osgr>TQ223907</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.09741" available="true">
+<corridor>A1</corridor>
+<location>A1/Holders Hill</location>
+<currentView>A1 N/B</currentView>
+<file>0000109741.jpg</file>
+
+<captureTime>2012-10-01T20:13:07Z</captureTime>
+<easting>523627</easting>
+<northing>189948</northing>
+<lat>51.594822</lat>
+<lng>-0.21662007</lng>
+<osgr>TQ236899</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.09744" available="true">
+<corridor>A41</corridor>
+
+<location>A1 Watford Way/The Broadway</location>
+<currentView>A1 N/B</currentView>
+<file>0000109744.jpg</file>
+<captureTime>2012-10-01T20:13:08Z</captureTime>
+<easting>521595</easting>
+<northing>192359</northing>
+<lat>51.616932</lat>
+<lng>-0.24510518</lng>
+<osgr>TQ216924</osgr>
+
+<postCode></postCode>
+</camera>
+<camera id="00001.08600" available="true">
+<corridor>No Corridor</corridor>
+<location>Craven Rd/Eastborne Terrace</location>
+<currentView>Praed Street (twds Paddington)</currentView>
+<file>0000108600.jpg</file>
+<captureTime>2012-10-01T20:13:04Z</captureTime>
+<easting>526635</easting>
+<northing>181160</northing>
+
+<lat>51.51518</lat>
+<lng>-0.17637949</lng>
+<osgr>TQ266812</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.08603" available="true">
+<corridor>No Corridor</corridor>
+<location>Eastbourne Te/Bishops Bridge Rd</location>
+<currentView>Bishops Bridge Rd (twds Bayswater)</currentView>
+<file>0000108603.jpg</file>
+
+<captureTime>2012-10-01T20:13:07Z</captureTime>
+<easting>526358</easting>
+<northing>181457</northing>
+<lat>51.51791</lat>
+<lng>-0.18026292</lng>
+<osgr>TQ264815</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.09702" available="true">
+<corridor>A1</corridor>
+
+<location>Angel Islington</location>
+<currentView>Goswell Rd</currentView>
+<file>0000109702.jpg</file>
+<captureTime>2012-10-01T20:08:12Z</captureTime>
+<easting>531441</easting>
+<northing>183143</northing>
+<lat>51.531902</lat>
+<lng>-0.10641867</lng>
+<osgr>TQ314831</osgr>
+
+<postCode></postCode>
+</camera>
+<camera id="00001.09711" available="true">
+<corridor>A1</corridor>
+<location>Seven Sisters Rd/Holloway Rd</location>
+<currentView>A1 Holloway Rd N/B</currentView>
+<file>0000109711.jpg</file>
+<captureTime>2012-10-01T20:10:54Z</captureTime>
+<easting>530454</easting>
+<northing>186010</northing>
+
+<lat>51.557896</lat>
+<lng>-0.11957789</lng>
+<osgr>TQ305860</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.07500" available="true">
+<corridor>No Corridor</corridor>
+<location>Northumberland Ave/Victoria Emb</location>
+<currentView>Embankment - West</currentView>
+<file>0000107500.jpg</file>
+
+<captureTime>2012-10-01T20:12:30Z</captureTime>
+<easting>530386</easting>
+<northing>180294</northing>
+<lat>51.506546</lat>
+<lng>-0.12267271</lng>
+<osgr>TQ304803</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.08752" available="true">
+<corridor>Inner Ring</corridor>
+
+<location>Park Lane South of Mount Street</location>
+<currentView>Park Lane S/Bd by Mount St</currentView>
+<file>0000108752.jpg</file>
+<captureTime>2012-10-01T20:13:05Z</captureTime>
+<easting>528162</easting>
+<northing>180503</northing>
+<lat>51.50893</lat>
+<lng>-0.15462396</lng>
+<osgr>TQ282805</osgr>
+
+<postCode></postCode>
+</camera>
+<camera id="00001.08751" available="true">
+<corridor>Inner Ring</corridor>
+<location>Park Lane Opposite Stanhope Gate</location>
+<currentView>North (twds Marble Arch)</currentView>
+<file>0000108751.jpg</file>
+<captureTime>2012-10-01T20:13:10Z</captureTime>
+<easting>528297</easting>
+<northing>180244</northing>
+
+<lat>51.506573</lat>
+<lng>-0.1527739</lng>
+<osgr>TQ283802</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.08750" available="true">
+<corridor>Inner Ring</corridor>
+<location>Hyde Park Corner/Park Lane</location>
+<currentView>Hyde Park Corner - West</currentView>
+<file>0000108750.jpg</file>
+
+<captureTime>2012-10-01T20:10:36Z</captureTime>
+<easting>528430</easting>
+<northing>179887</northing>
+<lat>51.503334</lat>
+<lng>-0.15098847</lng>
+<osgr>TQ284799</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.09403" available="true">
+<corridor></corridor>
+<location>Montfichet Rd/Hitchcock Lane/Car Park C</location>
+
+<currentView>Montfichett Rd</currentView>
+<file>0000109403.jpg</file>
+<captureTime>2012-10-01T20:09:52Z</captureTime>
+<easting>538538</easting>
+<northing>184749</northing>
+<lat>51.54464</lat>
+<lng>-0.0035361636</lng>
+<osgr>TQ385847</osgr>
+<postCode></postCode>
+
+</camera>
+<camera id="00001.09402" available="true">
+<corridor></corridor>
+<location>Montfichet Rd/Westfield Ave/Car Park B</location>
+<currentView>Montfichet Rd E/B</currentView>
+<file>0000109402.jpg</file>
+<captureTime>2012-10-01T20:11:34Z</captureTime>
+<easting>538428</easting>
+<northing>184356</northing>
+<lat>51.541134</lat>
+
+<lng>-0.0052758753</lng>
+<osgr>TQ384844</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.09401" available="true">
+<corridor></corridor>
+<location>Westfield Ave/International Way/Car Park A</location>
+<currentView></currentView>
+<file>0000109401.jpg</file>
+<captureTime>2012-10-01T20:13:28Z</captureTime>
+<easting>538018</easting>
+
+<northing>184605</northing>
+<lat>51.543472</lat>
+<lng>-0.011086592</lng>
+<osgr></osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.07361" available="true">
+<corridor>Inner Ring</corridor>
+<location>Euston Rd/Tottenham Court Rd</location>
+<currentView>A400 Tottenham Crt Rd S/B</currentView>
+<file>0000107361.jpg</file>
+
+<captureTime>2012-10-01T20:08:30Z</captureTime>
+<easting>529242</easting>
+<northing>182306</northing>
+<lat>51.524887</lat>
+<lng>-0.13840993</lng>
+<osgr>TQ292823</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.07364" available="true">
+<corridor>Inner Ring</corridor>
+
+<location>Marylebone Rd/Gt Portland St</location>
+<currentView>Euston Road (E/B)</currentView>
+<file>0000107364.jpg</file>
+<captureTime>2012-10-01T20:09:59Z</captureTime>
+<easting>528891</easting>
+<northing>182209</northing>
+<lat>51.524097</lat>
+<lng>-0.14350204</lng>
+<osgr>TQ289822</osgr>
+
+<postCode></postCode>
+</camera>
+<camera id="00001.07369" available="false">
+<corridor>Inner Ring</corridor>
+<location>Baker St/Marylebone Rd</location>
+<currentView>Euston Rd E/B</currentView>
+<file>0000107369.jpg</file>
+<unavailabilityCause>In use keeping London moving</unavailabilityCause>
+<captureTime></captureTime>
+<easting>527913</easting>
+<northing>181977</northing>
+
+<lat>51.522232</lat>
+<lng>-0.15767553</lng>
+<osgr>TQ279820</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.07367" available="true">
+<corridor>Inner Ring</corridor>
+<location>Marylebone Rd/York Gate</location>
+<currentView>Marlybone Rd</currentView>
+<file>0000107367.jpg</file>
+
+<captureTime>2012-10-01T20:12:50Z</captureTime>
+<easting>528255</easting>
+<northing>182070</northing>
+<lat>51.52299</lat>
+<lng>-0.15271497</lng>
+<osgr>TQ283821</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.07375" available="false">
+<corridor>No Corridor</corridor>
+
+<location>Harrow Rd/Grt Western Rd</location>
+<currentView>West (A404 twds Kensal Green)</currentView>
+<file>0000107375.jpg</file>
+<unavailabilityCause>In use keeping London moving</unavailabilityCause>
+<captureTime></captureTime>
+<easting>524856</easting>
+<northing>182135</northing>
+<lat>51.524338</lat>
+<lng>-0.20165873</lng>
+
+<osgr>TQ249821</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.07376" available="true">
+<corridor>No Corridor</corridor>
+<location>Harrow Rd/Kilburn Lane</location>
+<currentView>Harrow Rd S/B</currentView>
+<file>0000107376.jpg</file>
+<captureTime>2012-10-01T20:13:31Z</captureTime>
+<easting>523865</easting>
+
+<northing>182511</northing>
+<lat>51.527935</lat>
+<lng>-0.21580379</lng>
+<osgr>TQ239825</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.07377" available="true">
+<corridor>No Corridor</corridor>
+<location>Scrubs Lane/Harrow Rd</location>
+<currentView>Scrubbs Ln</currentView>
+
+<file>0000107377.jpg</file>
+<captureTime>2012-10-01T20:13:25Z</captureTime>
+<easting>522364</easting>
+<northing>182931</northing>
+<lat>51.532036</lat>
+<lng>-0.23728459</lng>
+<osgr>TQ224829</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.07379" available="true">
+
+<corridor>No Corridor</corridor>
+<location>Scrubs Lane/North Pole Rd</location>
+<currentView>South (A219 twds Shepherds Bush)</currentView>
+<file>0000107379.jpg</file>
+<captureTime>2012-10-01T20:13:25Z</captureTime>
+<easting>523048</easting>
+<northing>181484</northing>
+<lat>51.518883</lat>
+<lng>-0.22793351</lng>
+
+<osgr>TQ230815</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.07355" available="true">
+<corridor>Inner Ring</corridor>
+<location>Pentonville Road / Penton Rise</location>
+<currentView>Pentonville Rd/Penton Rise E/B</currentView>
+<file>0000107355.jpg</file>
+<captureTime>2012-10-01T20:13:10Z</captureTime>
+<easting>530916</easting>
+
+<northing>183079</northing>
+<lat>51.53145</lat>
+<lng>-0.11400685</lng>
+<osgr>TQ309831</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.07356" available="true">
+<corridor>Inner Ring</corridor>
+<location>Euston Rd/Grays Inn Rd</location>
+<currentView>Euston Rd</currentView>
+
+<file>0000107356.jpg</file>
+<captureTime>2012-10-01T20:10:24Z</captureTime>
+<easting>530328</easting>
+<northing>182988</northing>
+<lat>51.53077</lat>
+<lng>-0.12251259</lng>
+<osgr>TQ303830</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.07359" available="true">
+
+<corridor>Inner Ring</corridor>
+<location>Euston Rd/Eversholt St</location>
+<currentView>A501 Euston Rd E/B</currentView>
+<file>0000107359.jpg</file>
+<captureTime>2012-10-01T20:13:27Z</captureTime>
+<easting>529767</easting>
+<northing>182593</northing>
+<lat>51.527348</lat>
+<lng>-0.13074097</lng>
+
+<osgr>TQ298826</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.07322" available="true">
+<corridor>A40</corridor>
+<location>Harrow Rd/Lord Hills Bridge</location>
+<currentView>defaultPresetName</currentView>
+<file>0000107322.jpg</file>
+<captureTime>2012-10-01T20:12:44Z</captureTime>
+<easting>525765</easting>
+
+<northing>181629</northing>
+<lat>51.51959</lat>
+<lng>-0.18874352</lng>
+<osgr>TQ258816</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.07321" available="true">
+<corridor>A40</corridor>
+<location>Harrow Rd/Westbourne Terrace</location>
+<currentView>A40 (Eastbound Paddington exit slip)</currentView>
+
+<file>0000107321.jpg</file>
+<captureTime>2012-10-01T20:12:38Z</captureTime>
+<easting>526018</easting>
+<northing>181657</northing>
+<lat>51.519783</lat>
+<lng>-0.18508902</lng>
+<osgr>TQ260817</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.07320" available="true">
+
+<corridor>A40</corridor>
+<location>A40 Western Ave/Long Lane</location>
+<currentView>East (A40 twds Northolt)</currentView>
+<file>0000107320.jpg</file>
+<captureTime>2012-10-01T20:12:38Z</captureTime>
+<easting>507716</easting>
+<northing>185088</northing>
+<lat>51.554405</lat>
+<lng>-0.447713</lng>
+
+<osgr>TQ077851</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.07325" available="true">
+<corridor>A40</corridor>
+<location>A40 Western Ave/Gibbon Rd</location>
+<currentView>East (A40 twds Paddington)</currentView>
+<file>0000107325.jpg</file>
+<captureTime>2012-10-01T20:13:10Z</captureTime>
+<easting>521073</easting>
+
+<northing>180992</northing>
+<lat>51.51489</lat>
+<lng>-0.256553</lng>
+<osgr>TQ211810</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.07326" available="true">
+<corridor>A40</corridor>
+<location>A40 Westway/Paddington Grn</location>
+<currentView>West (A40 twds White City)</currentView>
+
+<file>0000107326.jpg</file>
+<captureTime>2012-10-01T20:13:19Z</captureTime>
+<easting>526820</easting>
+<northing>181720</northing>
+<lat>51.520172</lat>
+<lng>-0.17351349</lng>
+<osgr>TQ268817</osgr>
+<postCode></postCode>
+</camera>
+
+<camera id="00001.07323" available="true">
+<corridor>No Corridor</corridor>
+<location>Harrow Rd/Maryland Rd</location>
+<currentView>Harrow Rd/Maryland Rd E/B</currentView>
+<file>0000107323.jpg</file>
+<captureTime>2012-10-01T20:13:24Z</captureTime>
+<easting>525291</easting>
+<northing>182016</northing>
+<lat>51.52317</lat>
+
+<lng>-0.1954341</lng>
+<osgr>TQ253820</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.07330" available="true">
+<corridor>No Corridor</corridor>
+<location>City Road / Epworth St</location>
+<currentView>City Road (S/B)</currentView>
+<file>0000107330.jpg</file>
+<captureTime>2012-10-01T20:13:16Z</captureTime>
+
+<easting>532791</easting>
+<northing>182255</northing>
+<lat>51.523605</lat>
+<lng>-0.08730205</lng>
+<osgr>TQ328823</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.09560" available="true">
+<corridor>Future Consideration</corridor>
+<location>Camden Rd/St Pancras Way</location>
+
+<currentView>Camden Road N/B</currentView>
+<file>0000109560.jpg</file>
+<captureTime>2012-10-01T20:12:37Z</captureTime>
+<easting>529259</easting>
+<northing>184289</northing>
+<lat>51.542706</lat>
+<lng>-0.13743773</lng>
+<osgr>TQ293843</osgr>
+<postCode></postCode>
+
+</camera>
+<camera id="00001.07300" available="true">
+<corridor>No Corridor</corridor>
+<location>Shaftesbury Ave/High Holborn</location>
+<currentView>A40 High Holborn E/B</currentView>
+<file>0000107300.jpg</file>
+<captureTime>2012-10-01T20:12:30Z</captureTime>
+<easting>530121</easting>
+<northing>181304</northing>
+<lat>51.515682</lat>
+
+<lng>-0.12611644</lng>
+<osgr>TQ301813</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.07303" available="true">
+<corridor>A40</corridor>
+<location>A40(M) Paddington Slip</location>
+<currentView>A40</currentView>
+<file>0000107303.jpg</file>
+<captureTime>2012-10-01T20:13:02Z</captureTime>
+
+<easting>525518</easting>
+<northing>181716</northing>
+<lat>51.520424</lat>
+<lng>-0.19227064</lng>
+<osgr>TQ255817</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.07304" available="true">
+<corridor>A40</corridor>
+<location>A3220 Northern Roundabout</location>
+
+<currentView>A40</currentView>
+<file>0000107304.jpg</file>
+<captureTime>2012-10-01T20:09:28Z</captureTime>
+<easting>523821</easting>
+<northing>181114</northing>
+<lat>51.51539</lat>
+<lng>-0.2169282</lng>
+<osgr>TQ238811</osgr>
+<postCode></postCode>
+
+</camera>
+<camera id="00001.07301" available="true">
+<corridor>No Corridor</corridor>
+<location>St Giles Circus</location>
+<currentView>New Oxford St - East</currentView>
+<file>0000107301.jpg</file>
+<captureTime>2012-10-01T20:11:00Z</captureTime>
+<easting>529834</easting>
+<northing>181378</northing>
+<lat>51.516415</lat>
+
+<lng>-0.13022298</lng>
+<osgr>TQ298814</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.07302" available="true">
+<corridor>A40</corridor>
+<location>A40(M) Eastern End</location>
+<currentView>A404 Westway E/B</currentView>
+<file>0000107302.jpg</file>
+<captureTime>2012-10-01T20:10:48Z</captureTime>
+
+<easting>526438</easting>
+<northing>181749</northing>
+<lat>51.520515</lat>
+<lng>-0.17900589</lng>
+<osgr>TQ264817</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.07311" available="true">
+<corridor>A406</corridor>
+<location>Hanger Lane</location>
+
+<currentView>Hanger Lane</currentView>
+<file>0000107311.jpg</file>
+<captureTime>2012-10-01T20:09:09Z</captureTime>
+<easting>518338</easting>
+<northing>182756</northing>
+<lat>51.531322</lat>
+<lng>-0.29535717</lng>
+<osgr>TQ183828</osgr>
+<postCode></postCode>
+
+</camera>
+<camera id="00001.07316" available="true">
+<corridor>No Corridor</corridor>
+<location>High Rd/Ealing Road</location>
+<currentView>High Rd E/B</currentView>
+<file>0000107316.jpg</file>
+<captureTime>2012-10-01T20:12:43Z</captureTime>
+<easting>518032</easting>
+<northing>185044</northing>
+<lat>51.55195</lat>
+
+<lng>-0.29899997</lng>
+<osgr>TQ180850</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.07317" available="true">
+<corridor>A40</corridor>
+<location>A40/Hanger Lane Tunnel</location>
+<currentView>Western Av E/B</currentView>
+<file>0000107317.jpg</file>
+<captureTime>2012-10-01T20:13:09Z</captureTime>
+
+<easting>518371</easting>
+<northing>182634</northing>
+<lat>51.530216</lat>
+<lng>-0.29492262</lng>
+<osgr>TQ184826</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.07318" available="true">
+<corridor>A40</corridor>
+<location>A40 Western Ave/West End Rd</location>
+
+<currentView>West (A40 twds Hillingdon)</currentView>
+<file>0000107318.jpg</file>
+<captureTime>2012-10-01T20:13:33Z</captureTime>
+<easting>511107</easting>
+<northing>184523</northing>
+<lat>51.54867</lat>
+<lng>-0.3990006</lng>
+<osgr>TQ111845</osgr>
+<postCode></postCode>
+
+</camera>
+<camera id="00001.07315" available="false">
+<corridor>No Corridor</corridor>
+<location>Ealing Rd/Bridgewater Rd</location>
+<currentView>Bridgewater Rd N/B</currentView>
+<file>0000107315.jpg</file>
+<unavailabilityCause>In use keeping London moving</unavailabilityCause>
+<captureTime></captureTime>
+<easting>517967</easting>
+<northing>183674</northing>
+
+<lat>51.53965</lat>
+<lng>-0.30039588</lng>
+<osgr>TQ180837</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.06748" available="true">
+<corridor>A4</corridor>
+<location>A30 Great Sth/W Rd/The Parkway</location>
+<currentView>A30 N/B</currentView>
+<file>0000106748.jpg</file>
+
+<captureTime>2012-10-01T20:13:30Z</captureTime>
+<easting>510878</easting>
+<northing>176047</northing>
+<lat>51.472534</lat>
+<lng>-0.4049646</lng>
+<osgr>TQ109760</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.06743" available="true">
+<corridor></corridor>
+<location>THE PARKWAY / UXBRIDGE ROAD</location>
+
+<currentView>A312 The Parkway (Southbound)</currentView>
+<file>0000106743.jpg</file>
+<captureTime>2012-10-01T20:08:44Z</captureTime>
+<easting>511035</easting>
+<northing>180970</northing>
+<lat>51.51675</lat>
+<lng>-0.40115774</lng>
+<osgr>TQ110810</osgr>
+<postCode></postCode>
+
+</camera>
+<camera id="00001.09551" available="true">
+<corridor>Future Consideration</corridor>
+<location>Camden High St/Kentish Town Rd</location>
+<currentView>A503 Camden Rd N/B</currentView>
+<file>0000109551.jpg</file>
+<captureTime>2012-10-01T20:12:37Z</captureTime>
+<easting>528908</easting>
+<northing>183879</northing>
+<lat>51.5391</lat>
+
+<lng>-0.14264639</lng>
+<osgr>TQ289839</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.07389" available="false">
+<corridor>No Corridor</corridor>
+<location>University St/Gower St</location>
+<currentView>South (Gower Street twds Shaftesbury Avenue)</currentView>
+<file>0000107389.jpg</file>
+<unavailabilityCause>In use keeping London moving</unavailabilityCause>
+
+<captureTime></captureTime>
+<easting>529544</easting>
+<northing>182203</northing>
+<lat>51.52389</lat>
+<lng>-0.13409704</lng>
+<osgr>TQ295822</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.07380" available="true">
+<corridor>No Corridor</corridor>
+<location>Prince Albert Rd/Parkway</location>
+
+<currentView>Pk Village East</currentView>
+<file>0000107380.jpg</file>
+<captureTime>2012-10-01T20:13:24Z</captureTime>
+<easting>528627</easting>
+<northing>183556</northing>
+<lat>51.536263</lat>
+<lng>-0.14681378</lng>
+<osgr>TQ286836</osgr>
+<postCode></postCode>
+
+</camera>
+<camera id="00001.07386" available="true">
+<corridor>No Corridor</corridor>
+<location>Wood Lane/South Africa Road</location>
+<currentView>A219 S/B</currentView>
+<file>0000107386.jpg</file>
+<captureTime>2012-10-01T20:13:09Z</captureTime>
+<easting>523252</easting>
+<northing>180822</northing>
+<lat>51.51289</lat>
+
+<lng>-0.2252261</lng>
+<osgr>TQ233808</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.07387" available="false">
+<corridor>Inner Ring</corridor>
+<location>Euston Rd/Conway St</location>
+<currentView>West (A501 twds Paddington)</currentView>
+<file>0000107387.jpg</file>
+<unavailabilityCause>In use keeping London moving</unavailabilityCause>
+
+<captureTime></captureTime>
+<easting>529107</easting>
+<northing>182238</northing>
+<lat>51.524307</lat>
+<lng>-0.14037968</lng>
+<osgr>TQ291822</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.07382" available="true">
+<corridor>No Corridor</corridor>
+<location>A4200 Woburn Pl/Russell Sq</location>
+
+<currentView>South (Russell Square)</currentView>
+<file>0000107382.jpg</file>
+<captureTime>2012-10-01T20:13:11Z</captureTime>
+<easting>530120</easting>
+<northing>182102</northing>
+<lat>51.522854</lat>
+<lng>-0.12583646</lng>
+<osgr>TQ301821</osgr>
+<postCode></postCode>
+
+</camera>
+<camera id="00001.07381" available="true">
+<corridor>No Corridor</corridor>
+<location>Prince Alb Rd/Avenue Rd</location>
+<currentView>Prince Albert Rd - East</currentView>
+<file>0000107381.jpg</file>
+<captureTime>2012-10-01T20:13:10Z</captureTime>
+<easting>527469</easting>
+<northing>183383</northing>
+<lat>51.53497</lat>
+
+<lng>-0.16356331</lng>
+<osgr>TQ275834</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.07390" available="true">
+<corridor>No Corridor</corridor>
+<location>Tottenham Court Rd/Grafton Way</location>
+<currentView>South (Tottenham Court Road)</currentView>
+<file>0000107390.jpg</file>
+<captureTime>2012-10-01T20:12:47Z</captureTime>
+
+<easting>529326</easting>
+<northing>182191</northing>
+<lat>51.523834</lat>
+<lng>-0.13724196</lng>
+<osgr>TQ293822</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.08004" available="true">
+<corridor>A406</corridor>
+<location>Hanger Lane/Chatsworth Rd</location>
+
+<currentView>North (A406 twds Wembley)</currentView>
+<file>0000108004.jpg</file>
+<captureTime>2012-10-01T20:13:19Z</captureTime>
+<easting>518568</easting>
+<northing>182301</northing>
+<lat>51.527184</lat>
+<lng>-0.29219598</lng>
+<osgr>TQ186823</osgr>
+<postCode></postCode>
+
+</camera>
+<camera id="00001.08003" available="false">
+<corridor>No Corridor</corridor>
+<location>A4088 Forty Av/Bridge Rd</location>
+<currentView>Forty Ln W/B</currentView>
+<file>0000108003.jpg</file>
+<unavailabilityCause>In use keeping London moving</unavailabilityCause>
+<captureTime></captureTime>
+<easting>519501</easting>
+<northing>186591</northing>
+
+<lat>51.565544</lat>
+<lng>-0.2772975</lng>
+<osgr>TQ195866</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.08009" available="true">
+<corridor>A406</corridor>
+<location>A406 NCR/Grt Central Way</location>
+<currentView>North (A406 Iron Bridge twds Brent Cross)</currentView>
+<file>0000108009.jpg</file>
+
+<captureTime>2012-10-01T20:13:14Z</captureTime>
+<easting>521066</easting>
+<northing>185195</northing>
+<lat>51.55266</lat>
+<lng>-0.25521013</lng>
+<osgr>TQ211852</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.08005" available="false">
+<corridor>No Corridor</corridor>
+
+<location>Grt Central Way/Drury Way</location>
+<currentView>Gt C'tral Way </currentView>
+<file>0000108005.jpg</file>
+<unavailabilityCause>In use keeping London moving</unavailabilityCause>
+<captureTime></captureTime>
+<easting>521012</easting>
+<northing>185418</northing>
+<lat>51.55468</lat>
+<lng>-0.25591195</lng>
+
+<osgr>TQ210854</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.08006" available="true">
+<corridor>A406</corridor>
+<location>Neasden Ln North/A406</location>
+<currentView>Neasden Lane North</currentView>
+<file>0000108006.jpg</file>
+<captureTime>2012-10-01T20:13:34Z</captureTime>
+<easting>521145</easting>
+
+<northing>186085</northing>
+<lat>51.560646</lat>
+<lng>-0.25376493</lng>
+<osgr>TQ211861</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.08007" available="false">
+<corridor>No Corridor</corridor>
+<location>Forty Lane/Blackbird Hill</location>
+<currentView>Forty Lane W/B</currentView>
+
+<file>0000108007.jpg</file>
+<unavailabilityCause>In use keeping London moving</unavailabilityCause>
+<captureTime></captureTime>
+<easting>520338</easting>
+<northing>186637</northing>
+<lat>51.565777</lat>
+<lng>-0.265212</lng>
+<osgr>TQ203866</osgr>
+<postCode></postCode>
+</camera>
+
+<camera id="00001.08860" available="true">
+<corridor></corridor>
+<location>Oxford St/Vere St</location>
+<currentView>West towards Marble Arch</currentView>
+<file>0000108860.jpg</file>
+<captureTime>2012-10-01T20:13:22Z</captureTime>
+<easting>528660</easting>
+<northing>181156</northing>
+<lat>51.514687</lat>
+<lng>-0.14721397</lng>
+
+<osgr>TQ287812</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.08865" available="true">
+<corridor>A41</corridor>
+<location>Maida Vale/St Johns Wood Rd</location>
+<currentView>Maida Vale N/B</currentView>
+<file>0000108865.jpg</file>
+<captureTime>2012-10-01T20:13:08Z</captureTime>
+<easting>526472</easting>
+
+<northing>182340</northing>
+<lat>51.52582</lat>
+<lng>-0.17830417</lng>
+<osgr>TQ265823</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.08863" available="true">
+<corridor>Inner Ring</corridor>
+<location>A4202 Park Lane/North Row</location>
+<currentView>South (Park Lane twds Hyde Park Corner)</currentView>
+
+<file>0000108863.jpg</file>
+<captureTime>2012-10-01T20:13:25Z</captureTime>
+<easting>527926</easting>
+<northing>180916</northing>
+<lat>51.512695</lat>
+<lng>-0.157873</lng>
+<osgr>TQ279809</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.08850" available="true">
+
+<corridor>Inner Ring</corridor>
+<location>Marble Arch</location>
+<currentView>Marble Arch</currentView>
+<file>0000108850.jpg</file>
+<captureTime>2012-10-01T20:11:52Z</captureTime>
+<easting>527764</easting>
+<northing>180977</northing>
+<lat>51.51328</lat>
+<lng>-0.16018416</lng>
+
+<osgr>TQ278810</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.08851" available="false">
+<corridor>Inner Ring</corridor>
+<location>A5 Edgware Rd/Nutford Pl</location>
+<currentView>A5 Edgeware Rd N/B</currentView>
+<file>0000108851.jpg</file>
+<unavailabilityCause>In use keeping London moving</unavailabilityCause>
+<captureTime></captureTime>
+<easting>527424</easting>
+
+<northing>181331</northing>
+<lat>51.51654</lat>
+<lng>-0.1649533</lng>
+<osgr>TQ274813</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.08858" available="false">
+<corridor></corridor>
+<location>Oxford St/Orchard St</location>
+<currentView>East towards Oxford Circus</currentView>
+<file>0000108858.jpg</file>
+
+<unavailabilityCause>In use keeping London moving</unavailabilityCause>
+<captureTime></captureTime>
+<easting>528185</easting>
+<northing>181062</northing>
+<lat>51.51395</lat>
+<lng>-0.15408967</lng>
+<osgr>TQ282811</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.08853" available="true">
+<corridor>Inner Ring</corridor>
+
+<location>Edgware Road / Praed Street</location>
+<currentView>Edgware Rd N/B @ Praed St</currentView>
+<file>0000108853.jpg</file>
+<captureTime>2012-10-01T20:13:09Z</captureTime>
+<easting>527125</easting>
+<northing>181628</northing>
+<lat>51.519276</lat>
+<lng>-0.16915308</lng>
+<osgr>TQ271816</osgr>
+
+<postCode></postCode>
+</camera>
+<camera id="00001.08854" available="true">
+<corridor>A41</corridor>
+<location>Edgware Rd/Harrow Rd</location>
+<currentView>Harrow Rd Flyover</currentView>
+<file>0000108854.jpg</file>
+<captureTime>2012-10-01T20:09:34Z</captureTime>
+<easting>526985</easting>
+<northing>181746</northing>
+
+<lat>51.520367</lat>
+<lng>-0.17112727</lng>
+<osgr>TQ270817</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.08100" available="true">
+<corridor>A406</corridor>
+<location>A118 Romford Rd/A406 Ncr</location>
+<currentView>A118 East</currentView>
+<file>0000108100.jpg</file>
+
+<captureTime>2012-10-01T20:13:08Z</captureTime>
+<easting>543247</easting>
+<northing>186184</northing>
+<lat>51.55636</lat>
+<lng>0.06490906</lng>
+<osgr>TQ432862</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.08955" available="false">
+<corridor>A41</corridor>
+
+<location>Swiss Cottage/Finchley Rd</location>
+<currentView>Swiss Cottage Gyratory</currentView>
+<file>0000108955.jpg</file>
+<unavailabilityCause>In use keeping London moving</unavailabilityCause>
+<captureTime></captureTime>
+<easting>526649</easting>
+<northing>184368</northing>
+<lat>51.544006</lat>
+<lng>-0.17502533</lng>
+
+<osgr>TQ266844</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.08956" available="false">
+<corridor>A41</corridor>
+<location>Finchley Rd/Frognal Ct</location>
+<currentView>Finchley Rd </currentView>
+<file>0000108956.jpg</file>
+<unavailabilityCause>In use keeping London moving</unavailabilityCause>
+<captureTime></captureTime>
+<easting>526225</easting>
+
+<northing>184850</northing>
+<lat>51.54843</lat>
+<lng>-0.18096359</lng>
+<osgr>TQ262849</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.08958" available="true">
+<corridor>A41</corridor>
+<location>Finchley Road / West End Lane</location>
+<currentView>A41 Finchley Rd S/B</currentView>
+
+<file>0000108958.jpg</file>
+<captureTime>2012-10-01T20:10:42Z</captureTime>
+<easting>525652</easting>
+<northing>185335</northing>
+<lat>51.552917</lat>
+<lng>-0.18904985</lng>
+<osgr>TQ257853</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.08950" available="true">
+
+<corridor>No Corridor</corridor>
+<location>Portman Square/Orchard St</location>
+<currentView>Orchard St</currentView>
+<file>0000108950.jpg</file>
+<captureTime>2012-10-01T20:11:39Z</captureTime>
+<easting>528144</easting>
+<northing>181228</northing>
+<lat>51.51545</lat>
+<lng>-0.1546199</lng>
+
+<osgr>TQ281812</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.08965" available="true">
+<corridor>A41</corridor>
+<location>Finchley Road/Canfield Place</location>
+<currentView>Finchley Rd North</currentView>
+<file>0000108965.jpg</file>
+<captureTime>2012-10-01T20:13:00Z</captureTime>
+<easting>526472</easting>
+
+<northing>184527</northing>
+<lat>51.545475</lat>
+<lng>-0.17751929</lng>
+<osgr>TQ265845</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.08967" available="true">
+<corridor>A41</corridor>
+<location>Swiss Cottage/Finchley Rd</location>
+<currentView>Finchley Rd - North</currentView>
+
+<file>0000108967.jpg</file>
+<captureTime>2012-10-01T20:10:17Z</captureTime>
+<easting>526649</easting>
+<northing>184358</northing>
+<lat>51.543915</lat>
+<lng>-0.17502892</lng>
+<osgr>TQ266844</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.08960" available="true">
+
+<corridor>A41</corridor>
+<location>Finchley Road/Hendon Way</location>
+<currentView>defaultPresetName</currentView>
+<file>0000108960.jpg</file>
+<captureTime>2012-10-01T20:13:00Z</captureTime>
+<easting>525093</easting>
+<northing>186031</northing>
+<lat>51.5593</lat>
+<lng>-0.1968609</lng>
+
+<osgr>TQ251860</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.08980" available="false">
+<corridor>A41</corridor>
+<location>Hendon Way/Queens Road</location>
+<currentView>Hendon Way S/B @ Queens Rd</currentView>
+<file>0000108980.jpg</file>
+<unavailabilityCause>In use keeping London moving</unavailabilityCause>
+<captureTime></captureTime>
+<easting>522957</easting>
+
+<northing>188568</northing>
+<lat>51.58257</lat>
+<lng>-0.2267706</lng>
+<osgr>TQ230886</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.08925" available="true">
+<corridor>A41</corridor>
+<location>Park Rd / Gloucester Pl</location>
+<currentView>Preset 1</currentView>
+
+<file>0000108925.jpg</file>
+<captureTime>2012-10-01T20:12:38Z</captureTime>
+<easting>527641</easting>
+<northing>182362</northing>
+<lat>51.525757</lat>
+<lng>-0.16145453</lng>
+<osgr>TQ276824</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.08926" available="true">
+
+<corridor>A41</corridor>
+<location>Wellington Rd/St Johns Wd Rd</location>
+<currentView>Wellington Rd N/B</currentView>
+<file>0000108926.jpg</file>
+<captureTime>2012-10-01T20:12:44Z</captureTime>
+<easting>527113</easting>
+<northing>182824</northing>
+<lat>51.530025</lat>
+<lng>-0.16889481</lng>
+
+<osgr>TQ271828</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.07929" available="true">
+<corridor>A41</corridor>
+<location>A41 Hendon Way/Cricklewood Lane</location>
+<currentView>North (A41 Hendon Way twds Brent Cross)</currentView>
+<file>0000107929.jpg</file>
+<captureTime>2012-10-01T20:13:25Z</captureTime>
+<easting>524631</easting>
+
+<northing>186247</northing>
+<lat>51.56134</lat>
+<lng>-0.2034454</lng>
+<osgr>TQ246862</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.07927" available="true">
+<corridor>No Corridor</corridor>
+<location>A5 Cricklewood Broadway</location>
+<currentView>Cricklewood Bway N/B</currentView>
+
+<file>0000107927.jpg</file>
+<captureTime>2012-10-01T20:13:19Z</captureTime>
+<easting>523803</easting>
+<northing>185717</northing>
+<lat>51.55676</lat>
+<lng>-0.21557038</lng>
+<osgr>TQ238857</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.07925" available="true">
+
+<corridor>No Corridor</corridor>
+<location>A5 Kilburn High Rd/Willesden Ln</location>
+<currentView>Kilburn H Rd S/B</currentView>
+<file>0000107925.jpg</file>
+<captureTime>2012-10-01T20:13:13Z</captureTime>
+<easting>525084</easting>
+<northing>184078</northing>
+<lat>51.541748</lat>
+<lng>-0.19768445</lng>
+
+<osgr>TQ251841</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.08305" available="true">
+<corridor></corridor>
+<location>HIGH ROAD LEYTONSTONE/BUSH ROAD</location>
+<currentView>East (Green Man Rbt and A12 Tunnel East portal)</currentView>
+<file>0000108305.jpg</file>
+<captureTime>2012-10-01T20:13:34Z</captureTime>
+<easting>539796</easting>
+<northing>187720</northing>
+
+<lat>51.571026</lat>
+<lng>0.015773462</lng>
+<osgr>TQ398877</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.08304" available="true">
+<corridor></corridor>
+<location>HIGH RD LEYTONSTONE G&amp;#039;SBRGH RD</location>
+<currentView>North (High Rd twds Green Man Rbt)</currentView>
+<file>0000108304.jpg</file>
+
+<captureTime>2012-10-01T20:13:10Z</captureTime>
+<easting>539619</easting>
+<northing>187578</northing>
+<lat>51.569794</lat>
+<lng>0.013164805</lng>
+<osgr>TQ396876</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.08303" available="true">
+<corridor>A12</corridor>
+
+<location>A12 Eastern Av/Whalebone Ln</location>
+<currentView>Whalebone Ln S/B</currentView>
+<file>0000108303.jpg</file>
+<captureTime>2012-10-01T20:12:48Z</captureTime>
+<easting>548447</easting>
+<northing>189096</northing>
+<lat>51.58118</lat>
+<lng>0.14109103</lng>
+<osgr>TQ484891</osgr>
+
+<postCode></postCode>
+</camera>
+<camera id="00001.08302" available="false">
+<corridor>A12</corridor>
+<location>A12 Eastern Ave/Gants Hill R-About</location>
+<currentView>A12 Eastern Ave W/B</currentView>
+<file>0000108302.jpg</file>
+<unavailabilityCause>In use keeping London moving</unavailabilityCause>
+<captureTime></captureTime>
+<easting>543311</easting>
+<northing>188406</northing>
+
+<lat>51.57631</lat>
+<lng>0.06673687</lng>
+<osgr>TQ433884</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.08306" available="true">
+<corridor></corridor>
+<location>HOLLYBUSH HILL G&amp;#039;MAN R&amp;#039;BOUT</location>
+<currentView>Greenman R'bout N/B</currentView>
+<file>0000108306.jpg</file>
+
+<captureTime>2012-10-01T20:13:14Z</captureTime>
+<easting>539834</easting>
+<northing>187937</northing>
+<lat>51.572968</lat>
+<lng>0.0164077</lng>
+<osgr>TQ398879</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.08300" available="true">
+<corridor></corridor>
+<location>A406 CROOKED BILLET</location>
+
+<currentView>Unknown -1</currentView>
+<file>0000108300.jpg</file>
+<captureTime>2012-10-01T20:12:18Z</captureTime>
+<easting>537461</easting>
+<northing>190964</northing>
+<lat>51.60075</lat>
+<lng>-0.016627861</lng>
+<osgr>TQ375910</osgr>
+<postCode></postCode>
+
+</camera>
+<camera id="00001.08301" available="true">
+<corridor></corridor>
+<location>A406 WATERWORKS RDB</location>
+<currentView>A406 East/Bd</currentView>
+<file>0000108301.jpg</file>
+<captureTime>2012-10-01T20:08:37Z</captureTime>
+<easting>539372</easting>
+<northing>190397</northing>
+<lat>51.595184</lat>
+
+<lng>0.010721201</lng>
+<osgr>TQ394904</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.07600" available="true">
+<corridor>No Corridor</corridor>
+<location>Kingsway/High Holborn</location>
+<currentView>A40 Holborn E/B</currentView>
+<file>0000107600.jpg</file>
+<captureTime>2012-10-01T20:11:46Z</captureTime>
+
+<easting>530501</easting>
+<northing>181535</northing>
+<lat>51.51767</lat>
+<lng>-0.12055771</lng>
+<osgr>TQ305815</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.09096" available="true">
+<corridor>A406</corridor>
+<location>Pier Road/Woolwich Ferry</location>
+
+<currentView>Pier Rd W/B</currentView>
+<file>0000109096.jpg</file>
+<captureTime>2012-10-01T20:13:00Z</captureTime>
+<easting>543342</easting>
+<northing>179793</northing>
+<lat>51.49891</lat>
+<lng>0.0636799</lng>
+<osgr>TQ433798</osgr>
+<postCode></postCode>
+
+</camera>
+<camera id="00001.09088" available="true">
+<corridor></corridor>
+<location>Lea Valley/Cabinet Way</location>
+<currentView>West (A406 twds Edmonton)</currentView>
+<file>0000109088.jpg</file>
+<captureTime>2012-10-01T20:12:43Z</captureTime>
+<easting>536478</easting>
+<northing>191996</northing>
+<lat>51.610264</lat>
+
+<lng>-0.030410709</lng>
+<osgr>TQ365920</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.09080" available="true">
+<corridor>A406</corridor>
+<location>Sterling Way Slip/A1010 Fore St</location>
+<currentView>A406 E/B</currentView>
+<file>0000109080.jpg</file>
+<captureTime>2012-10-01T20:12:47Z</captureTime>
+
+<easting>534126</easting>
+<northing>192442</northing>
+<lat>51.614834</lat>
+<lng>-0.06418597</lng>
+<osgr>TQ341924</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.09051" available="true">
+<corridor>A406</corridor>
+<location>A406/Great North Way</location>
+
+<currentView>A406 North Cir. Rd E/B</currentView>
+<file>0000109051.jpg</file>
+<captureTime>2012-10-01T20:12:44Z</captureTime>
+<easting>524339</easting>
+<northing>189272</northing>
+<lat>51.588593</lat>
+<lng>-0.20658587</lng>
+<osgr>TQ243893</osgr>
+<postCode></postCode>
+
+</camera>
+<camera id="00001.09050" available="true">
+<corridor>A406</corridor>
+<location>A406/A1 Falloden Way</location>
+<currentView>A1</currentView>
+<file>0000109050.jpg</file>
+<captureTime>2012-10-01T20:08:50Z</captureTime>
+<easting>525036</easting>
+<northing>189402</northing>
+<lat>51.589607</lat>
+
+<lng>-0.19648397</lng>
+<osgr>TQ250894</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.09055" available="true">
+<corridor>A205</corridor>
+<location>John Wilson St/New Ferry Approach</location>
+<currentView>Woolwich Ferry South Terminal entrance</currentView>
+<file>0000109055.jpg</file>
+<captureTime>2012-10-01T20:13:10Z</captureTime>
+
+<easting>543222</easting>
+<northing>179186</northing>
+<lat>51.493484</lat>
+<lng>0.06170617</lng>
+<osgr>TQ432792</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.09056" available="true">
+<corridor>A406</corridor>
+<location>Finchley High Rd/A406</location>
+
+<currentView>West (A406 twds Brent Cross)</currentView>
+<file>0000109056.jpg</file>
+<captureTime>2012-10-01T20:13:07Z</captureTime>
+<easting>526564</easting>
+<northing>190736</northing>
+<lat>51.601254</lat>
+<lng>-0.17395848</lng>
+<osgr>TQ266907</osgr>
+<postCode></postCode>
+
+</camera>
+<camera id="00001.09053" available="true">
+<corridor>A406</corridor>
+<location>A406/Golders Grn Rd</location>
+<currentView>A406 N/B</currentView>
+<file>0000109053.jpg</file>
+<captureTime>2012-10-01T20:13:33Z</captureTime>
+<easting>523984</easting>
+<northing>188400</northing>
+<lat>51.580833</lat>
+
+<lng>-0.21201515</lng>
+<osgr>TQ240884</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.09054" available="true">
+<corridor>A406</corridor>
+<location>A504 Est End Rd/A406 Nth Circ Rd</location>
+<currentView>West (A406 twds Henlys Corner)</currentView>
+<file>0000109054.jpg</file>
+<captureTime>2012-10-01T20:13:04Z</captureTime>
+
+<easting>525805</easting>
+<northing>189902</northing>
+<lat>51.59393</lat>
+<lng>-0.18521033</lng>
+<osgr>TQ258899</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.09057" available="true">
+<corridor>A406</corridor>
+<location>A406 Pinkham Way/Colney Hatch Ln</location>
+
+<currentView>NCR East</currentView>
+<file>0000109057.jpg</file>
+<captureTime>2012-10-01T20:13:34Z</captureTime>
+<easting>528136</easting>
+<northing>191327</northing>
+<lat>51.60621</lat>
+<lng>-0.1510577</lng>
+<osgr>TQ281913</osgr>
+<postCode></postCode>
+
+</camera>
+<camera id="00001.09049" available="true">
+<corridor></corridor>
+<location>A406 NCR Henlys Corner</location>
+<currentView>South (A598 Finchley Rd twds Golders Green)</currentView>
+<file>0000109049.jpg</file>
+<captureTime>2012-10-01T20:13:26Z</captureTime>
+<easting>524786</easting>
+<northing>189435</northing>
+<lat>51.58996</lat>
+
+<lng>-0.20007908</lng>
+<osgr>TQ248894</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.09078" available="false">
+<corridor>A406</corridor>
+<location>Sterling Way Slip/Victoria St</location>
+<currentView>Sterling Way Slip E/B</currentView>
+<file>0000109078.jpg</file>
+<unavailabilityCause>In use keeping London moving</unavailabilityCause>
+
+<captureTime></captureTime>
+<easting>533852</easting>
+<northing>192403</northing>
+<lat>51.614548</lat>
+<lng>-0.06815583</lng>
+<osgr>TQ339924</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.09060" available="true">
+<corridor></corridor>
+<location>A406 North Circular Rd/Telford Rd/Bounds Green Rd</location>
+
+<currentView>A406 West</currentView>
+<file>0000109060.jpg</file>
+<captureTime>2012-10-01T20:13:25Z</captureTime>
+<easting>529203</easting>
+<northing>191913</northing>
+<lat>51.611233</lat>
+<lng>-0.13544288</lng>
+<osgr>TQ292919</osgr>
+<postCode></postCode>
+
+</camera>
+<camera id="00001.03708" available="true">
+<corridor>A20</corridor>
+<location>Lee High Rd/Old Rd</location>
+<currentView>East (twds Lee Green)</currentView>
+<file>0000103708.jpg</file>
+<captureTime>2012-10-01T20:13:11Z</captureTime>
+<easting>539244</easting>
+<northing>175192</northing>
+<lat>51.458588</lat>
+
+<lng>0.0028692856</lng>
+<osgr>TQ392752</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.03707" available="true">
+<corridor>A20</corridor>
+<location>Lewisham High St/Rennell St</location>
+<currentView>West (Loampit Vale Roundabout)</currentView>
+<file>0000103707.jpg</file>
+<captureTime>2012-10-01T20:12:51Z</captureTime>
+
+<easting>538281</easting>
+<northing>175750</northing>
+<lat>51.463837</lat>
+<lng>-0.010764872</lng>
+<osgr>TQ383758</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.03721" available="true">
+<corridor>A20</corridor>
+<location>Court Rd/Sidcup Rd</location>
+
+<currentView>A20 South/East</currentView>
+<file>0000103721.jpg</file>
+<captureTime>2012-10-01T20:13:17Z</captureTime>
+<easting>542584</easting>
+<northing>173113</northing>
+<lat>51.439075</lat>
+<lng>0.050074738</lng>
+<osgr>TQ426731</osgr>
+<postCode></postCode>
+
+</camera>
+<camera id="00001.03720" available="true">
+<corridor>A205</corridor>
+<location>A205 Westhorne Av/Sidcup Rd</location>
+<currentView>East (A205 twds Shooters Hill)</currentView>
+<file>0000103720.jpg</file>
+<captureTime>2012-10-01T20:13:11Z</captureTime>
+<easting>541137</easting>
+<northing>174294</northing>
+<lat>51.45005</lat>
+
+<lng>0.029740442</lng>
+<osgr>TQ411743</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.03653" available="false">
+<corridor>A2</corridor>
+<location>Old Kent Rd/Albany Rd</location>
+<currentView>A2 N/B</currentView>
+<file>0000103653.jpg</file>
+<unavailabilityCause>In use keeping London moving</unavailabilityCause>
+
+<captureTime></captureTime>
+<easting>533631</easting>
+<northing>178328</northing>
+<lat>51.48812</lat>
+<lng>-0.076688044</lng>
+<osgr>TQ336783</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.03665" available="true">
+<corridor>A2</corridor>
+<location>Deptford Broadway/Deptford Ch St</location>
+
+<currentView>A2 Dept. Bdy E/B</currentView>
+<file>0000103665.jpg</file>
+<captureTime>2012-10-01T20:11:52Z</captureTime>
+<easting>537314</easting>
+<northing>176931</northing>
+<lat>51.474686</lat>
+<lng>-0.024217864</lng>
+<osgr>TQ373769</osgr>
+<postCode></postCode>
+
+</camera>
+<camera id="00001.03680" available="true">
+<corridor>A2</corridor>
+<location>Shooters Hill Rd/Charlton Way</location>
+<currentView>East (A2 twds Shooters Hill)</currentView>
+<file>0000103680.jpg</file>
+<captureTime>2012-10-01T20:13:02Z</captureTime>
+<easting>539021</easting>
+<northing>176671</northing>
+<lat>51.47193</lat>
+
+<lng>2.4270378E-4</lng>
+<osgr>TQ390767</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.03856" available="false">
+<corridor>No Corridor</corridor>
+<location>Denmark Hill/Love Walk</location>
+<currentView>North (twds Camberwell Green)</currentView>
+<file>0000103856.jpg</file>
+<unavailabilityCause>In use keeping London moving</unavailabilityCause>
+
+<captureTime></captureTime>
+<easting>532543</easting>
+<northing>176419</northing>
+<lat>51.471222</lat>
+<lng>-0.09306485</lng>
+<osgr>TQ325764</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.03858" available="false">
+<corridor>No Corridor</corridor>
+<location>Denmark Hill/Champion Pk</location>
+
+<currentView>A215 Denmark Hill S/B</currentView>
+<file>0000103858.jpg</file>
+<unavailabilityCause>In use keeping London moving</unavailabilityCause>
+<captureTime></captureTime>
+<easting>532707</easting>
+<northing>175964</northing>
+<lat>51.467094</lat>
+<lng>-0.09087573</lng>
+<osgr>TQ327760</osgr>
+
+<postCode></postCode>
+</camera>
+<camera id="00001.03857" available="false">
+<corridor>No Corridor</corridor>
+<location>Denmark Hill/De Crespigny Pk</location>
+<currentView>A215 Denmark Hill N/B</currentView>
+<file>0000103857.jpg</file>
+<unavailabilityCause>In use keeping London moving</unavailabilityCause>
+<captureTime></captureTime>
+<easting>532561</easting>
+<northing>176268</northing>
+
+<lat>51.46986</lat>
+<lng>-0.092862435</lng>
+<osgr>TQ326763</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.03835" available="true">
+<corridor>A21</corridor>
+<location>Farnborough Common/Croydon Rd</location>
+<currentView>North (A21 twds Bromley and A232 twds Keston Mark)</currentView>
+<file>0000103835.jpg</file>
+
+<captureTime>2012-10-01T20:13:15Z</captureTime>
+<easting>543022</easting>
+<northing>165020</northing>
+<lat>51.36624</lat>
+<lng>0.05311252</lng>
+<osgr>TQ430650</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.03825" available="true">
+<corridor>No Corridor</corridor>
+
+<location>Camberwell Rd/Albany Rd</location>
+<currentView>defaultPresetName</currentView>
+<file>0000103825.jpg</file>
+<captureTime>2012-10-01T20:12:38Z</captureTime>
+<easting>532404</easting>
+<northing>177659</northing>
+<lat>51.482395</lat>
+<lng>-0.09460062</lng>
+<osgr>TQ324777</osgr>
+
+<postCode></postCode>
+</camera>
+<camera id="00001.03824" available="true">
+<corridor>Future Consideration</corridor>
+<location>Wickham Rd/Monks Orchard Rd</location>
+<currentView>Nice Road</currentView>
+<file>0000103824.jpg</file>
+<captureTime>2012-10-01T20:12:35Z</captureTime>
+<easting>537303</easting>
+<northing>166094</northing>
+
+<lat>51.377304</lat>
+<lng>-0.028572053</lng>
+<osgr>TQ373661</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.03823" available="true">
+<corridor>A21</corridor>
+<location>Tweedy Rd/Florence Rd</location>
+<currentView>South (A21 twds Bromley Nth station)</currentView>
+<file>0000103823.jpg</file>
+
+<captureTime>2012-10-01T20:12:35Z</captureTime>
+<easting>540255</easting>
+<northing>169640</northing>
+<lat>51.408447</lat>
+<lng>0.015214909</lng>
+<osgr>TQ403696</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.03822" available="true">
+<corridor>A21</corridor>
+
+<location>Molesworth St/Riversdale shops</location>
+<currentView>North (A21 twds A20 Loampit Vale Roundabout)</currentView>
+<file>0000103822.jpg</file>
+<captureTime>2012-10-01T20:13:04Z</captureTime>
+<easting>538108</easting>
+<northing>175523</northing>
+<lat>51.461838</lat>
+<lng>-0.01334226</lng>
+<osgr>TQ381755</osgr>
+
+<postCode></postCode>
+</camera>
+<camera id="00001.03826" available="true">
+<corridor>A21</corridor>
+<location>Bromley Rd/Oakridge Ln</location>
+<currentView>Bromley Rd N/B</currentView>
+<file>0000103826.jpg</file>
+<captureTime>2012-10-01T20:12:35Z</captureTime>
+<easting>538831</easting>
+<northing>171446</northing>
+
+<lat>51.425026</lat>
+<lng>-0.004539327</lng>
+<osgr>TQ388714</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.03819" available="true">
+<corridor>A21</corridor>
+<location>A21 London Rd/Tweedy Rd</location>
+<currentView>A21 Tweedy Road (twds Bromley North station)</currentView>
+<file>0000103819.jpg</file>
+
+<captureTime>2012-10-01T20:12:49Z</captureTime>
+<easting>539951</easting>
+<northing>169686</northing>
+<lat>51.408936</lat>
+<lng>0.010865021</lng>
+<osgr>TQ400697</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.03767" available="true">
+<corridor>A205</corridor>
+
+<location>A205/Verdant Lane</location>
+<currentView>East (A205 twds Eltham)</currentView>
+<file>0000103767.jpg</file>
+<captureTime>2012-10-01T20:12:48Z</captureTime>
+<easting>539410</easting>
+<northing>173705</northing>
+<lat>51.445183</lat>
+<lng>0.0046716277</lng>
+<osgr>TQ394737</osgr>
+
+<postCode></postCode>
+</camera>
+<camera id="00001.03768" available="true">
+<corridor>A20</corridor>
+<location>A20 Sidcup Rd/County Gate</location>
+<currentView>East (A20 twds Frognal Corner)</currentView>
+<file>0000103768.jpg</file>
+<captureTime>2012-10-01T20:12:32Z</captureTime>
+<easting>544433</easting>
+<northing>172373</northing>
+
+<lat>51.431957</lat>
+<lng>0.076357305</lng>
+<osgr>TQ444724</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.03769" available="true">
+<corridor>A20</corridor>
+<location>A20 Sidcup Bypass/Sevenoaks Way</location>
+<currentView>East (A20 twds M25)</currentView>
+<file>0000103769.jpg</file>
+
+<captureTime>2012-10-01T20:12:33Z</captureTime>
+<easting>546986</easting>
+<northing>170387</northing>
+<lat>51.413456</lat>
+<lng>0.11223371</lng>
+<osgr>TQ470704</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.03764" available="true">
+<corridor>A20</corridor>
+
+<location>A20 Sidcup Rd/Coyler Close</location>
+<currentView>A20 South/East</currentView>
+<file>0000103764.jpg</file>
+<captureTime>2012-10-01T20:13:10Z</captureTime>
+<easting>543500</easting>
+<northing>172697</northing>
+<lat>51.435104</lat>
+<lng>0.063076235</lng>
+<osgr>TQ435727</osgr>
+
+<postCode></postCode>
+</camera>
+<camera id="00001.03766" available="true">
+<corridor>A20</corridor>
+<location>A20 Sidcup Bypass/Perry St</location>
+<currentView>East (A20 twds M20)</currentView>
+<file>0000103766.jpg</file>
+<captureTime>2012-10-01T20:13:13Z</captureTime>
+<easting>545996</easting>
+<northing>170899</northing>
+
+<lat>51.418312</lat>
+<lng>0.098218806</lng>
+<osgr>TQ460709</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.03770" available="true">
+<corridor>A205</corridor>
+<location>A205 Poynders Rd/Kings Ave</location>
+<currentView>Poynders Road North</currentView>
+<file>0000103770.jpg</file>
+
+<captureTime>2012-10-01T20:13:05Z</captureTime>
+<easting>529869</easting>
+<northing>173757</northing>
+<lat>51.447918</lat>
+<lng>-0.13251877</lng>
+<osgr>TQ299738</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.03749" available="true">
+<corridor>A205</corridor>
+
+<location>A205 Woolwich Common Rd/N&amp;#039;gale pl</location>
+<currentView>North (A205 twds Woolwich Ferry)</currentView>
+<file>0000103749.jpg</file>
+<captureTime>2012-10-01T20:12:23Z</captureTime>
+<easting>543279</easting>
+<northing>177942</northing>
+<lat>51.482292</lat>
+<lng>0.062022246</lng>
+
+<osgr>TQ433779</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.03747" available="true">
+<corridor>A205</corridor>
+<location>Grand Depot Rd/John Wilson St</location>
+<currentView>South (twds Shooters Hill)</currentView>
+<file>0000103747.jpg</file>
+<captureTime>2012-10-01T20:12:24Z</captureTime>
+<easting>543367</easting>
+
+<northing>178520</northing>
+<lat>51.48746</lat>
+<lng>0.06352315</lng>
+<osgr>TQ434785</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.03748" available="false">
+<corridor>A205</corridor>
+<location>A205 Academy Rd/Shooters Hill</location>
+<currentView>South (A205 twds Eltham)</currentView>
+
+<file>0000103748.jpg</file>
+<unavailabilityCause>In use keeping London moving</unavailabilityCause>
+<captureTime></captureTime>
+<easting>542839</easting>
+<northing>176695</northing>
+<lat>51.471195</lat>
+<lng>0.055186316</lng>
+<osgr>TQ428767</osgr>
+<postCode></postCode>
+</camera>
+
+<camera id="00001.03758" available="false">
+<corridor></corridor>
+<location>A205 Tulse Hill/Thurlow Park Rd</location>
+<currentView>Thurlow Park Rd</currentView>
+<file>0000103758.jpg</file>
+<unavailabilityCause>Unavailable for Operational reasons</unavailabilityCause>
+<captureTime></captureTime>
+<easting>531709</easting>
+<northing>173030</northing>
+<lat>51.44096</lat>
+
+<lng>-0.1063263</lng>
+<osgr>TQ317730</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.03759" available="true">
+<corridor></corridor>
+<location>Christchurch Rd/Streatham Hill</location>
+<currentView>Streatham Hill - Sth</currentView>
+<file>0000103759.jpg</file>
+<captureTime>2012-10-01T20:11:33Z</captureTime>
+<easting>530455</easting>
+
+<northing>173455</northing>
+<lat>51.44507</lat>
+<lng>-0.12420211</lng>
+<osgr>TQ305735</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.03756" available="true">
+<corridor>A205</corridor>
+<location>A205 London Rd/Dartmouth Rd</location>
+<currentView>West (A205 twds Dulwich)</currentView>
+
+<file>0000103756.jpg</file>
+<captureTime>2012-10-01T20:13:15Z</captureTime>
+<easting>535365</easting>
+<northing>172910</northing>
+<lat>51.43902</lat>
+<lng>-0.053801224</lng>
+<osgr>TQ354729</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.03752" available="false">
+
+<corridor>A205</corridor>
+<location>Catford One Way/Rushey Green</location>
+<currentView>Rushy Green S/Bd</currentView>
+<file>0000103752.jpg</file>
+<unavailabilityCause>In use keeping London moving</unavailabilityCause>
+<captureTime></captureTime>
+<easting>537688</easting>
+<northing>173631</northing>
+<lat>51.44494</lat>
+
+<lng>-0.020119945</lng>
+<osgr>TQ377736</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.03751" available="true">
+<corridor>A205</corridor>
+<location>A205 Brownhill Rd/Plassey Rd</location>
+<currentView>A205 Brownhill Rd W/B</currentView>
+<file>0000103751.jpg</file>
+<captureTime>2012-10-01T20:12:50Z</captureTime>
+
+<easting>537886</easting>
+<northing>173740</northing>
+<lat>51.44587</lat>
+<lng>-0.017230235</lng>
+<osgr>TQ379737</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.03950" available="true">
+<corridor>No Corridor</corridor>
+<location>Baring Rd/Le May Avenue</location>
+
+<currentView>South (Baring Rd twds Bromley)</currentView>
+<file>0000103950.jpg</file>
+<captureTime>2012-10-01T20:13:10Z</captureTime>
+<easting>540612</easting>
+<northing>172289</northing>
+<lat>51.432163</lat>
+<lng>0.021394469</lng>
+<osgr>TQ406723</osgr>
+<postCode></postCode>
+
+</camera>
+<camera id="00001.03902" available="true">
+<corridor>A205</corridor>
+<location>Thurlow Park Road/Croxted Road</location>
+<currentView>A205 West</currentView>
+<file>0000103902.jpg</file>
+<captureTime>2012-10-01T20:12:36Z</captureTime>
+<easting>532657</easting>
+<northing>173077</northing>
+<lat>51.441162</lat>
+
+<lng>-0.092676826</lng>
+<osgr>TQ327731</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.03905" available="true">
+<corridor>A205</corridor>
+<location>A205 Dulwich Common/Collage Rd</location>
+<currentView>West (A205 twds Streatham)</currentView>
+<file>0000103905.jpg</file>
+<captureTime>2012-10-01T20:12:23Z</captureTime>
+
+<easting>533207</easting>
+<northing>173151</northing>
+<lat>51.441696</lat>
+<lng>-0.08474022</lng>
+<osgr>TQ332732</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.04506" available="true">
+<corridor>A23</corridor>
+<location>Acre Lane/Coldharbour Lane</location>
+
+<currentView>A23 Brixton Rd N/B</currentView>
+<file>0000104506.jpg</file>
+<captureTime>2012-10-01T20:12:43Z</captureTime>
+<easting>531004</easting>
+<northing>175285</northing>
+<lat>51.461388</lat>
+<lng>-0.11562981</lng>
+<osgr>TQ310753</osgr>
+<postCode></postCode>
+
+</camera>
+<camera id="00001.04503" available="true">
+<corridor>A23</corridor>
+<location>Camberwell New Rd/Brixton Rd</location>
+<currentView>defaultPresetName</currentView>
+<file>0000104503.jpg</file>
+<captureTime>2012-10-01T20:13:15Z</captureTime>
+<easting>531290</easting>
+<northing>177498</northing>
+<lat>51.48121</lat>
+
+<lng>-0.11069393</lng>
+<osgr>TQ313775</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.03865" available="true">
+<corridor>No Corridor</corridor>
+<location>Herne Hill/Norwood Rd</location>
+<currentView>West (A2214 Dulwich Rd twds Brixton)</currentView>
+<file>0000103865.jpg</file>
+<captureTime>2012-10-01T20:12:22Z</captureTime>
+
+<easting>532023</easting>
+<northing>174285</northing>
+<lat>51.452164</lat>
+<lng>-0.10134331</lng>
+<osgr>TQ320743</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.04514" available="true">
+<corridor>A23</corridor>
+<location>A23 Streatham H Rd/Mitcham Ln</location>
+
+<currentView>defaultPresetName</currentView>
+<file>0000104514.jpg</file>
+<captureTime>2012-10-01T20:09:40Z</captureTime>
+<easting>530027</easting>
+<northing>171686</northing>
+<lat>51.429268</lat>
+<lng>-0.13100629</lng>
+<osgr>TQ300717</osgr>
+<postCode></postCode>
+
+</camera>
+<camera id="00001.04513" available="true">
+<corridor></corridor>
+<location>A23 Streatham Hill/Sternhold Ave</location>
+<currentView>Streatham Hill - Nth</currentView>
+<file>0000104513.jpg</file>
+<captureTime>2012-10-01T20:09:52Z</captureTime>
+<easting>530297</easting>
+<northing>172687</northing>
+<lat>51.4382</lat>
+
+<lng>-0.12675676</lng>
+<osgr>TQ303727</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.04300" available="true">
+<corridor>Inner Ring</corridor>
+<location>Kennington Lane</location>
+<currentView>South Lambeth Rd</currentView>
+<file>0000104300.jpg</file>
+<captureTime>2012-10-01T20:11:46Z</captureTime>
+
+<easting>530497</easting>
+<northing>178027</northing>
+<lat>51.486145</lat>
+<lng>-0.12191185</lng>
+<osgr>TQ305780</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.04303" available="true">
+<corridor>Inner Ring</corridor>
+<location>Kennington Lane/Kennington Rd</location>
+
+<currentView>defaultPresetName</currentView>
+<file>0000104303.jpg</file>
+<captureTime>2012-10-01T20:13:16Z</captureTime>
+<easting>531237</easting>
+<northing>178296</northing>
+<lat>51.48839</lat>
+<lng>-0.11116041</lng>
+<osgr>TQ312783</osgr>
+<postCode></postCode>
+
+</camera>
+<camera id="00001.04341" available="true">
+<corridor>A20</corridor>
+<location>Peckham Rd/Kelly Ave/Lyndhrst Wy</location>
+<currentView>Peckham Rd (E/Bd)</currentView>
+<file>0000104341.jpg</file>
+<captureTime>2012-10-01T20:13:02Z</captureTime>
+<easting>533829</easting>
+<northing>176761</northing>
+<lat>51.47399</lat>
+
+<lng>-0.07443121</lng>
+<osgr>TQ338768</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.04327" available="true">
+<corridor>Inner Ring</corridor>
+<location>Millbank/Vauxhall Bridge</location>
+<currentView>Vauxhall Bridge</currentView>
+<file>0000104327.jpg</file>
+<captureTime>2012-10-01T20:13:10Z</captureTime>
+
+<easting>529946</easting>
+<northing>178302</northing>
+<lat>51.488743</lat>
+<lng>-0.12974188</lng>
+<osgr>TQ299783</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.04475" available="true">
+<corridor>A23</corridor>
+<location>South Lambeth Rd/Walton Cl</location>
+
+<currentView>A203 N/B</currentView>
+<file>0000104475.jpg</file>
+<captureTime>2012-10-01T20:13:01Z</captureTime>
+<easting>530341</easting>
+<northing>177355</northing>
+<lat>51.480145</lat>
+<lng>-0.12440513</lng>
+<osgr>TQ303774</osgr>
+<postCode></postCode>
+
+</camera>
+<camera id="00001.04477" available="true">
+<corridor></corridor>
+<location>Stockwell Rd By Clapham Rd</location>
+<currentView>Clapham Rd/ Sth Lambeth Rd</currentView>
+<file>0000104477.jpg</file>
+<captureTime>2012-10-01T20:12:56Z</captureTime>
+<easting>530518</easting>
+<northing>176458</northing>
+<lat>51.472042</lat>
+
+<lng>-0.1221888</lng>
+<osgr>TQ305765</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.04485" available="true">
+<corridor>A23</corridor>
+<location>Stockwell Rd/Stockwell Ln</location>
+<currentView>Stockwell Rd</currentView>
+<file>0000104485.jpg</file>
+<captureTime>2012-10-01T20:11:20Z</captureTime>
+
+<easting>530672</easting>
+<northing>176196</northing>
+<lat>51.46965</lat>
+<lng>-0.12006959</lng>
+<osgr>TQ307762</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.04486" available="true">
+<corridor>A23</corridor>
+<location>Stockwell Rd/Chantrey Rd</location>
+
+<currentView>defaultPresetName</currentView>
+<file>0000104486.jpg</file>
+<captureTime>2012-10-01T20:12:34Z</captureTime>
+<easting>530922</easting>
+<northing>175778</northing>
+<lat>51.465836</lat>
+<lng>-0.11662708</lng>
+<osgr>TQ309758</osgr>
+<postCode></postCode>
+
+</camera>
+<camera id="00001.04150" available="true">
+<corridor>A23</corridor>
+<location>A22 Godstone Rd/Dale Rd</location>
+<currentView>South (A22 twds Caterham)</currentView>
+<file>0000104150.jpg</file>
+<captureTime>2012-10-01T20:13:05Z</captureTime>
+<easting>531571</easting>
+<northing>161241</northing>
+<lat>51.335045</lat>
+
+<lng>-0.112675</lng>
+<osgr>TQ316612</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.04005" available="true">
+<corridor>Blackwall Tunnel</corridor>
+<location>A102 B&amp;#039;wall Tunnel Sth Appr</location>
+<currentView>North (twds Blackwall Tunnel)</currentView>
+<file>0000104005.jpg</file>
+<captureTime>2012-10-01T20:12:48Z</captureTime>
+
+<easting>540291</easting>
+<northing>178237</northing>
+<lat>51.48569</lat>
+<lng>0.019137386</lng>
+<osgr>TQ403782</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.03556" available="true">
+<corridor>No Corridor</corridor>
+<location>Evelyn Street / Bestwood St</location>
+
+<currentView>Evelyn Street (twds Deptford)</currentView>
+<file>0000103556.jpg</file>
+<captureTime>2012-10-01T20:12:23Z</captureTime>
+<easting>536014</easting>
+<northing>178598</northing>
+<lat>51.48998</lat>
+<lng>-0.042283077</lng>
+<osgr>TQ360786</osgr>
+<postCode></postCode>
+
+</camera>
+<camera id="00001.03557" available="false">
+<corridor>No Corridor</corridor>
+<location>Lower Rd/Rotherhithe Old Rd</location>
+<currentView>A200 Lower Rd (twds Deptford)</currentView>
+<file>0000103557.jpg</file>
+<unavailabilityCause>In use keeping London moving</unavailabilityCause>
+<captureTime></captureTime>
+<easting>535584</easting>
+<northing>179002</northing>
+
+<lat>51.493713</lat>
+<lng>-0.048317716</lng>
+<osgr>TQ356790</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.04281" available="false">
+<corridor>A3</corridor>
+<location>Battersea Park Rd/Savona St</location>
+<currentView>East (A3205 twds Vauxhall Cross)</currentView>
+<file>0000104281.jpg</file>
+
+<unavailabilityCause>In use keeping London moving</unavailabilityCause>
+<captureTime></captureTime>
+<easting>529097</easting>
+<northing>177233</northing>
+<lat>51.479332</lat>
+<lng>-0.1423537</lng>
+<osgr>TQ291772</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.03540" available="true">
+<corridor>Southern River Route</corridor>
+
+<location>Tooley St/Jamaica Rd</location>
+<currentView>Jamaica Rd E/B</currentView>
+<file>0000103540.jpg</file>
+<captureTime>2012-10-01T20:13:19Z</captureTime>
+<easting>533750</easting>
+<northing>179712</northing>
+<lat>51.50053</lat>
+<lng>-0.07445108</lng>
+<osgr>TQ338797</osgr>
+
+<postCode></postCode>
+</camera>
+<camera id="00001.04275" available="true">
+<corridor>Inner Ring</corridor>
+<location>Nine Elms</location>
+<currentView>A3036 Wands'th Rd S/B</currentView>
+<file>0000104275.jpg</file>
+<captureTime>2012-10-01T20:11:27Z</captureTime>
+<easting>530160</easting>
+<northing>177815</northing>
+
+<lat>51.484318</lat>
+<lng>-0.12684074</lng>
+<osgr>TQ302778</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.03565" available="true">
+<corridor>No Corridor</corridor>
+<location>Grange Rd/Dunton Rd</location>
+<currentView>Dunton Rd S/B</currentView>
+<file>0000103565.jpg</file>
+
+<captureTime>2012-10-01T20:12:40Z</captureTime>
+<easting>533819</easting>
+<northing>178917</northing>
+<lat>51.49337</lat>
+<lng>-0.073758826</lng>
+<osgr>TQ338789</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.03507" available="true">
+<corridor>Southern River Route</corridor>
+
+<location>Tooley St/Battle Brdg Ln</location>
+<currentView>West (Tooley St twds London Bridge)</currentView>
+<file>0000103507.jpg</file>
+<captureTime>2012-10-01T20:12:25Z</captureTime>
+<easting>533098</easting>
+<northing>180163</northing>
+<lat>51.504734</lat>
+<lng>-0.083668716</lng>
+<osgr>TQ331802</osgr>
+
+<postCode></postCode>
+</camera>
+<camera id="00001.03590" available="true">
+<corridor>Farringdon Cross Route</corridor>
+<location>Kings X Rd / Wharton St</location>
+<currentView>Kings Cross Rd - South/East</currentView>
+<file>0000103590.jpg</file>
+<captureTime>2012-10-01T20:12:55Z</captureTime>
+<easting>530825</easting>
+<northing>182653</northing>
+
+<lat>51.52764</lat>
+<lng>-0.11547609</lng>
+<osgr>TQ308827</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.03591" available="true">
+<corridor>Inner Ring</corridor>
+<location>Kings X Rd / Swinton St</location>
+<currentView>K X Rd N/B</currentView>
+<file>0000103591.jpg</file>
+
+<captureTime>2012-10-01T20:13:10Z</captureTime>
+<easting>530803</easting>
+<northing>182850</northing>
+<lat>51.52942</lat>
+<lng>-0.11571996</lng>
+<osgr>TQ308829</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.03601" available="true">
+<corridor>Farringdon Cross Route</corridor>
+
+<location>Blackfriars Rd/Stamford St</location>
+<currentView>Blackfriars Bridge - North</currentView>
+<file>0000103601.jpg</file>
+<captureTime>2012-10-01T20:09:27Z</captureTime>
+<easting>531649</easting>
+<northing>180402</northing>
+<lat>51.50722</lat>
+<lng>-0.10444478</lng>
+<osgr>TQ316804</osgr>
+
+<postCode></postCode>
+</camera>
+<camera id="00001.04214" available="true">
+<corridor>Southern River Route</corridor>
+<location>Southwark St/Southwark Bdge Rd</location>
+<currentView>Southwark St W/B</currentView>
+<file>0000104214.jpg</file>
+<captureTime>2012-10-01T20:12:24Z</captureTime>
+<easting>532287</easting>
+<northing>180150</northing>
+
+<lat>51.50481</lat>
+<lng>-0.09535171</lng>
+<osgr>TQ323802</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.03606" available="true">
+<corridor>Inner Ring</corridor>
+<location>New Kent Rd W of Theobald St</location>
+<currentView>East (twds Bricklayers Arms Flyover)</currentView>
+<file>0000103606.jpg</file>
+
+<captureTime>2012-10-01T20:13:01Z</captureTime>
+<easting>532630</easting>
+<northing>178985</northing>
+<lat>51.49426</lat>
+<lng>-0.09085018</lng>
+<osgr>TQ326790</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.03609" available="true">
+<corridor>Farringdon Cross Route</corridor>
+
+<location>Blackfriars Rd/Dolben St</location>
+<currentView>Blackfriars Rd N/B</currentView>
+<file>0000103609.jpg</file>
+<captureTime>2012-10-01T20:13:10Z</captureTime>
+<easting>531641</easting>
+<northing>180140</northing>
+<lat>51.50487</lat>
+<lng>-0.10465769</lng>
+<osgr>TQ316801</osgr>
+
+<postCode></postCode>
+</camera>
+<camera id="00001.03603" available="true">
+<corridor>Inner Ring</corridor>
+<location>Elephant &amp;amp; Castle/New Kent Rd</location>
+<currentView>Elephant &amp; Castle</currentView>
+<file>0000103603.jpg</file>
+<captureTime>2012-10-01T20:09:15Z</captureTime>
+<easting>531997</easting>
+
+<northing>179027</northing>
+<lat>51.494785</lat>
+<lng>-0.09994741</lng>
+<osgr>TQ320790</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.03604" available="true">
+<corridor>Inner Ring</corridor>
+<location>Elephant &amp;amp; Castle/Walworth Rd</location>
+<currentView>Elephant &amp; Castle</currentView>
+
+<file>0000103604.jpg</file>
+<captureTime>2012-10-01T20:12:17Z</captureTime>
+<easting>531994</easting>
+<northing>178991</northing>
+<lat>51.49446</lat>
+<lng>-0.10000405</lng>
+<osgr>TQ320790</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.04220" available="true">
+
+<corridor>Southern River Route</corridor>
+<location>Stamford St/Broadwall</location>
+<currentView>defaultPresetName</currentView>
+<file>0000104220.jpg</file>
+<captureTime>2012-10-01T20:13:09Z</captureTime>
+<easting>531372</easting>
+<northing>180356</northing>
+<lat>51.506874</lat>
+<lng>-0.10845086</lng>
+
+<osgr>TQ314804</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.03611" available="true">
+<corridor>Farringdon Cross Route</corridor>
+<location>London Rd/Thomas Doyle St</location>
+<currentView>South (twds Elephant and Castle)</currentView>
+<file>0000103611.jpg</file>
+<captureTime>2012-10-01T20:12:49Z</captureTime>
+<easting>531723</easting>
+
+<northing>179376</northing>
+<lat>51.497986</lat>
+<lng>-0.10376193</lng>
+<osgr>TQ317794</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.03612" available="true">
+<corridor>Farringdon Cross Route</corridor>
+<location>St Georges Rd/Hayles St</location>
+<currentView>St Georges Rd W/B @ Hayles St</currentView>
+
+<file>0000103612.jpg</file>
+<captureTime>2012-10-01T20:12:27Z</captureTime>
+<easting>531742</easting>
+<northing>179137</northing>
+<lat>51.495834</lat>
+<lng>-0.10357752</lng>
+<osgr>TQ317791</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.03610" available="true">
+
+<corridor>Farringdon Cross Route</corridor>
+<location>Blackfriars Rd/Pocock St</location>
+<currentView>Blackfriars Rd N/B</currentView>
+<file>0000103610.jpg</file>
+<captureTime>2012-10-01T20:12:55Z</captureTime>
+<easting>531660</easting>
+<northing>179797</northing>
+<lat>51.50178</lat>
+<lng>-0.10451201</lng>
+
+<osgr>TQ317798</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.04227" available="true">
+<corridor>Southern River Route</corridor>
+<location>Westminster Bridge/South</location>
+<currentView>West</currentView>
+<file>0000104227.jpg</file>
+<captureTime>2012-10-01T20:09:21Z</captureTime>
+<easting>530883</easting>
+
+<northing>179690</northing>
+<lat>51.501003</lat>
+<lng>-0.11573961</lng>
+<osgr>TQ309797</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.04235" available="true">
+<corridor>No Corridor</corridor>
+<location>Horseferry Rd/Marsham St</location>
+<currentView>Preset 1</currentView>
+
+<file>0000104235.jpg</file>
+<captureTime>2012-10-01T20:13:02Z</captureTime>
+<easting>529986</easting>
+<northing>178991</northing>
+<lat>51.494926</lat>
+<lng>-0.12891258</lng>
+<osgr>TQ300790</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.04245" available="true">
+
+<corridor>Farringdon Cross Route</corridor>
+<location>Blackfriars Rd/St George</location>
+<currentView>South (London Road twds Elephant and Castle)</currentView>
+<file>0000104245.jpg</file>
+<captureTime>2012-10-01T20:13:04Z</captureTime>
+<easting>531639</easting>
+<northing>179483</northing>
+<lat>51.498966</lat>
+<lng>-0.10493144</lng>
+
+<osgr>TQ316795</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.04244" available="true">
+<corridor>Farringdon Cross Route</corridor>
+<location>Westminster Bridge Rd/Waterloo Rd</location>
+<currentView>East (St Georges Circus and Borough Road)</currentView>
+<file>0000104244.jpg</file>
+<captureTime>2012-10-01T20:12:32Z</captureTime>
+<easting>531604</easting>
+
+<northing>179439</northing>
+<lat>51.498577</lat>
+<lng>-0.10545176</lng>
+<osgr>TQ316794</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.04253" available="true">
+<corridor>Southern River Route</corridor>
+<location>Lambeth Bridge/Albert Embankment</location>
+<currentView>A3036 Albert Embank'nt S/B</currentView>
+
+<file>0000104253.jpg</file>
+<captureTime>2012-10-01T20:11:08Z</captureTime>
+<easting>530534</easting>
+<northing>178884</northing>
+<lat>51.49384</lat>
+<lng>-0.12106267</lng>
+<osgr>TQ305789</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.04256" available="true">
+
+<corridor>Inner Ring</corridor>
+<location>Vauxhall Cross</location>
+<currentView>Vauxhall Bridge</currentView>
+<file>0000104256.jpg</file>
+<captureTime>2012-10-01T20:09:46Z</captureTime>
+<easting>530371</easting>
+<northing>178049</northing>
+<lat>51.486374</lat>
+<lng>-0.12371739</lng>
+
+<osgr>TQ304780</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.06408" available="true">
+<corridor>No Corridor</corridor>
+<location>Notting Hill Gate/Palace Grdns Ter</location>
+<currentView>West (A402 twds Notting Hill Gate
+</currentView>
+<file>0000106408.jpg</file>
+<captureTime>2012-10-01T20:13:06Z</captureTime>
+<easting>525402</easting>
+
+<northing>180489</northing>
+<lat>51.509422</lat>
+<lng>-0.19437777</lng>
+<osgr>TQ254805</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.05900" available="true">
+<corridor>Western Cross Route</corridor>
+<location>Fulham Rd/Redcliffe Gardens</location>
+<currentView>A308 Fulham Rd (twds Stamford Bridge)</currentView>
+
+<file>0000105900.jpg</file>
+<captureTime>2012-10-01T20:12:59Z</captureTime>
+<easting>526170</easting>
+<northing>177700</northing>
+<lat>51.484188</lat>
+<lng>-0.1843134</lng>
+<osgr>TQ262777</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.05830" available="true">
+
+<corridor>No Corridor</corridor>
+<location>Shepherd Bush Gr/Wood Lane</location>
+<currentView>Uxbridge Road (W/B)</currentView>
+<file>0000105830.jpg</file>
+<captureTime>2012-10-01T20:03:13Z</captureTime>
+<easting>523305</easting>
+<northing>179958</northing>
+<lat>51.50511</lat>
+<lng>-0.22476459</lng>
+
+<osgr>TQ233800</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.05831" available="true">
+<corridor>No Corridor</corridor>
+<location>Shepherd Bush Rd/Brook Green</location>
+<currentView>South (twds Hammersmith)</currentView>
+<file>0000105831.jpg</file>
+<captureTime>2012-10-01T20:12:34Z</captureTime>
+<easting>523481</easting>
+
+<northing>179113</northing>
+<lat>51.49748</lat>
+<lng>-0.22252552</lng>
+<osgr>TQ235791</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.05832" available="true">
+<corridor>No Corridor</corridor>
+<location>Fulham B&amp;#039;Way Wst of Harwood Rd</location>
+<currentView>East (Fulham Broadway twds Stamford Bridge)</currentView>
+
+<file>0000105832.jpg</file>
+<captureTime>2012-10-01T20:12:35Z</captureTime>
+<easting>525369</easting>
+<northing>177231</northing>
+<lat>51.480152</lat>
+<lng>-0.19600934</lng>
+<osgr>TQ254772</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.05825" available="true">
+
+<corridor>No Corridor</corridor>
+<location>Putney High St/Lwr Richmond Rd</location>
+<currentView>Putney Bridge north</currentView>
+<file>0000105825.jpg</file>
+<captureTime>2012-10-01T20:12:56Z</captureTime>
+<easting>524152</easting>
+<northing>175615</northing>
+<lat>51.465897</lat>
+<lng>-0.21409272</lng>
+
+<osgr>TQ242756</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.05829" available="true">
+<corridor>No Corridor</corridor>
+<location>Fulham Palace Rd/Lillie Rd</location>
+<currentView>North (A219 twds Hammersmith)</currentView>
+<file>0000105829.jpg</file>
+<captureTime>2012-10-01T20:12:36Z</captureTime>
+<easting>523724</easting>
+
+<northing>177586</northing>
+<lat>51.483704</lat>
+<lng>-0.21956143</lng>
+<osgr>TQ237776</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.04880" available="true">
+<corridor>A3</corridor>
+<location>Leatherhead Rd/Fairoak Lane</location>
+<currentView>South (A243 twds M25 Leatherhead)</currentView>
+
+<file>0000104880.jpg</file>
+<captureTime>2012-10-01T20:13:09Z</captureTime>
+<easting>517261</easting>
+<northing>161658</northing>
+<lat>51.341923</lat>
+<lng>-0.31785652</lng>
+<osgr>TQ173617</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.06601" available="true">
+
+<corridor>A4</corridor>
+<location>Warwick Rd/W Cromwell Rd</location>
+<currentView>A4 Cromwell Rd E/B</currentView>
+<file>0000106601.jpg</file>
+<captureTime>2012-10-01T20:10:20Z</captureTime>
+<easting>525027</easting>
+<northing>178618</northing>
+<lat>51.49269</lat>
+<lng>-0.20044099</lng>
+
+<osgr>TQ250786</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.06600" available="true">
+<corridor>A4</corridor>
+<location>Cromwell Rd/Earls Court Rd</location>
+<currentView>Earls Court Rd Sth</currentView>
+<file>0000106600.jpg</file>
+<captureTime>2012-10-01T20:13:06Z</captureTime>
+<easting>525351</easting>
+
+<northing>178843</northing>
+<lat>51.494644</lat>
+<lng>-0.1956966</lng>
+<osgr>TQ254788</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.06649" available="false">
+<corridor>No Corridor</corridor>
+<location>Goldhawk Rd/H&amp;#039;Smith Grove</location>
+<currentView>Hammersmith Rd S/B</currentView>
+
+<file>0000106649.jpg</file>
+<unavailabilityCause>In use keeping London moving</unavailabilityCause>
+<captureTime></captureTime>
+<easting>523029</easting>
+<northing>179612</northing>
+<lat>51.502064</lat>
+<lng>-0.22885978</lng>
+<osgr>TQ230796</osgr>
+<postCode></postCode>
+</camera>
+
+<camera id="00001.06648" available="true">
+<corridor>No Corridor</corridor>
+<location>A4 Chiswick Roundabout</location>
+<currentView>Chiswick High Rd N/B</currentView>
+<file>0000106648.jpg</file>
+<captureTime>2012-10-01T20:13:21Z</captureTime>
+<easting>519268</easting>
+<northing>178320</northing>
+<lat>51.491257</lat>
+
+<lng>-0.2834554</lng>
+<osgr>TQ193783</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.06641" available="true">
+<corridor>No Corridor</corridor>
+<location>Kensington High St/Church St</location>
+<currentView>A315 Kens'ton Rd E/B</currentView>
+<file>0000106641.jpg</file>
+<captureTime>2012-10-01T20:10:33Z</captureTime>
+
+<easting>525669</easting>
+<northing>179666</northing>
+<lat>51.50197</lat>
+<lng>-0.19082542</lng>
+<osgr>TQ257797</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.06640" available="true">
+<corridor>No Corridor</corridor>
+<location>Kensington Rd/Exhibition Rd</location>
+
+<currentView>1 - Kensington Rd East</currentView>
+<file>0000106640.jpg</file>
+<captureTime>2012-10-01T20:11:52Z</captureTime>
+<easting>526780</easting>
+<northing>179666</northing>
+<lat>51.50172</lat>
+<lng>-0.17482759</lng>
+<osgr>TQ268797</osgr>
+<postCode></postCode>
+
+</camera>
+<camera id="00001.06620" available="true">
+<corridor>A316</corridor>
+<location>Chalkers Corner</location>
+<currentView>Chalkers Corner</currentView>
+<file>0000106620.jpg</file>
+<captureTime>2012-10-01T20:09:02Z</captureTime>
+<easting>519772</easting>
+<northing>175856</northing>
+<lat>51.469006</lat>
+
+<lng>-0.2770341</lng>
+<osgr>TQ198759</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.06621" available="true">
+<corridor>A316</corridor>
+<location>Twickenham Rd/St Johns Grove</location>
+<currentView>A316 Twick'ham Rd E/B</currentView>
+<file>0000106621.jpg</file>
+<captureTime>2012-10-01T20:08:36Z</captureTime>
+
+<easting>518091</easting>
+<northing>175371</northing>
+<lat>51.465</lat>
+<lng>-0.3013856</lng>
+<osgr>TQ181754</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.06622" available="true">
+<corridor>A316</corridor>
+<location>Twickenham Rd/Heathcote Rd</location>
+
+<currentView>A316 The Avenue N/B</currentView>
+<file>0000106622.jpg</file>
+<captureTime>2012-10-01T20:13:02Z</captureTime>
+<easting>517024</easting>
+<northing>174602</northing>
+<lat>51.45831</lat>
+<lng>-0.31699285</lng>
+<osgr>TQ170746</osgr>
+<postCode></postCode>
+
+</camera>
+<camera id="00001.06625" available="false">
+<corridor>A205</corridor>
+<location>A205 Upper R&amp;#039;Mond Rd/Sheen Lane</location>
+<currentView>A205 E/B</currentView>
+<file>0000106625.jpg</file>
+<unavailabilityCause>In use keeping London moving</unavailabilityCause>
+<captureTime></captureTime>
+<easting>520463</easting>
+<northing>175396</northing>
+
+<lat>51.464725</lat>
+<lng>-0.26724738</lng>
+<osgr>TQ205754</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.06619" available="true">
+<corridor>A316</corridor>
+<location>Lwr Mortlake Rd/Manor Circus</location>
+<currentView>West (A316 Manor Circus Rbt)</currentView>
+<file>0000106619.jpg</file>
+
+<captureTime>2012-10-01T20:13:06Z</captureTime>
+<easting>519035</easting>
+<northing>175695</northing>
+<lat>51.467712</lat>
+<lng>-0.28769368</lng>
+<osgr>TQ190757</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.06610" available="true">
+<corridor>A4</corridor>
+
+<location>A4 Great W Rd/Macbeth St</location>
+<currentView>Gt West Rd East/B</currentView>
+<file>0000106610.jpg</file>
+<captureTime>2012-10-01T20:13:10Z</captureTime>
+<easting>522781</easting>
+<northing>178369</northing>
+<lat>51.490948</lat>
+<lng>-0.23286305</lng>
+<osgr>TQ228784</osgr>
+
+<postCode></postCode>
+</camera>
+<camera id="00001.06611" available="true">
+<corridor>A4</corridor>
+<location>A4 Great W Rd/Syon Ln</location>
+<currentView>East (A4 twds Brentford)</currentView>
+<file>0000106611.jpg</file>
+<captureTime>2012-10-01T20:13:16Z</captureTime>
+<easting>516325</easting>
+<northing>177370</northing>
+
+<lat>51.48333</lat>
+<lng>-0.32613903</lng>
+<osgr>TQ163774</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.06615" available="true">
+<corridor>A316</corridor>
+<location>Great Chertsey Rd/Hartington Rd</location>
+<currentView>Chiswick Bridge</currentView>
+<file>0000106615.jpg</file>
+
+<captureTime>2012-10-01T20:13:18Z</captureTime>
+<easting>520433</easting>
+<northing>176494</northing>
+<lat>51.474598</lat>
+<lng>-0.26730523</lng>
+<osgr>TQ204765</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.06660" available="true">
+<corridor>No Corridor</corridor>
+
+<location>Bayswater Rd/Lancaster Gate</location>
+<currentView>Bayswater Rd</currentView>
+<file>0000106660.jpg</file>
+<captureTime>2012-10-01T20:11:06Z</captureTime>
+<easting>526811</easting>
+<northing>180794</northing>
+<lat>51.511852</lat>
+<lng>-0.17397597</lng>
+<osgr>TQ268808</osgr>
+
+<postCode></postCode>
+</camera>
+<camera id="00001.06650" available="true">
+<corridor>Western Cross Route</corridor>
+<location>Holland Rd/Addison Crescent</location>
+<currentView>Holland Rd S/B</currentView>
+<file>0000106650.jpg</file>
+<captureTime>2012-10-01T20:13:21Z</captureTime>
+<easting>524338</easting>
+<northing>179388</northing>
+
+<lat>51.499763</lat>
+<lng>-0.21008933</lng>
+<osgr>TQ243794</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.04570" available="true">
+<corridor>A23</corridor>
+<location>A23 Purley Cross/A23 Foxley Lane</location>
+<currentView>A23 South</currentView>
+<file>0000104570.jpg</file>
+
+<captureTime>2012-10-01T20:13:00Z</captureTime>
+<easting>531229</easting>
+<northing>161763</northing>
+<lat>51.339817</lat>
+<lng>-0.11738936</lng>
+<osgr>TQ312618</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.04572" available="true">
+<corridor>A23</corridor>
+
+<location>Brighton Rd/Farthing Way</location>
+<currentView>North (A23 twds Purley)</currentView>
+<file>0000104572.jpg</file>
+<captureTime>2012-10-01T20:12:44Z</captureTime>
+<easting>530066</easting>
+<northing>159902</northing>
+<lat>51.32336</lat>
+<lng>-0.13475522</lng>
+<osgr>TQ301599</osgr>
+
+<postCode></postCode>
+</camera>
+<camera id="00001.04571" available="true">
+<corridor>A23</corridor>
+<location>A23 Brighton Rd/Gemmell Close</location>
+<currentView>South (A23 twds Coulsdon)</currentView>
+<file>0000104571.jpg</file>
+<captureTime>2012-10-01T20:13:28Z</captureTime>
+<easting>530466</easting>
+<northing>160355</northing>
+
+<lat>51.32734</lat>
+<lng>-0.1288523</lng>
+<osgr>TQ305604</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.04573" available="true">
+<corridor>A23</corridor>
+<location>Brighton Rd A23 Coulsdon Bypass</location>
+<currentView>North (A23 twds Purley)</currentView>
+<file>0000104573.jpg</file>
+
+<captureTime>2012-10-01T20:12:30Z</captureTime>
+<easting>529814</easting>
+<northing>159174</northing>
+<lat>51.316875</lat>
+<lng>-0.13863456</lng>
+<osgr>TQ298592</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.04574" available="true">
+<corridor>A23</corridor>
+
+<location>Brighton Rd/Hollymeoak Rd</location>
+<currentView>North (twds Coulsdon)</currentView>
+<file>0000104574.jpg</file>
+<captureTime>2012-10-01T20:13:20Z</captureTime>
+<easting>529311</easting>
+<northing>158145</northing>
+<lat>51.30774</lat>
+<lng>-0.14622095</lng>
+<osgr>TQ293581</osgr>
+
+<postCode></postCode>
+</camera>
+<camera id="00001.04561" available="true">
+<corridor>A23</corridor>
+<location>A23 south of Thornton Ave</location>
+<currentView>A23 S/B</currentView>
+<file>0000104561.jpg</file>
+<captureTime>2012-10-01T20:13:04Z</captureTime>
+<easting>530840</easting>
+<northing>167001</northing>
+
+<lat>51.38698</lat>
+<lng>-0.12104519</lng>
+<osgr>TQ308670</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.04568" available="true">
+<corridor>A23</corridor>
+<location>A23 Purley Way/Edgehill Rd</location>
+<currentView>North (A23 twds Croydon)</currentView>
+<file>0000104568.jpg</file>
+
+<captureTime>2012-10-01T20:12:30Z</captureTime>
+<easting>531425</easting>
+<northing>162409</northing>
+<lat>51.345577</lat>
+<lng>-0.11433887</lng>
+<osgr>TQ314624</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.04569" available="true">
+<corridor>A23</corridor>
+
+<location>A23/Old Lodge Lane</location>
+<currentView>Preset 1</currentView>
+<file>0000104569.jpg</file>
+<captureTime>2012-10-01T20:12:55Z</captureTime>
+<easting>530739</easting>
+<northing>160859</northing>
+<lat>51.331806</lat>
+<lng>-0.12475152</lng>
+<osgr>TQ307609</osgr>
+
+<postCode></postCode>
+</camera>
+<camera id="00001.04566" available="true">
+<corridor>A23</corridor>
+<location>Purley Way/Beddington Farm Rd</location>
+<currentView>South (A23 twds Purley)</currentView>
+<file>0000104566.jpg</file>
+<captureTime>2012-10-01T20:13:25Z</captureTime>
+<easting>530958</easting>
+<northing>165852</northing>
+
+<lat>51.376625</lat>
+<lng>-0.1197736</lng>
+<osgr>TQ310659</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.04567" available="true">
+<corridor>A23</corridor>
+<location>A23 Purley Way/Queensway</location>
+<currentView>North (A23 twds Croydon)</currentView>
+<file>0000104567.jpg</file>
+
+<captureTime>2012-10-01T20:12:54Z</captureTime>
+<easting>531172</easting>
+<northing>164041</northing>
+<lat>51.360302</lat>
+<lng>-0.11736828</lng>
+<osgr>TQ312640</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.04565" available="true">
+<corridor>A23</corridor>
+
+<location>Stafford Rd/Epsom Rd</location>
+<currentView>A232 N/B</currentView>
+<file>0000104565.jpg</file>
+<captureTime>2012-10-01T20:12:43Z</captureTime>
+<easting>531242</easting>
+<northing>164814</northing>
+<lat>51.367233</lat>
+<lng>-0.11607841</lng>
+<osgr>TQ312648</osgr>
+
+<postCode></postCode>
+</camera>
+<camera id="00001.04563" available="true">
+<corridor></corridor>
+<location>Purley Way/Newman Rd</location>
+<currentView>Purley Way N/Bd</currentView>
+<file>0000104563.jpg</file>
+<captureTime>2012-10-01T20:13:01Z</captureTime>
+<easting>530842</easting>
+<northing>166618</northing>
+<lat>51.383537</lat>
+
+<lng>-0.12115745</lng>
+<osgr>TQ308666</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.04542" available="false">
+<corridor>A23</corridor>
+<location>London Rd/Craignish Av</location>
+<currentView>A23 London Rd N/B</currentView>
+<file>0000104542.jpg</file>
+<unavailabilityCause>In use keeping London moving</unavailabilityCause>
+
+<captureTime></captureTime>
+<easting>530714</easting>
+<northing>169410</northing>
+<lat>51.408657</lat>
+<lng>-0.12196843</lng>
+<osgr>TQ307694</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.04545" available="true">
+<corridor>A23</corridor>
+<location>London Road/Raymead Avenue</location>
+
+<currentView>A235 S/B</currentView>
+<file>0000104545.jpg</file>
+<captureTime>2012-10-01T20:13:01Z</captureTime>
+<easting>531293</easting>
+<northing>167791</northing>
+<lat>51.393974</lat>
+<lng>-0.11424694</lng>
+<osgr>TQ313678</osgr>
+<postCode></postCode>
+
+</camera>
+<camera id="00001.04546" available="true">
+<corridor>A24</corridor>
+<location>Balham High Rd/Drakefield Rd</location>
+<currentView>Balham High Rd (S/Bd)</currentView>
+<file>0000104546.jpg</file>
+<captureTime>2012-10-01T20:12:59Z</captureTime>
+<easting>528155</easting>
+<northing>172519</northing>
+<lat>51.43718</lat>
+
+<lng>-0.15761779</lng>
+<osgr>TQ282725</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.06725" available="true">
+<corridor>A406</corridor>
+<location>Mortlake Rd Opp Taylors Av</location>
+<currentView>A205 N/B</currentView>
+<file>0000106725.jpg</file>
+<captureTime>2012-10-01T20:12:34Z</captureTime>
+
+<easting>519598</easting>
+<northing>176490</northing>
+<lat>51.47474</lat>
+<lng>-0.27932358</lng>
+<osgr>TQ196765</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.06724" available="true">
+<corridor>A406</corridor>
+<location>Mortlake Rd/Mortlake cemetry</location>
+
+<currentView>Mortlake Rd N/B</currentView>
+<file>0000106724.jpg</file>
+<captureTime>2012-10-01T20:13:20Z</captureTime>
+<easting>519792</easting>
+<northing>176113</northing>
+<lat>51.47131</lat>
+<lng>-0.27665928</lng>
+<osgr>TQ198761</osgr>
+<postCode></postCode>
+
+</camera>
+<camera id="00001.06723" available="true">
+<corridor>A205</corridor>
+<location>Sheen Lane/Larches Av</location>
+<currentView>Sheen Lane</currentView>
+<file>0000106723.jpg</file>
+<captureTime>2012-10-01T20:13:24Z</captureTime>
+<easting>520508</easting>
+<northing>175362</northing>
+<lat>51.46441</lat>
+
+<lng>-0.26661146</lng>
+<osgr>TQ205754</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.06727" available="true">
+<corridor></corridor>
+<location>Clifford Ave/St Leonards Rd</location>
+<currentView>Clifford Ave E/Bnd</currentView>
+<file>0000106727.jpg</file>
+<captureTime>2012-10-01T20:08:44Z</captureTime>
+<easting>519820</easting>
+
+<northing>175525</northing>
+<lat>51.46602</lat>
+<lng>-0.2764555</lng>
+<osgr>TQ198755</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.06726" available="true">
+<corridor>A406</corridor>
+<location>A205 Kew Rd/Kew Green</location>
+<currentView>South (A205 twds Chalkers Corner)</currentView>
+
+<file>0000106726.jpg</file>
+<captureTime>2012-10-01T20:12:34Z</captureTime>
+<easting>519001</easting>
+<northing>177649</northing>
+<lat>51.485283</lat>
+<lng>-0.28752536</lng>
+<osgr>TQ190776</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.06710" available="true">
+
+<corridor>A406</corridor>
+<location>Kew Bridge Northside</location>
+<currentView>Kew Bridge S/B</currentView>
+<file>0000106710.jpg</file>
+<captureTime>2012-10-01T20:03:59Z</captureTime>
+<easting>518982</easting>
+<northing>178074</northing>
+<lat>51.489105</lat>
+<lng>-0.28765577</lng>
+
+<osgr>TQ190781</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.06712" available="true">
+<corridor>A205</corridor>
+<location>Upper R&amp;#039;mond Rd/Clifford Ave</location>
+<currentView>A205 E/B</currentView>
+<file>0000106712.jpg</file>
+<captureTime>2012-10-01T20:13:04Z</captureTime>
+<easting>519850</easting>
+
+<northing>175325</northing>
+<lat>51.46422</lat>
+<lng>-0.27609158</lng>
+<osgr>TQ199753</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.06717" available="true">
+<corridor>A406</corridor>
+<location>A205 Mortlake Rd/Bessant Drive</location>
+<currentView>A205 Mortlake Rd W/Bnd</currentView>
+
+<file>0000106717.jpg</file>
+<captureTime>2012-10-01T20:13:25Z</captureTime>
+<easting>519445</easting>
+<northing>176925</northing>
+<lat>51.478683</lat>
+<lng>-0.2813786</lng>
+<osgr>TQ194769</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.06719" available="true">
+
+<corridor>A406</corridor>
+<location>Mortlake Rd/West of Kent Rd</location>
+<currentView>Mortlake Rd North</currentView>
+<file>0000106719.jpg</file>
+<captureTime>2012-10-01T20:13:20Z</captureTime>
+<easting>519141</easting>
+<northing>177259</northing>
+<lat>51.481747</lat>
+<lng>-0.2856415</lng>
+
+<osgr>TQ191773</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.06500" available="true">
+<corridor>Western Cross Route</corridor>
+<location>Chelsea Embankment/Royal Hosp Rd</location>
+<currentView>West (twds Albert Bridge)</currentView>
+<file>0000106500.jpg</file>
+<captureTime>2012-10-01T20:13:01Z</captureTime>
+<easting>527612</easting>
+
+<northing>177697</northing>
+<lat>51.483837</lat>
+<lng>-0.16355862</lng>
+<osgr>TQ276777</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.06501" available="true">
+<corridor>No Corridor</corridor>
+<location>Parliament Square</location>
+<currentView>Parliament Square</currentView>
+
+<file>0000106501.jpg</file>
+<captureTime>2012-10-01T20:08:50Z</captureTime>
+<easting>530151</easting>
+<northing>179680</northing>
+<lat>51.50108</lat>
+<lng>-0.12628318</lng>
+<osgr>TQ302797</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.06502" available="true">
+
+<corridor>No Corridor</corridor>
+<location>Trafalgar Square</location>
+<currentView>Strand</currentView>
+<file>0000106502.jpg</file>
+<captureTime>2012-10-01T20:13:15Z</captureTime>
+<easting>530038</easting>
+<northing>180383</northing>
+<lat>51.507423</lat>
+<lng>-0.1276513</lng>
+
+<osgr>TQ300804</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.06503" available="true">
+<corridor>No Corridor</corridor>
+<location>Picadilly/White Horse St</location>
+<currentView>A4 S/B</currentView>
+<file>0000106503.jpg</file>
+<captureTime>2012-10-01T20:12:33Z</captureTime>
+<easting>528799</easting>
+
+<northing>180131</northing>
+<lat>51.505444</lat>
+<lng>-0.14558598</lng>
+<osgr>TQ288801</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.06504" available="true">
+<corridor>No Corridor</corridor>
+<location>Piccadilly/Down St</location>
+<currentView>Picadilly Underpass</currentView>
+
+<file>0000106504.jpg</file>
+<captureTime>2012-10-01T20:12:44Z</captureTime>
+<easting>528690</easting>
+<northing>180011</northing>
+<lat>51.50439</lat>
+<lng>-0.14719936</lng>
+<osgr>TQ287800</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.06507" available="true">
+
+<corridor>Inner Ring</corridor>
+<location>Victoria St/Bressenden Place</location>
+<currentView>West (twds Hyde Park Corner)</currentView>
+<file>0000106507.jpg</file>
+<captureTime>2012-10-01T20:12:32Z</captureTime>
+<easting>529103</easting>
+<northing>179156</northing>
+<lat>51.496613</lat>
+<lng>-0.14156477</lng>
+
+<osgr>TQ291792</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.06508" available="false">
+<corridor>A4</corridor>
+<location>Brompton Rd/Beaufort Grns</location>
+<currentView>A4 N/B</currentView>
+<file>0000106508.jpg</file>
+<unavailabilityCause>In use keeping London moving</unavailabilityCause>
+<captureTime></captureTime>
+<easting>527413</easting>
+
+<northing>179303</northing>
+<lat>51.498318</lat>
+<lng>-0.1658438</lng>
+<osgr>TQ274793</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.06509" available="true">
+<corridor>Inner Ring</corridor>
+<location>Grosvenor/Chapel St</location>
+<currentView>South (twds Victoria)</currentView>
+
+<file>0000106509.jpg</file>
+<captureTime>2012-10-01T20:13:25Z</captureTime>
+<easting>528527</easting>
+<northing>179575</northing>
+<lat>51.500507</lat>
+<lng>-0.14970528</lng>
+<osgr>TQ285796</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.06520" available="false">
+
+<corridor>Inner Ring</corridor>
+<location>Buck Palace Rd/Eccleston Bridge</location>
+<currentView>Buckingham Palace Rd</currentView>
+<file>0000106520.jpg</file>
+<unavailabilityCause>In use keeping London moving</unavailabilityCause>
+<captureTime></captureTime>
+<easting>528764</easting>
+<northing>178872</northing>
+<lat>51.494137</lat>
+
+<lng>-0.14654908</lng>
+<osgr>TQ288789</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.06521" available="true">
+<corridor>Inner Ring</corridor>
+<location>Wilton Road / Bridge Place</location>
+<currentView>wilton Rd (Nth)</currentView>
+<file>0000106521.jpg</file>
+<captureTime>2012-10-01T20:13:10Z</captureTime>
+
+<easting>529067</easting>
+<northing>178909</northing>
+<lat>51.4944</lat>
+<lng>-0.14217335</lng>
+<osgr>TQ291789</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.06522" available="true">
+<corridor>Inner Ring</corridor>
+<location>Bressenden Place / Stag Place</location>
+
+<currentView>West (Bressenden Place twds Buckingham Palace Road)</currentView>
+<file>0000106522.jpg</file>
+<captureTime>2012-10-01T20:13:01Z</captureTime>
+<easting>529065</easting>
+<northing>179269</northing>
+<lat>51.497635</lat>
+<lng>-0.14207059</lng>
+<osgr>TQ291793</osgr>
+<postCode></postCode>
+
+</camera>
+<camera id="00001.06515" available="true">
+<corridor>Inner Ring</corridor>
+<location>Hyde Park Corner</location>
+<currentView>Hyde Pk Corner</currentView>
+<file>0000106515.jpg</file>
+<captureTime>2012-10-01T20:12:30Z</captureTime>
+<easting>528355</easting>
+<northing>179731</northing>
+<lat>51.50195</lat>
+
+<lng>-0.15212516</lng>
+<osgr>TQ284797</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.06511" available="true">
+<corridor>Inner Ring</corridor>
+<location>Victoria St/Wilton Rd</location>
+<currentView>Victoria St</currentView>
+<file>0000106511.jpg</file>
+<captureTime>2012-10-01T20:08:56Z</captureTime>
+
+<easting>529044</easting>
+<northing>179123</northing>
+<lat>51.49633</lat>
+<lng>-0.14242628</lng>
+<osgr>TQ290791</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.06512" available="true">
+<corridor>Inner Ring</corridor>
+<location>Hobart Place/Grosvenor Place</location>
+
+<currentView>A302 Grosv'nor Plc N/B</currentView>
+<file>0000106512.jpg</file>
+<captureTime>2012-10-01T20:12:23Z</captureTime>
+<easting>528725</easting>
+<northing>179323</northing>
+<lat>51.4982</lat>
+<lng>-0.14694618</lng>
+<osgr>TQ287793</osgr>
+<postCode></postCode>
+
+</camera>
+<camera id="00001.06510" available="true">
+<corridor>No Corridor</corridor>
+<location>Baylis Rd/Westminster Bridge Rd</location>
+<currentView>W'stminster Bdge Rd</currentView>
+<file>0000106510.jpg</file>
+<captureTime>2012-10-01T20:11:00Z</captureTime>
+<easting>531120</easting>
+<northing>179444</northing>
+<lat>51.498737</lat>
+
+<lng>-0.11241848</lng>
+<osgr>TQ311794</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.06738" available="true">
+<corridor>A316</corridor>
+<location>A312 Hampton Rd York Way</location>
+<currentView>A312 N/B</currentView>
+<file>0000106738.jpg</file>
+<captureTime>2012-10-01T20:13:06Z</captureTime>
+
+<easting>512653</easting>
+<northing>172181</northing>
+<lat>51.437435</lat>
+<lng>-0.38064918</lng>
+<osgr>TQ127722</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.06518" available="false">
+<corridor>No Corridor</corridor>
+<location>St Georges Sq/Lupus St</location>
+
+<currentView>A213 N/B</currentView>
+<file>0000106518.jpg</file>
+<unavailabilityCause>In use keeping London moving</unavailabilityCause>
+<captureTime></captureTime>
+<easting>529597</easting>
+<northing>178293</northing>
+<lat>51.488743</lat>
+<lng>-0.13476902</lng>
+<osgr>TQ296783</osgr>
+
+<postCode></postCode>
+</camera>
+<camera id="00001.06549" available="true">
+<corridor>Western Cross Route</corridor>
+<location>Chelsea Embankment/Albert Brdg</location>
+<currentView>South (Albert Bridge)</currentView>
+<file>0000106549.jpg</file>
+<captureTime>2012-10-01T20:13:10Z</captureTime>
+<easting>527351</easting>
+<northing>177674</northing>
+
+<lat>51.48369</lat>
+<lng>-0.16732366</lng>
+<osgr>TQ274777</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.06530" available="true">
+<corridor>Western Cross Route</corridor>
+<location>Chelsea Bridge/Chelsea Embankment</location>
+<currentView>Chelsea Embankment</currentView>
+<file>0000106530.jpg</file>
+
+<captureTime>2012-10-01T20:13:08Z</captureTime>
+<easting>528568</easting>
+<northing>177939</northing>
+<lat>51.485798</lat>
+<lng>-0.14971034</lng>
+<osgr>TQ286779</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.06560" available="false">
+<corridor>No Corridor</corridor>
+
+<location>Albert Bridge Rd</location>
+<currentView>Albert Bdge Rd</currentView>
+<file>0000106560.jpg</file>
+<unavailabilityCause>In use keeping London moving</unavailabilityCause>
+<captureTime></captureTime>
+<easting>527429</easting>
+<northing>177405</northing>
+<lat>51.481255</lat>
+<lng>-0.16629793</lng>
+
+<osgr>TQ274774</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.06551" available="true">
+<corridor>Western Cross Route</corridor>
+<location>Battersea Bridge/Cheyne Wk</location>
+<currentView>A3220 Battersea Br S/B</currentView>
+<file>0000106551.jpg</file>
+<captureTime>2012-10-01T20:03:19Z</captureTime>
+<easting>526947</easting>
+
+<northing>177485</northing>
+<lat>51.482082</lat>
+<lng>-0.17320658</lng>
+<osgr>TQ269775</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.04680" available="false">
+<corridor>A2</corridor>
+<location>Borough High St/Grt Dover St</location>
+<currentView>North (A3 twds London Bridge)</currentView>
+
+<file>0000104680.jpg</file>
+<unavailabilityCause>In use keeping London moving</unavailabilityCause>
+<captureTime></captureTime>
+<easting>532449</easting>
+<northing>179740</northing>
+<lat>51.501087</lat>
+<lng>-0.09317277</lng>
+<osgr>TQ324797</osgr>
+<postCode></postCode>
+</camera>
+
+<camera id="00001.06570" available="true">
+<corridor></corridor>
+<location>Hammersmith Bridge Rd</location>
+<currentView>Hammersmith Bridge Rd N/B</currentView>
+<file>0000106570.jpg</file>
+<captureTime>2012-10-01T20:13:18Z</captureTime>
+<easting>523153</easting>
+<northing>178412</northing>
+<lat>51.491253</lat>
+<lng>-0.2274926</lng>
+
+<osgr>TQ232784</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.04683" available="true">
+<corridor>A3</corridor>
+<location>A3 Kingston Bypass/College Gds</location>
+<currentView>South (Malden Underpass)</currentView>
+<file>0000104683.jpg</file>
+<captureTime>2012-10-01T20:13:06Z</captureTime>
+<easting>521876</easting>
+
+<northing>167744</northing>
+<lat>51.395653</lat>
+<lng>-0.24954692</lng>
+<osgr>TQ219677</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.04684" available="false">
+<corridor>A3</corridor>
+<location>A3 Kingston Bypass/South Lane</location>
+<currentView>South (twds Tolworth)</currentView>
+
+<file>0000104684.jpg</file>
+<unavailabilityCause>In use keeping London moving</unavailabilityCause>
+<captureTime></captureTime>
+<easting>521031</easting>
+<northing>167356</northing>
+<lat>51.392345</lat>
+<lng>-0.26181895</lng>
+<osgr>TQ210674</osgr>
+<postCode></postCode>
+</camera>
+
+<camera id="00001.06585" available="true">
+<corridor>Western Cross Route</corridor>
+<location>Warwick Rd/Earls Crt Station</location>
+<currentView>South (Warwick Road twds entrance to Exhibition Centre)</currentView>
+<file>0000106585.jpg</file>
+<captureTime>2012-10-01T20:13:09Z</captureTime>
+<easting>525327</easting>
+<northing>178370</northing>
+<lat>51.4904</lat>
+
+<lng>-0.19620994</lng>
+<osgr>TQ253784</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.04670" available="true">
+<corridor>A3</corridor>
+<location>Beverley Way/Coombe Lane Flyover</location>
+<currentView>A3 South (twds New Malden)</currentView>
+<file>0000104670.jpg</file>
+<captureTime>2012-10-01T20:12:49Z</captureTime>
+
+<easting>521723</easting>
+<northing>170002</northing>
+<lat>51.415977</lat>
+<lng>-0.2509709</lng>
+<osgr>TQ217700</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.06581" available="true">
+<corridor>Western Cross Route</corridor>
+<location>Old Brompton Rd/Finboro Rd</location>
+
+<currentView>Warwick Road</currentView>
+<file>0000106581.jpg</file>
+<captureTime>2012-10-01T20:03:01Z</captureTime>
+<easting>525572</easting>
+<northing>178178</northing>
+<lat>51.488617</lat>
+<lng>-0.19275117</lng>
+<osgr>TQ256782</osgr>
+<postCode></postCode>
+
+</camera>
+<camera id="00001.06580" available="true">
+<corridor>Western Cross Route</corridor>
+<location>Old Brompton Rd / Earls Court Rd</location>
+<currentView>West (Old Brompton Rd twds Fulham)</currentView>
+<file>0000106580.jpg</file>
+<captureTime>2012-10-01T20:12:32Z</captureTime>
+<easting>525757</easting>
+<northing>178290</northing>
+<lat>51.489582</lat>
+
+<lng>-0.19004816</lng>
+<osgr>TQ258783</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.04676" available="true">
+<corridor>A205</corridor>
+<location>W&amp;#039;worth High St/W&amp;#039;worth Plain</location>
+<currentView>W'worth Hight St E/B</currentView>
+<file>0000104676.jpg</file>
+
+<captureTime>2012-10-01T20:13:01Z</captureTime>
+<easting>525500</easting>
+<northing>174695</northing>
+<lat>51.457333</lat>
+<lng>-0.19502354</lng>
+<osgr>TQ255747</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.04679" available="true">
+<corridor>A3</corridor>
+
+<location>Roehampton Vale/Stag Lane</location>
+<currentView>North (A3 twds Wandsworth)</currentView>
+<file>0000104679.jpg</file>
+<captureTime>2012-10-01T20:12:30Z</captureTime>
+<easting>521824</easting>
+<northing>172548</northing>
+<lat>51.43884</lat>
+<lng>-0.24864459</lng>
+<osgr>TQ218725</osgr>
+
+<postCode></postCode>
+</camera>
+<camera id="00001.06586" available="false">
+<corridor>Western Cross Route</corridor>
+<location>Earls Crt Rd/Earls Crt Station</location>
+<currentView>North (twds A4)</currentView>
+<file>0000106586.jpg</file>
+<unavailabilityCause>In use keeping London moving</unavailabilityCause>
+<captureTime></captureTime>
+<easting>525569</easting>
+<northing>178563</northing>
+
+<lat>51.492077</lat>
+<lng>-0.19265753</lng>
+<osgr>TQ256786</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.04674" available="true">
+<corridor>A24</corridor>
+<location>High St Colliers Wd/Cavendish Rd</location>
+<currentView>A24 S/B</currentView>
+<file>0000104674.jpg</file>
+
+<captureTime>2012-10-01T20:13:13Z</captureTime>
+<easting>526829</easting>
+<northing>170444</northing>
+<lat>51.41883</lat>
+<lng>-0.1774266</lng>
+<osgr>TQ268704</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.06587" available="true">
+<corridor></corridor>
+<location>Pembroke Rd/Cromwell Crescent</location>
+
+<currentView>Cromwell Cres</currentView>
+<file>0000106587.jpg</file>
+<captureTime>2012-10-01T20:10:26Z</captureTime>
+<easting>525088</easting>
+<northing>178856</northing>
+<lat>51.494816</lat>
+<lng>-0.1994785</lng>
+<osgr>TQ251789</osgr>
+<postCode></postCode>
+
+</camera>
+<camera id="00001.06590" available="true">
+<corridor>No Corridor</corridor>
+<location>Strand/Lancaster Place</location>
+<currentView>Waterloo Bridge - South</currentView>
+<file>0000106590.jpg</file>
+<captureTime>2012-10-01T20:10:39Z</captureTime>
+<easting>530610</easting>
+<northing>180844</northing>
+<lat>51.511436</lat>
+
+<lng>-0.11924347</lng>
+<osgr>TQ306808</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.06592" available="true">
+<corridor>No Corridor</corridor>
+<location>Piccadilly/St James St</location>
+<currentView>East (twds Piccadilly Circus)</currentView>
+<file>0000106592.jpg</file>
+<captureTime>2012-10-01T20:11:13Z</captureTime>
+
+<easting>529144</easting>
+<northing>180402</northing>
+<lat>51.5078</lat>
+<lng>-0.14051874</lng>
+<osgr>TQ291804</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.06591" available="true">
+<corridor>No Corridor</corridor>
+<location>Haymarket/Pall Mall</location>
+
+<currentView>Haymarket</currentView>
+<file>0000106591.jpg</file>
+<captureTime>2012-10-01T20:12:36Z</captureTime>
+<easting>529781</easting>
+<northing>180413</northing>
+<lat>51.50775</lat>
+<lng>-0.13134128</lng>
+<osgr>TQ298804</osgr>
+<postCode></postCode>
+
+</camera>
+<camera id="00001.06594" available="true">
+<corridor>A4</corridor>
+<location>Scotch Corner</location>
+<currentView>Knightsbridge</currentView>
+<file>0000106594.jpg</file>
+<captureTime>2012-10-01T20:12:50Z</captureTime>
+<easting>527789</easting>
+<northing>179707</northing>
+<lat>51.50186</lat>
+
+<lng>-0.16028388</lng>
+<osgr>TQ278797</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.06597" available="true">
+<corridor>A4</corridor>
+<location>Exhibition Rd/Cromwell Rd</location>
+<currentView>A4 West</currentView>
+<file>0000106597.jpg</file>
+<captureTime>2012-10-01T20:13:08Z</captureTime>
+
+<easting>526872</easting>
+<northing>178990</northing>
+<lat>51.495625</lat>
+<lng>-0.1737457</lng>
+<osgr>TQ269790</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.06598" available="true">
+<corridor>A4</corridor>
+<location>Cromwell Rd/Collingham Rd</location>
+
+<currentView>Cromwell Rd</currentView>
+<file>0000106598.jpg</file>
+<captureTime>2012-10-01T20:12:17Z</captureTime>
+<easting>525831</easting>
+<northing>178845</northing>
+<lat>51.494553</lat>
+<lng>-0.18878521</lng>
+<osgr>TQ258788</osgr>
+<postCode></postCode>
+
+</camera>
+<camera id="00001.04690" available="false">
+<corridor>A3</corridor>
+<location>A3 Hook Rise/A243 Hook Rd</location>
+<currentView>A3 South/West</currentView>
+<file>0000104690.jpg</file>
+<unavailabilityCause>In use keeping London moving</unavailabilityCause>
+<captureTime></captureTime>
+<easting>518169</easting>
+<northing>165385</northing>
+
+<lat>51.375233</lat>
+<lng>-0.30358946</lng>
+<osgr>TQ182654</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.04601" available="true">
+<corridor>Bishopsgate Cross Route</corridor>
+<location>Borough High St/Southwark St</location>
+<currentView>High Street</currentView>
+<file>0000104601.jpg</file>
+
+<captureTime>2012-10-01T20:09:53Z</captureTime>
+<easting>532653</easting>
+<northing>180156</northing>
+<lat>51.504776</lat>
+<lng>-0.09007918</lng>
+<osgr>TQ327802</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.04608" available="true">
+<corridor></corridor>
+<location>A3 Clapham Rd/Elias Place</location>
+
+<currentView>Clapham Rd  - Sth</currentView>
+<file>0000104608.jpg</file>
+<captureTime>2012-10-01T20:11:19Z</captureTime>
+<easting>531092</easting>
+<northing>177451</northing>
+<lat>51.48083</lat>
+<lng>-0.11356106</lng>
+<osgr>TQ311775</osgr>
+<postCode></postCode>
+
+</camera>
+<camera id="00001.04609" available="true">
+<corridor></corridor>
+<location>A3 Clapham Rd/Handforth Street</location>
+<currentView>Clapham Rd Nth</currentView>
+<file>0000104609.jpg</file>
+<captureTime>2012-10-01T20:10:53Z</captureTime>
+<easting>531029</easting>
+<northing>177330</northing>
+<lat>51.47976</lat>
+
+<lng>-0.11451262</lng>
+<osgr>TQ310773</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.04604" available="true">
+<corridor></corridor>
+<location>Kennington Park Rd</location>
+<currentView>A3 S/B</currentView>
+<file>0000104604.jpg</file>
+<captureTime>2012-10-01T20:12:51Z</captureTime>
+<easting>531803</easting>
+
+<northing>178656</northing>
+<lat>51.4915</lat>
+<lng>-0.1029</lng>
+<osgr>TQ318787</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.04620" available="true">
+<corridor></corridor>
+<location>A3 Clapham Road/B221 Bedford Road</location>
+<currentView>Clapham High St</currentView>
+<file>0000104620.jpg</file>
+
+<captureTime>2012-10-01T20:09:21Z</captureTime>
+<easting>530017</easting>
+<northing>175720</northing>
+<lat>51.465523</lat>
+<lng>-0.12966926</lng>
+<osgr>TQ300757</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.04621" available="true">
+<corridor></corridor>
+<location>A3 Clapham High St/Aristotle Rd</location>
+
+<currentView>Clapham High St - Nth/East</currentView>
+<file>0000104621.jpg</file>
+<captureTime>2012-10-01T20:09:41Z</captureTime>
+<easting>529898</easting>
+<northing>175587</northing>
+<lat>51.464355</lat>
+<lng>-0.13143021</lng>
+<osgr>TQ299771</osgr>
+<postCode></postCode>
+
+</camera>
+<camera id="00001.04622" available="true">
+<corridor>A205</corridor>
+<location>Clapham Common/Northside</location>
+<currentView>defaultPresetName</currentView>
+<file>0000104622.jpg</file>
+<captureTime>2012-10-01T20:12:44Z</captureTime>
+<easting>527918</easting>
+<northing>175181</northing>
+<lat>51.46116</lat>
+
+<lng>-0.16006413</lng>
+<osgr>TQ279752</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.04628" available="true">
+<corridor>A205</corridor>
+<location>Sudbury House (Wandsworth)</location>
+<currentView>Wandsworth High St East</currentView>
+<file>0000104628.jpg</file>
+<captureTime>2012-10-01T20:03:53Z</captureTime>
+
+<easting>525630</easting>
+<northing>174627</northing>
+<lat>51.45669</lat>
+<lng>-0.19317755</lng>
+<osgr>TQ256746</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.04612" available="true">
+<corridor></corridor>
+<location>A3 Clapham Rd/Albert Square</location>
+<currentView>Clapham Rd  - Sth</currentView>
+
+<file>0000104612.jpg</file>
+<captureTime>2012-10-01T20:09:34Z</captureTime>
+<easting>530749</easting>
+<northing>176915</northing>
+<lat>51.476093</lat>
+<lng>-0.11869585</lng>
+<osgr>TQ307769</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.04613" available="true">
+
+<corridor></corridor>
+<location>A3 Clapham Rd/Stockwell Park Rd</location>
+<currentView>Clapham Rd  - Sth</currentView>
+<file>0000104613.jpg</file>
+<captureTime>2012-10-01T20:11:32Z</captureTime>
+<easting>530638</easting>
+<northing>176731</northing>
+<lat>51.47447</lat>
+<lng>-0.12036121</lng>
+
+<osgr>TQ306767</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.04610" available="true">
+<corridor></corridor>
+<location>A3 Clapham Rd/Crewdson Rd</location>
+<currentView>Clapham Rd  - Nth</currentView>
+<file>0000104610.jpg</file>
+<captureTime>2012-10-01T20:10:07Z</captureTime>
+<easting>530975</easting>
+<northing>177272</northing>
+
+<lat>51.47925</lat>
+<lng>-0.11531128</lng>
+<osgr>TQ310773</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.04611" available="true">
+<corridor></corridor>
+<location>A3 Clapham Rd/Caldwell St</location>
+<currentView>Clapham Rd  - Nth</currentView>
+<file>0000104611.jpg</file>
+<captureTime>2012-10-01T20:03:07Z</captureTime>
+
+<easting>530885</easting>
+<northing>177094</northing>
+<lat>51.477673</lat>
+<lng>-0.11667243</lng>
+<osgr>TQ309771</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.04616" available="true">
+<corridor></corridor>
+<location>A3 Clapham Rd/Lingham St</location>
+<currentView>Clapham Rd - Sth</currentView>
+
+<file>0000104616.jpg</file>
+<captureTime>2012-10-01T20:03:39Z</captureTime>
+<easting>530421</easting>
+<northing>176358</northing>
+<lat>51.471165</lat>
+<lng>-0.12362147</lng>
+<osgr>TQ304764</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.04617" available="true">
+
+<corridor></corridor>
+<location>A3 Clapham Road/Clitheroe Road</location>
+<currentView>Clapham Rd - Nth</currentView>
+<file>0000104617.jpg</file>
+<captureTime>2012-10-01T20:02:55Z</captureTime>
+<easting>530239</easting>
+<northing>176118</northing>
+<lat>51.46905</lat>
+<lng>-0.12632869</lng>
+
+<osgr>TQ302761</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.04614" available="true">
+<corridor></corridor>
+<location>A3 Clapham Rd/Landsdowne Way</location>
+<currentView>Clapham Rd Nth</currentView>
+<file>0000104614.jpg</file>
+<captureTime>2012-10-01T20:09:47Z</captureTime>
+<easting>530694</easting>
+<northing>176792</northing>
+
+<lat>51.475002</lat>
+<lng>-0.11953281</lng>
+<osgr>TQ307768</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.04615" available="true">
+<corridor></corridor>
+<location>A3 Clapham Rd/A203 Sth Lambeth Rd</location>
+<currentView>Clapham Rd /Stockwell Rd</currentView>
+<file>0000104615.jpg</file>
+<captureTime>2012-10-01T20:11:26Z</captureTime>
+
+<easting>530450</easting>
+<northing>176435</northing>
+<lat>51.47185</lat>
+<lng>-0.12317578</lng>
+<osgr>TQ305764</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.04618" available="true">
+<corridor></corridor>
+<location>A3 Clapham Road/Mayflower Road</location>
+<currentView>Clapham Rd - Nth</currentView>
+
+<file>0000104618.jpg</file>
+<captureTime>2012-10-01T20:12:11Z</captureTime>
+<easting>530120</easting>
+<northing>175979</northing>
+<lat>51.467827</lat>
+<lng>-0.12809208</lng>
+<osgr>TQ301760</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.04619" available="true">
+
+<corridor></corridor>
+<location>A3 Clapham Road/Landor Road</location>
+<currentView>Clapham Rd/ Clapham High St</currentView>
+<file>0000104619.jpg</file>
+<captureTime>2012-10-01T20:08:30Z</captureTime>
+<easting>530058</easting>
+<northing>175776</northing>
+<lat>51.46602</lat>
+<lng>-0.12905878</lng>
+
+<osgr>TQ301758</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.04646" available="true">
+<corridor>A3</corridor>
+<location>A3 Roehampton Vale/A308 Robin Hood</location>
+<currentView>A3 S/B</currentView>
+<file>0000104646.jpg</file>
+<captureTime>2012-10-01T20:12:49Z</captureTime>
+<easting>521325</easting>
+
+<northing>172214</northing>
+<lat>51.435944</lat>
+<lng>-0.25593466</lng>
+<osgr>TQ213722</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.04645" available="true">
+<corridor>A3</corridor>
+<location>West Hill/Sutherland Grove</location>
+<currentView>A3 North/East</currentView>
+
+<file>0000104645.jpg</file>
+<captureTime>2012-10-01T20:13:21Z</captureTime>
+<easting>524390</easting>
+<northing>174277</northing>
+<lat>51.45382</lat>
+<lng>-0.2111385</lng>
+<osgr>TQ244743</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.04642" available="true">
+
+<corridor>A3</corridor>
+<location>A3 Tibett Crn/Withycombe Rd</location>
+<currentView>A23 North/East</currentView>
+<file>0000104642.jpg</file>
+<captureTime>2012-10-01T20:12:30Z</captureTime>
+<easting>523669</easting>
+<northing>173676</northing>
+<lat>51.448574</lat>
+<lng>-0.22171973</lng>
+
+<osgr>TQ237737</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.04641" available="false">
+<corridor>No Corridor</corridor>
+<location>Queenstwn Rd/Chelsea Bridge</location>
+<currentView>Queenstown Rd N/B</currentView>
+<file>0000104641.jpg</file>
+<unavailabilityCause>In use keeping London moving</unavailabilityCause>
+<captureTime></captureTime>
+<easting>528649</easting>
+
+<northing>177276</northing>
+<lat>51.47982</lat>
+<lng>-0.14878571</lng>
+<osgr>TQ286773</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.04639" available="true">
+<corridor>A3</corridor>
+<location>A3 Kingston Bp/Burlington Rd</location>
+<currentView>A3 N/B</currentView>
+
+<file>0000104639.jpg</file>
+<captureTime>2012-10-01T20:13:02Z</captureTime>
+<easting>522283</easting>
+<northing>168191</northing>
+<lat>51.399582</lat>
+<lng>-0.24354583</lng>
+<osgr>TQ223682</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.04638" available="false">
+
+<corridor>A3</corridor>
+<location>A3 Kingston Rd/Roehampton Ln</location>
+<currentView>S3 E/B</currentView>
+<file>0000104638.jpg</file>
+<unavailabilityCause>In use keeping London moving</unavailabilityCause>
+<captureTime></captureTime>
+<easting>522808</easting>
+<northing>173203</northing>
+<lat>51.44451</lat>
+
+<lng>-0.23426756</lng>
+<osgr>TQ228732</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.04637" available="true">
+<corridor>A205</corridor>
+<location>A3 West Hill/Up Richmond Rd</location>
+<currentView>South (A3 twds Kingston)</currentView>
+<file>0000104637.jpg</file>
+<captureTime>2012-10-01T20:12:56Z</captureTime>
+
+<easting>524989</easting>
+<northing>174614</northing>
+<lat>51.456715</lat>
+<lng>-0.20240319</lng>
+<osgr>TQ250746</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.04650" available="true">
+<corridor></corridor>
+<location>A3 Clapham Cmon Southside/Long Rd</location>
+<currentView>Clapham Common Southside - S/W</currentView>
+
+<file>0000104650.jpg</file>
+<captureTime>2012-10-01T20:09:28Z</captureTime>
+<easting>529345</easting>
+<northing>175189</northing>
+<lat>51.460907</lat>
+<lng>-0.13953187</lng>
+<osgr>TQ293752</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.04657" available="true">
+
+<corridor>No Corridor</corridor>
+<location>Parkside N of Somerset Road</location>
+<currentView>Parkside</currentView>
+<file>0000104657.jpg</file>
+<captureTime>2012-10-01T20:04:06Z</captureTime>
+<easting>523527</easting>
+<northing>172109</northing>
+<lat>51.434525</lat>
+<lng>-0.22430842</lng>
+
+<osgr>TQ235721</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.05750" available="true">
+<corridor>A205</corridor>
+<location>Wandworth Bridge/York Rd</location>
+<currentView>York Rd</currentView>
+<file>0000105750.jpg</file>
+<captureTime>2012-10-01T20:10:14Z</captureTime>
+<easting>526109</easting>
+
+<northing>175332</northing>
+<lat>51.46292</lat>
+<lng>-0.1860358</lng>
+<osgr>TQ261753</osgr>
+<postCode></postCode>
+</camera>
+<camera id="00001.05752" available="true">
+<corridor>No Corridor</corridor>
+<location>New Kings Rd/Wan&amp;#039;worth Brg Rd</location>
+<currentView>New Kings Rd Nthbnd</currentView>
+
+<file>0000105752.jpg</file>
+<captureTime>2012-10-01T20:13:25Z</captureTime>
+<easting>525598</easting>
+<northing>176827</northing>
+<lat>51.47647</lat>
+<lng>-0.19285691</lng>
+<osgr>TQ256768</osgr>
+<postCode></postCode>
+</camera>
+
+<camera id="00044.00378" available="true">
+<corridor></corridor>
+<captureTime></captureTime>
+<location>Limehouse Tnl HH Westferry Rd Exit</location>
+<file>0004400378.jpg</file>
+<easting>536985</easting>
+<northing>180620</northing>
+<lat>51.5079</lat>
+<lng>-0.0275217</lng>
+<osgr>TQ370806</osgr>
+
+<postCode>E14 8AU</postCode>
+</camera>
+<camera id="00044.00323" available="true">
+<corridor></corridor>
+<captureTime></captureTime>
+<location>A12 Carradale House</location>
+<file>0004400323.jpg</file>
+<easting>538278</easting>
+<northing>181362</northing>
+<lat>51.5143</lat>
+<lng>-0.00861176</lng>
+
+<osgr>TQ383814</osgr>
+<postCode>E14 0QT</postCode>
+</camera>
+<camera id="00044.00420" available="true">
+<corridor></corridor>
+<captureTime></captureTime>
+<location>HH West Portal W/B</location>
+<file>0004400420.jpg</file>
+<easting>536037</easting>
+<northing>180888</northing>
+<lat>51.5106</lat>
+
+<lng>-0.0410698</lng>
+<osgr>TQ360809</osgr>
+<postCode>E14 8DL</postCode>
+</camera>
+<camera id="00011.07251" available="true">
+<corridor></corridor>
+<captureTime></captureTime>
+<location>A3220 West Cross Route</location>
+<file>0001107251.jpg</file>
+<easting>523623</easting>
+<northing>180681</northing>
+
+<lat>51.5115</lat>
+<lng>-0.219932</lng>
+<osgr>TQ236807</osgr>
+<postCode>NW10 6RH</postCode>
+</camera>
+<camera id="00044.00421" available="true">
+<corridor></corridor>
+<captureTime></captureTime>
+<location>A13 Branch Road</location>
+<file>0004400421.jpg</file>
+<easting>536184</easting>
+
+<northing>181130</northing>
+<lat>51.5127</lat>
+<lng>-0.0388594</lng>
+<osgr>TQ362811</osgr>
+<postCode>E14 7JE</postCode>
+</camera>
+<camera id="00044.00390" available="true">
+<corridor></corridor>
+<captureTime></captureTime>
+<location>Limehouse Tnl Aspen Way</location>
+<file>0004400390.jpg</file>
+
+<easting>537421</easting>
+<northing>180669</northing>
+<lat>51.5082</lat>
+<lng>-0.0212242</lng>
+<osgr>TQ374807</osgr>
+<postCode>E14 4AW</postCode>
+</camera>
+<camera id="00044.00450" available="true">
+<corridor></corridor>
+<captureTime></captureTime>
+<location>A102 Tunnel House N</location>
+
+<file>0004400450.jpg</file>
+<easting>539056</easting>
+<northing>179480</northing>
+<lat>51.4972</lat>
+<lng>0.00185151</lng>
+<osgr>TQ391795</osgr>
+<postCode>SE10 9AE</postCode>
+</camera>
+<camera id="00044.00332" available="true">
+<corridor></corridor>
+
+<captureTime></captureTime>
+<location>A2 Black Prince</location>
+<file>0004400332.jpg</file>
+<easting>549684</easting>
+<northing>174318</northing>
+<lat>51.4481</lat>
+<lng>0.152661</lng>
+<osgr>TQ497743</osgr>
+<postCode>DA5 1PY</postCode>
+
+</camera>
+<camera id="00044.00343" available="true">
+<corridor></corridor>
+<captureTime></captureTime>
+<location>A2 Kidbrooke Junction</location>
+<file>0004400343.jpg</file>
+<easting>541160</easting>
+<northing>175872</northing>
+<lat>51.4642</lat>
+<lng>0.0307005</lng>
+<osgr>TQ412759</osgr>
+
+<postCode>SE3 9QW</postCode>
+</camera>
+<camera id="00011.05827" available="true">
+<corridor></corridor>
+<captureTime></captureTime>
+<location>Fulham Palace Rd(Coroners Crt)</location>
+<file>0001105827.jpg</file>
+<easting>523450</easting>
+<northing>178289</northing>
+<lat>51.4901</lat>
+<lng>-0.22326</lng>
+
+<osgr>TQ235783</osgr>
+<postCode>SW13 8QY</postCode>
+</camera>
+<camera id="00011.05828" available="true">
+<corridor></corridor>
+<captureTime></captureTime>
+<location>Shepherds Bush Rd/Westwick Gdns</location>
+<file>0001105828.jpg</file>
+<easting>523505</easting>
+<northing>179562</northing>
+<lat>51.5015</lat>
+
+<lng>-0.222023</lng>
+<osgr>TQ235796</osgr>
+<postCode>SW13 9QT</postCode>
+</camera>
+<camera id="00044.00361" available="true">
+<corridor></corridor>
+<captureTime></captureTime>
+<location>Limehouse Tunnel/Butcher Row</location>
+<file>0004400361.jpg</file>
+<easting>535985</easting>
+<northing>180892</northing>
+
+<lat>51.5106</lat>
+<lng>-0.0418171</lng>
+<osgr>TQ360809</osgr>
+<postCode>E14 8DL</postCode>
+</camera>
+<camera id="00044.00329" available="true">
+<corridor></corridor>
+<captureTime></captureTime>
+<location>A13 Cotton St</location>
+<file>0004400329.jpg</file>
+<easting>538140</easting>
+
+<northing>181020</northing>
+<lat>51.5112</lat>
+<lng>-0.0107331</lng>
+<osgr>TQ381810</osgr>
+<postCode>E14 6LG</postCode>
+</camera>
+<camera id="00044.00815" available="true">
+<corridor></corridor>
+<captureTime></captureTime>
+<location>A12 Wansbeck Road</location>
+<file>0004400815.jpg</file>
+
+<easting>536920</easting>
+<northing>184402</northing>
+<lat>51.5419</lat>
+<lng>-0.0269891</lng>
+<osgr>TQ369844</osgr>
+<postCode>E9 5EP</postCode>
+</camera>
+<camera id="00044.00330" available="true">
+<corridor></corridor>
+<captureTime></captureTime>
+<location>A13 Burdett Rd</location>
+
+<file>0004400330.jpg</file>
+<easting>536906</easting>
+<northing>181060</northing>
+<lat>51.5119</lat>
+<lng>-0.0284886</lng>
+<osgr>TQ369811</osgr>
+<postCode>E14 7HB</postCode>
+</camera>
+<camera id="00044.00347" available="true">
+<corridor></corridor>
+
+<captureTime></captureTime>
+<location>A102 Woolwich Rd (N)</location>
+<file>0004400347.jpg</file>
+<easting>539949</easting>
+<northing>178546</northing>
+<lat>51.4886</lat>
+<lng>0.0143374</lng>
+<osgr>TQ399785</osgr>
+<postCode>SE10 0SF</postCode>
+
+</camera>
+<camera id="00044.00813" available="true">
+<corridor></corridor>
+<captureTime></captureTime>
+<location>Bow Rd Flyover</location>
+<file>0004400813.jpg</file>
+<easting>537849</easting>
+<northing>183058</northing>
+<lat>51.5296</lat>
+<lng>-0.0141273</lng>
+<osgr>TQ378831</osgr>
+
+<postCode>E3 3BA</postCode>
+</camera>
+<camera id="00044.00434" available="true">
+<corridor></corridor>
+<captureTime></captureTime>
+<location>A200 Jamaica Road</location>
+<file>0004400434.jpg</file>
+<easting>535028</easting>
+<northing>179587</northing>
+<lat>51.4991</lat>
+<lng>-0.0560982</lng>
+
+<osgr>TQ350796</osgr>
+<postCode>SE16 4JR</postCode>
+</camera>
+<camera id="00044.00335" available="true">
+<corridor></corridor>
+<captureTime></captureTime>
+<location>A2 Falconwood</location>
+<file>0004400335.jpg</file>
+<easting>545213</easting>
+<northing>175019</northing>
+<lat>51.4555</lat>
+
+<lng>0.0886546</lng>
+<osgr>TQ452750</osgr>
+<postCode>DA15 8TF</postCode>
+</camera>
+<camera id="00044.00324" available="true">
+<corridor></corridor>
+<captureTime></captureTime>
+<location>A13/A102 EIDR</location>
+<file>0004400324.jpg</file>
+<easting>538367</easting>
+<northing>181037</northing>
+
+<lat>51.5113</lat>
+<lng>-0.00745743</lng>
+<osgr>TQ384810</osgr>
+<postCode>E14 9PP</postCode>
+</camera>
+<camera id="00044.00349" available="true">
+<corridor></corridor>
+<captureTime></captureTime>
+<location>A102 Tunnel House S</location>
+<file>0004400349.jpg</file>
+<easting>539071</easting>
+
+<northing>179417</northing>
+<lat>51.4966</lat>
+<lng>0.00204265</lng>
+<osgr>TQ391794</osgr>
+<postCode>SE10 0FG</postCode>
+</camera>
+<camera id="00044.00348" available="true">
+<corridor></corridor>
+<captureTime></captureTime>
+<location>A102 Blackwall Lane</location>
+<file>0004400348.jpg</file>
+
+<easting>539389</easting>
+<northing>179124</northing>
+<lat>51.4939</lat>
+<lng>0.00650503</lng>
+<osgr>TQ394791</osgr>
+<postCode>SE10 0PG</postCode>
+</camera>
+<camera id="00044.00333" available="true">
+<corridor></corridor>
+<captureTime></captureTime>
+<location></location>
+
+<file>0004400333.jpg</file>
+<easting></easting>
+<northing></northing>
+<lat></lat>
+<lng></lng>
+<osgr></osgr>
+<postCode></postCode>
+</camera>
+<camera id="00044.00334" available="true">
+<corridor></corridor>
+<captureTime></captureTime>
+<location>A2 Danson</location>
+<file>0004400334.jpg</file>
+<easting>547408</easting>
+
+<northing>174361</northing>
+<lat>51.4491</lat>
+<lng>0.11995</lng>
+<osgr>TQ474744</osgr>
+<postCode>DA5 1BZ</postCode>
+</camera>
+<camera id="00011.06680" available="true">
+<corridor></corridor>
+<captureTime></captureTime>
+<location>Uxbridge Rd/Askew Rd</location>
+<file>0001106680.jpg</file>
+
+<easting>521936</easting>
+<northing>180102</northing>
+<lat>51.5067</lat>
+<lng>-0.24443</lng>
+<osgr>TQ219801</osgr>
+<postCode>NW10 6ED</postCode>
+</camera>
+<camera id="00044.00342" available="true">
+<corridor></corridor>
+<captureTime></captureTime>
+<location>A2 Westhorne Avenue</location>
+
+<file>0004400342.jpg</file>
+<easting>541984</easting>
+<northing>175091</northing>
+<lat>51.457</lat>
+<lng>0.042241</lng>
+<osgr>TQ420751</osgr>
+<postCode>SE9 6AR</postCode>
+</camera>
+<camera id="00044.00617" available="true">
+<corridor></corridor>
+
+<captureTime></captureTime>
+<location>Leamouth Road</location>
+<file>0004400617.jpg</file>
+<easting>538837</easting>
+<northing>181200</northing>
+<lat>51.5127</lat>
+<lng>-0.000624851</lng>
+<osgr>TQ388812</osgr>
+<postCode>E14 0JA</postCode>
+
+</camera>
+<camera id="00011.06643" available="true">
+<corridor></corridor>
+<captureTime></captureTime>
+<location>Hammersmith Bway/Shepherds Bush Rd</location>
+<file>0001106643.jpg</file>
+<easting>523400</easting>
+<northing>178616</northing>
+<lat>51.493</lat>
+<lng>-0.223865</lng>
+<osgr>TQ234786</osgr>
+
+<postCode>SW13 9QT</postCode>
+</camera>
+<camera id="00044.00811" available="true">
+<corridor></corridor>
+<captureTime></captureTime>
+<location>A12 Bromley-by-Bow</location>
+<file>0004400811.jpg</file>
+<easting>538026</easting>
+<northing>182621</northing>
+<lat>51.5256</lat>
+<lng>-0.0117484</lng>
+
+<osgr>TQ380826</osgr>
+<postCode>E3 3NG</postCode>
+</camera>
+<camera id="00044.00816" available="true">
+<corridor></corridor>
+<captureTime></captureTime>
+<location>A12 Wick Road</location>
+<file>0004400816.jpg</file>
+<easting>536574</easting>
+<northing>184703</northing>
+<lat>51.5447</lat>
+
+<lng>-0.0318585</lng>
+<osgr>TQ366847</osgr>
+<postCode>E9 5DH</postCode>
+</camera>
+<camera id="00011.07305" available="true">
+<corridor></corridor>
+<captureTime></captureTime>
+<location>Wood Lane/A40 Westway</location>
+<file>0001107305.jpg</file>
+<easting>523163</easting>
+<northing>181056</northing>
+
+<lat>51.515</lat>
+<lng>-0.226426</lng>
+<osgr>TQ232811</osgr>
+<postCode>NW10 6RH</postCode>
+</camera>
+<camera id="00011.06603" available="true">
+<corridor></corridor>
+<captureTime></captureTime>
+<location>Talgarth Rd/Butterwick</location>
+<file>0001106603.jpg</file>
+<easting>523527</easting>
+
+<northing>178434</northing>
+<lat>51.4914</lat>
+<lng>-0.222101</lng>
+<osgr>TQ235784</osgr>
+<postCode>SW13 8QY</postCode>
+</camera>
+<camera id="00044.00336" available="true">
+<corridor></corridor>
+<captureTime></captureTime>
+<location>A2 Riefield Road</location>
+<file>0004400336.jpg</file>
+
+<easting>544298</easting>
+<northing>175329</northing>
+<lat>51.4586</lat>
+<lng>0.0756208</lng>
+<osgr>TQ443753</osgr>
+<postCode>SE9 2RB</postCode>
+</camera>
+<camera id="00044.00344" available="true">
+<corridor></corridor>
+<captureTime></captureTime>
+<location>A102 Shooters Hill</location>
+
+<file>0004400344.jpg</file>
+<easting>540722</easting>
+<northing>177029</northing>
+<lat>51.4747</lat>
+<lng>0.0248598</lng>
+<osgr>TQ407770</osgr>
+<postCode>SE3 8ED</postCode>
+</camera>
+<camera id="00044.00337" available="true">
+<corridor></corridor>
+
+<captureTime></captureTime>
+<location>A2 Westmount Road</location>
+<file>0004400337.jpg</file>
+<easting>543245</easting>
+<northing>175056</northing>
+<lat>51.4564</lat>
+<lng>0.0603642</lng>
+<osgr>TQ432751</osgr>
+<postCode>SE9 1UT</postCode>
+
+</camera>
+<camera id="00011.06604" available="true">
+<corridor></corridor>
+<captureTime></captureTime>
+<location>A4 Hogarth Roundabout</location>
+<file>0001106604.jpg</file>
+<easting>521449</easting>
+<northing>177905</northing>
+<lat>51.4871</lat>
+<lng>-0.252199</lng>
+<osgr>TQ214779</osgr>
+
+<postCode>SW13 9AR</postCode>
+</camera>
+<camera id="00044.00403" available="true">
+<corridor></corridor>
+<captureTime></captureTime>
+<location>Limehouse Tnl Westferry Rd Entr</location>
+<file>0004400403.jpg</file>
+<easting>536976</easting>
+<northing>180599</northing>
+<lat>51.5077</lat>
+<lng>-0.0276594</lng>
+
+<osgr>TQ370806</osgr>
+<postCode>E14 8RN</postCode>
+</camera>
+<camera id="00044.00345" available="true">
+<corridor></corridor>
+<captureTime></captureTime>
+<location>A102 Woolwich Rd (S)</location>
+<file>0004400345.jpg</file>
+<easting>540397</easting>
+<northing>177784</northing>
+<lat>51.4816</lat>
+
+<lng>0.0204831</lng>
+<osgr>TQ404778</osgr>
+<postCode>SE3 7DX</postCode>
+</camera></cameraList></syndicatedFeed>

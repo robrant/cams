@@ -68,6 +68,8 @@ class getConfigParameters():
         self.baseUrl        = config.get("default", "baseUrl")
         self.imagesUrl      = config.get("default", "imagesUrl")
         
+        self.tflDomain = config.get("default", "tflDomain")
+        
         # Other parameters
         self.feedUrl = config.get("default", "url")
         self.verbose = config.get("default", "verbose")
@@ -135,22 +137,28 @@ def extractContent(data):
     except Exception, e:
         errors.append(e)
         soup = None
-        channel, items = None, None
+        header, rootUrl, cameras = None, None, None
     
     if soup:
         try:
-            channel = soup.channel
+            header = soup.header
         except Exception, e:
             errors.append(e)
-            channel = None
+            header = None
+        
+        try:
+            rootUrl = soup.cameraList.rooturl.contents[0]
+        except Exception, e:
+            errors.append(e)
+            rootUrl = None
             
         try:
-            items = soup.findAll('item')
+            cameras = soup.findAll('camera')
         except Exception, e:
             errors.append(e)
-            items = None
+            cameras = None
         
-    return errors, channel, items
+    return errors, header, rootUrl, cameras
 
 #------------------------------------------------------------------------------------------
     
@@ -164,18 +172,25 @@ def mongoInsert(collectionHandle, item):
     doc = item.toJson()
     
     # Build the query part
-    query = {'title' : doc['title']}
+    query = {'camId' : doc['camId']}
     
     # Build the update command
     command = {'loc'   : doc['loc'],
-               'link'  : doc['link'],
-               'feed'  : doc['feed'],
-               #'desc' : doc['desc'],
-               'insDt' : doc['insDt'],
-               'pubDt' : doc['pubDt'],
-               'camId' : doc['camId'],
-               'cprt'  : doc['cprt'],
-               'geo'   : doc['geo']
+               'geo'   : doc['geo'],
+               
+               'feed'   : doc['feed'],
+               'source' : doc['source'],
+               'cprt'   : doc['cprt'],
+               
+               'title'    : doc['title'],
+               'corridor' : doc['corridor'],
+               'currView' : doc['currView'],
+               'link'     : doc['link'],
+               
+               'inserted'  : doc['inserted'],
+               'published' : doc['published'],
+               'captured'  : doc['captured']
+               
                }
     
     # Insert/update statement

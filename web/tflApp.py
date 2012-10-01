@@ -76,7 +76,10 @@ def get_tflCams():
         for camera in cameras:
 
             # Get the iamge dt for writing unique image files
-            dt = camera['insDt'].strftime('%y%m%d%H%M%S') 
+            if camera['captured'] != None:
+                dt = camera['captured'].strftime('%y%m%d%H%M%S') 
+            else:
+                dt = camera['published'].strftime('%y%m%d%H%M%S')
             
             # Build output json
             camMedia, reason = tflWorker.formatOutput(p, camera)

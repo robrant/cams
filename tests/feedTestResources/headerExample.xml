@@ -1,0 +1,17 @@
+<syndicatedFeed>
+<header>
+<identifier>TfL Traffic Cameras</identifier>
+<version>0.1</version>
+<publishDateTime>2012-09-30T14:31:18Z</publishDateTime>
+<author>digital@tfl.gov.uk</author>
+<owner>Transport for London</owner>
+<refreshRate>1</refreshRate>
+<max_Latency>10</max_Latency>
+<timeToError>10</timeToError>
+<overrideMessage/>
+<errorMessage/>
+<feedInfo/>
+<logo>
+http://www.tfl.gov.uk/tfl-global/images/roundel.gif
+</logo>
+</header>

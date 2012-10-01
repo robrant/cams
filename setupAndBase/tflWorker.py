@@ -241,7 +241,6 @@ def alreadyExists(localDir, candidateImage):
         if image.endswith(ext):
             comparisonImage = os.path.join(localDir, image)
             if filecmp.cmp(comparisonImage, candidateImage) == True:
-                print candidateImage, comparisonImage
                 return True
     
     return None
