@@ -109,15 +109,23 @@ def formatOutput(p, camRecord):
     
     cam = None
     try:
-        cam = {"caption" : camRecord['title'],
-               "dt"      : camRecord['insDt'].isoformat(),
-               "source"  : camRecord['cprt'],
-               "loc"     : camRecord['loc']}
+        cam = {"caption"  : camRecord['title'],
+               "inserted" : camRecord['inserted'].isoformat(),
+               "published" : camRecord['published'].isoformat(),
+               "source"   : camRecord['cprt'],
+               "loc"      : camRecord['loc'],
+               "corridor" : camRecord['corridor'],
+               "currView" : camRecord['currView'], 
+               }
         reason = None
     except Exception, e:
         reason = e
-        
-        print "Failed to get camera metadata from tfl."
+
+    try:
+        cam["captured"] = camRecord['captured'].isoformat()
+    except Exception, e:
+        reason = e
+        cam["captured"] = None
     
     try:
         cam['low_resolution']      = camRecord['link']
