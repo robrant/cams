@@ -5,7 +5,6 @@ import os
 
 # Get the directory in which this was executed (current working dir)
 cwd = os.getcwd()
-print cwd
 wsDir = os.path.dirname(cwd)
 
 # Find out whats in this directory recursively

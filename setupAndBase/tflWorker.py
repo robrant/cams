@@ -161,10 +161,7 @@ def getFullRes(p, tempDir, fileUrl, dt):
         fileName = "%s_%s" %(dt, fileUrl.split('/')[-1])
         tempPath = os.path.join(tempDir, 'originals')
         fullPath = os.path.join(tempPath, fileName)
-
-        print "Output image filename %s" %fileName
         f = open(fullPath, 'w')
-        print "Output image fullpath %s" %fullPath
         f.write(imageData)
         f.close()
         reason = None

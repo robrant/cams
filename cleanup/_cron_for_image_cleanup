@@ -1,0 +1,5 @@
+# Cron to cleanup the images folder - every 2 hours
+13 */2 * * * /opt/ve/2.6/bin/python /home/dotcloud/code/cleanup/cleanupImages.py /home/dotcloud/code/static/images 2 >> /home/dotcloud/code/cleanup/imageCleanUp.log 2>&1
+
+# Cron to cleanup the originals folder - every 2 hours
+13 */2 * * * /opt/ve/2.6/bin/python /home/dotcloud/code/cleanup/cleanupImages.py /home/dotcloud/code/static/images/originals 2 >> /home/dotcloud/code/cleanup/imageCleanUp.log 2>&1

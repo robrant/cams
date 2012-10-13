@@ -218,7 +218,6 @@ class feedItem():
         try:
             captureTime = camera.captureTime.contents[0]
             captured = datetime.datetime.strptime(captureTime, "%Y-%m-%dT%H:%M:%SZ")
-            print captured
             
         except Exception, e:
             captured = datetime.datetime(1970,1,1)
