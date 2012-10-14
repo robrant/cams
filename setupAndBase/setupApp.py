@@ -1,6 +1,6 @@
 import os
 import sys
-
+import logging
 #============================================================================================
 # TO ENSURE ALL OF THE FILES CAN SEE ONE ANOTHER.
 
@@ -20,6 +20,7 @@ for root, subFolders, files in os.walk(wsDir):
 
 import configureDatabase
 import setupDatabase
+import baseUtils
 
 # Get the config file
 configFile = sys.argv[1]
@@ -27,14 +28,19 @@ configFile = sys.argv[1]
 # Where this is being run - 
 site = sys.argv[2]
 
+p = baseUtils.getConfigParameters(configFile)
+
+# Setup the error logging
+logFile = os.path.join(p.errorPath, p.errorFile)
+logging.basicConfig(filename=logFile, format='%(levelname)s:: \t%(asctime)s %(message)s', level='DEBUG')
+
 # Configuring the dotcloud settings for mongodb
 if site == 'dotcloud':
-    print '---- Configuring the dotcloud settings for mongodb'
     configureDatabase.main(configFile)
 elif site == 'local':
-    print 'Skipping all dotcloud configuration. '
     pass
 
 # Setup the database
 print '---- Setting up and populating database'
 setupDatabase.main(configFile)
+

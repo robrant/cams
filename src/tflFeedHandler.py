@@ -1,5 +1,6 @@
 import sys
 import os
+import logging
 #============================================================================================
 # TO ENSURE ALL OF THE FILES CAN SEE ONE ANOTHER.
 
@@ -21,7 +22,7 @@ for root, subFolders, files in os.walk(wsDir):
 import mdb                  # Custom library for mongo interaction
 import geojson              # Non-standard FOSS library
 from baseObjects import feedItem, feedChannel
-from baseUtils import getConfigParameters, hitFeed, extractContent, handleErrors, mongoInsert
+from baseUtils import getConfigParameters, hitFeed, extractContent, mongoInsert
 
 """
 Description:
@@ -35,54 +36,39 @@ To Do:
 
 """
 
-os.chdir('/home/dotcloud/code/')
-#os.chdir('/Users/brantinghamr/Documents/Code/eclipseWorkspace/cams/')
-cwd = os.getcwd()
-cfgs = os.path.join(cwd, 'config/tfl.cfg')
-p = getConfigParameters(cfgs)
-
-
 #------------------------------------------------------------------------------------------ 
 
 def main():
     ''' '''
     
     # Connect and get db and collection handle
-    c, dbh = mdb.getHandle(p.dbHost, p.dbPort, p.db)
-    collectionHandle = dbh[p.camsCollection]
-    
-    # Authentication
-    auth = dbh.authenticate(p.dbUser, p.dbPassword)
-    
+    try:
+        c, dbh = mdb.getHandle(p.dbHost, p.dbPort, p.db, p.dbUser, p.dbPassword)
+        collectionHandle = dbh[p.camsCollection]
+    except:
+        logging.critical("DB connection Failed", exc_info=True)
+        
     # Get the feed content
-    errors, feedContent = hitFeed(p.feedUrl)
-    #errors, feedContent = hitFakeFeed(pathIn, fakeFeedFile)
-
+    feedContent = hitFeed(p.feedUrl)
+    if not feedContent:
+        logging.critical("** SCRIPT EXIT **\n%s\n\n" %('='*52))
+        sys.exit()
+        
     # Break out the content into head and items
-    extractErrors, header, rootUrl, cameras = extractContent(feedContent)
-    rootUrl = p.tflDomain + rootUrl
-    
-    errors += extractErrors
-
-    if p.verbose and len(errors) != 0:
-        handleErrors(errors)
+    header, rootUrl, cameras = extractContent(feedContent)
+    if not header or not rootUrl or not cameras:
+        logging.critical("** SCRIPT EXIT **\n%s\n\n" %('='*52))
         sys.exit()
-        
+    
+    # Build the camera root URL    
+    rootUrl = p.tflDomain + rootUrl   
     fc = feedChannel(header)
-    
-    # Check for errors on the feed channel read
-    if p.verbose and len(fc.errors) != 0:
-        handleErrors(errors)
-        sys.exit()
-        
+            
         # Deal with each of the items
     for camera in cameras:
 
         # Build an 'item' object based on the RSS item        
         item = feedItem(fc, camera, rootUrl)
-        if p.verbose and len(item.errors) != 0:
-            handleErrors(errors)
-        
         item.buildGeoJson()
         
         # Insert the document into mongo
@@ -91,5 +77,20 @@ def main():
 #------------------------------------------------------------------------------------------
 
 if __name__ == "__main__":
-    #import sys;sys.argv = ['', 'Test.testConnection']
+
+    # Command Line arguments
+    configFile = sys.argv[1]
+    
+    # first argument is the config file path
+    if not configFile:
+        print 'no Config file provided. Exiting.'
+        sys.exit()
+    
+    p = getConfigParameters(configFile)
+
+    # Setup the error logging
+    logFile = os.path.join(p.errorPath, p.errorFile)
+    logging.basicConfig(filename=logFile, format='%(levelname)s:: \t%(asctime)s %(message)s', level=p.logLevel)
+    
     main()
+    

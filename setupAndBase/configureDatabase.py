@@ -1,5 +1,6 @@
 import sys
 import os
+import logging
 #============================================================================================
 # TO ENSURE ALL OF THE FILES CAN SEE ONE ANOTHER.
 
@@ -21,7 +22,7 @@ for root, subFolders, files in os.walk(wsDir):
 import mdb
 import json
 from pymongo import DESCENDING, ASCENDING
-from baseUtils import getConfigParameters, handleErrors
+from baseUtils import getConfigParameters
 
 class params():
     
@@ -81,38 +82,35 @@ def main(configFile=None):
     
     # Get the parameters that were set up by dotcloud
     dcParams = getEnvironment()
-    print dcParams.mongoHost, dcParams.mongoPort, dcParams.adminUser, dcParams.adminPass
+    logging.info("Mongo Params:\n%s\n%s\n%s\n%s" %(dcParams.mongoHost, dcParams.mongoPort, dcParams.adminUser, dcParams.adminPass))
        
     # Authenticate on the admin db
-    c, dbh = mdb.getHandle(host=dcParams.mongoHost, port=dcParams.mongoPort, db='admin')
-
-    # Authentication of the administrator
     try:
-        auth = dbh.authenticate(dcParams.adminUser, dcParams.adminPass)
-        print "---- Admin authorisation: %s." %auth
+        c, dbh = mdb.getHandle(host=dcParams.mongoHost, port=dcParams.mongoPort, db='admin', user=dcParams.adminUser, password=dcParams.adminPass)
+    except:
+        logging.critical('Failed to connect to database as admin.')
+        sys.exit()
         
-    except Exception, e:
-        print "Failed to authenticate with mongo db as admin."
-        print e
-
     # Create a new user
     p = getConfigParameters(configFile)
     # Switch the database handle to that being used from the admin one
     dbh = c[p.db]
     success = dbh.add_user(p.dbUser, p.dbPassword)
     c.disconnect()
-    
+
     try:
         # Authenticate on the admin db
-        c, dbh = mdb.getHandle(host=dcParams.mongoHost, port=dcParams.mongoPort, db=p.db)
-        auth = dbh.authenticate(p.dbUser, p.dbPassword)
-    except Exception, e:
-        print "Failed to authenticate with mongo db."
-        print e
-    
+        c, dbh = mdb.getHandle(host=dcParams.mongoHost, port=dcParams.mongoPort, db=p.db, user=p.dbUser, password=p.dbPassword)
+    except:
+        logging.critical("Failed to connect to db and get handle as user.", exc_info=True)
+        sys.exit()
+        
     # Write out the new information to the regular config file
-    writeConfigFile(configFile, dcParams)
-    
+    try:
+        writeConfigFile(configFile, dcParams)
+    except:
+        logging.critical("Failed in writing params back to config file.", exc_info=True)
+        
     mdb.close(c, dbh)
     
 if __name__ == "__main__":

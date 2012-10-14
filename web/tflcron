@@ -1,7 +1,7 @@
-*/2 * * * * /home/dotcloud/env/bin/python /home/dotcloud/code/src/tflFeedHandler.py >> /home/dotcloud/code/logs/feedHandler.out 2>&1
+*/2 * * * * /home/dotcloud/env/bin/python /home/dotcloud/code/src/tflFeedHandler.py /home/dotcloud/code/config/tfl.cfg >> /home/dotcloud/code/logs/feedHandler.out 2>&1
 
 # Cron to cleanup the images folder - every 2 hours
-13 */2 * * * /home/dotcloud/env/bin/python /home/dotcloud/code/cleanup/cleanupImages.py /home/dotcloud/code/static/images 2 >> /home/dotcloud/code/cleanup/imageCleanUp.log 2>&1
+13 */2 * * * /home/dotcloud/env/bin/python /home/dotcloud/code/cleanup/cleanupImages.py /home/dotcloud/code/config/tfl.cfg /home/dotcloud/code/static/images 2 >> /home/dotcloud/code/cleanup/imageCleanUp.log 2>&1
 
 # Cron to cleanup the originals folder - every 2 hours
-13 */2 * * * /home/dotcloud/env/bin/python /home/dotcloud/code/cleanup/cleanupImages.py /home/dotcloud/code/static/images/originals 2 >> /home/dotcloud/code/cleanup/imageCleanUp.log 2>&1
+13 */2 * * * /home/dotcloud/env/bin/python /home/dotcloud/code/cleanup/cleanupImages.py /home/dotcloud/code/config/tfl.cfg /home/dotcloud/code/static/images/originals 2 >> /home/dotcloud/code/cleanup/imageCleanUp.log 2>&1

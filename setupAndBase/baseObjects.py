@@ -22,7 +22,7 @@ from bs4 import BeautifulSoup
 import urllib2
 import os
 import datetime
-
+import logging
 import mdb                  # Custom library for mongo interaction
 import geojson              # Non-standard FOSS library
 
@@ -34,7 +34,6 @@ class feedChannel(object):
     def __init__(self, header):
         ''' Handles the feed channel/top level feed information into an object.  '''
         
-        self.errors = []
         self.header = header
         
         self.getFeedTitle()
@@ -48,10 +47,10 @@ class feedChannel(object):
         
         try:
             self.title = self.header.identifier.contents[0].lower()
-        except Exception, e:
+        except:
             self.title = None
-            self.errors.append(e)
-
+            logging.critical("Failed to get the feed title.", exc_info=True)
+        
     #-----------------------------------------------------------------------------
 
     def getFeedPubDate(self):
@@ -60,10 +59,9 @@ class feedChannel(object):
         try:
             pd = self.header.publishDateTime.contents[0]
             self.pubDate = self.getPubDate(pd)
-            
-        except Exception, e:
+        except:
             self.pubDate = None
-            self.errors.append(e)
+            logging.error("Failed to get the feed pub date.", exc_info=True)
 
     #-----------------------------------------------------------------------------
 
@@ -72,21 +70,21 @@ class feedChannel(object):
         
         try:
             self.copyright = self.header.owner.contents[0].lower()
-        except Exception, e:
-            self.copyright = None
-            self.errors.append(e)
+        except:
+            logging.warning("Failed to get copyright info.", exc_info=True)
+            self.copyright = 'tfl'
         
     #-------------------------------------------------------------------------------------
 
     def getPubDate(self, pubDate):
         ''' Gets the published date into a python datetime'''
 
-        #try:
-        pubDate = datetime.datetime.strptime(pubDate, "%Y-%m-%dT%H:%M:%SZ")
+        try:
+            pubDate = datetime.datetime.strptime(pubDate, "%Y-%m-%dT%H:%M:%SZ")
+        except:
+            logging.warning("Failed to strip datetime: %s." %(pubDate), exc_info=True)
+            pubDate = None
             
-        #except Exception, e:
-        #    self.errors.append(e)
-
         return pubDate
                 
 #================================================================================================
@@ -98,7 +96,6 @@ class feedItem():
     def __init__(self, feedChannel, camera, rootUrl):
         
         #self.__init__ = feedChannel.__init__(fc)
-        self.errors = []
         # Channel - top level feed attributes
         
         self.source          = feedChannel.copyright
@@ -132,8 +129,8 @@ class feedItem():
         
         try:
             title = camera.location.contents[0].lower()
-        except Exception, e:
-            self.errors.append(e)
+        except:
+            logging.info("Failed to get camera title info", exc_info=True)
             title = None
             
         return title
@@ -145,8 +142,8 @@ class feedItem():
         
         try:
             corridor = camera.corridor.contents[0].lower()
-        except Exception, e:
-            self.errors.append(e)
+        except:
+            logging.info("Failed to get corridor info", exc_info=True)
             corridor = None
             
         return corridor
@@ -159,8 +156,8 @@ class feedItem():
         try:
             fileId = camera.file.contents[0]
             camId = fileId.split('.')[0]
-        except Exception, e:
-            self.errors.append(e)
+        except:
+            logging.info("Failed to Cam ID", exc_info=True)
             camId = None
             
         return camId
@@ -173,8 +170,8 @@ class feedItem():
         try:
             imageFile = camera.file.contents[0]
             link = rootUrl + imageFile
-        except Exception, e:
-            self.errors.append(e)
+        except:
+            logging.info("Failed to get image URL", exc_info=True)
             link = None
 
         return link
@@ -185,8 +182,8 @@ class feedItem():
 
         try:
             description = camera.currentView.contents[0].lower()
-        except Exception, e:
-            self.errors.append(e)
+        except:
+            logging.info("Failed to get image description.", exc_info=True)
             description = None
 
         return description        
@@ -198,15 +195,16 @@ class feedItem():
 
         try:
             lat = float(camera.lat.contents[0])
-        except Exception, e:
+        except:
             lat = None
-            self.errors.append(e)
+            logging.info("Failed to get camera Lat.", exc_info=True)
         
         try:
             lon = float(camera.lng.contents[0])
-        except Exception, e:
+        except:
             lon = None
-            self.errors.append(e)
+            logging.info("Failed to get camera Lon.", exc_info=True)
+
 
         return [lon, lat]
 
@@ -219,9 +217,9 @@ class feedItem():
             captureTime = camera.captureTime.contents[0]
             captured = datetime.datetime.strptime(captureTime, "%Y-%m-%dT%H:%M:%SZ")
             
-        except Exception, e:
+        except:
             captured = datetime.datetime(1970,1,1)
-            self.errors.append(e)
+            logging.info("Failed to get camera capture time. Set to default unix epoch.", exc_info=True)
             
         return captured
 
@@ -232,10 +230,9 @@ class feedItem():
 
         try:
             isoTime = self.insertTime
-        except Exception, e:
-            self.errors.append(e)
+        except:
+            logging.info("Failed to get inser time.", exc_info=True)
             isoTime = datetime.datetime(1970,1,1)
-
             
         return isoTime
         
